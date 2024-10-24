@@ -215,12 +215,23 @@ public class BranchExample {
 		
 		for(int i = 1 ; i <= rounds ; i++) { // rounds 입력값 만큼 플레이
 			
-			System.out.print("가위/바위/보 중 하나를 입력 해주세요 : ");
-			input = sc.next();
+			
+			while (true) {
+                		System.out.print("가위/바위/보 중 하나를 입력 해주세요: ");
+		                input = sc.next();
+		                if (input.equals("가위") || input.equals("바위") || input.equals("보")) {
+		                    break;
+		                }
+		        System.out.println("잘못된 입력입니다. 다시 시도해주세요.");
+			}
+ 
+
 			
 			int pcNumber = (int)(Math.random() * 3) + 1; // (int)(0.0 <= pc < 1.0) * 3 + 1
 			 // 1 <= pc < 4 	// 1 부터 4 미만(3 이하) 출력 
 
+
+			// pc 인풋 int -> string
 			switch(pcNumber) {
 			case 1 : 
 				pcInput = "가위"; break;
@@ -231,7 +242,8 @@ public class BranchExample {
 			}
 			System.out.printf("컴퓨터는 [%s]를 선택했습니다.",pcInput);
 			
-			
+
+			// 유저 인풋 string -> int
 			switch(input) {
 			case "가위" : 
 				number = 1; break;
@@ -242,13 +254,21 @@ public class BranchExample {
 			default : 
 				System.out.println("다시 입력해주세요.");
 			}
-			
-		if(number == pcNumber) {
-			tied++;
-			System.out.println("비겼습니다.");
-		} ///////////////////////////////////////////////////// 여기까지 작성함
-			
-			
+
+
+			// 승패 판정
+			if (number == pcNumber) {
+                		tied++;
+                	System.out.println("비겼습니다.");
+            		} else if ((number == 1 && pcNumber == 3) || 
+                       		   (number == 2 && pcNumber == 1) || 
+                       		   (number == 3 && pcNumber == 2)) {
+                		won++;
+                		System.out.println("플레이어 승!");
+            		} else {
+                		lost++;
+                		System.out.println("졌습니다ㅠㅠ");
+            		}		
 			
 			System.out.printf("현재 기록 : %d승 %d무 %d패\n", won, tied, lost);
 		}
@@ -290,7 +310,95 @@ public class BranchExample {
 		
 		
 		
-		
+	/*
+	import java.util.Scanner;
+
+public class RPSGame {
+
+    public void startGame() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("몇 판을 진행할까요? : ");
+        int rounds = sc.nextInt();
+
+        int won = 0;
+        int lost = 0;
+        int tied = 0;
+
+        for (int i = 1; i <= rounds; i++) {
+            System.out.printf("%d번째 게임\n", i);
+
+            String input = "";
+            String pcInput = "";
+            int number = 0;
+
+            // 유저의 입력 받기
+            while (true) {
+                System.out.print("가위/바위/보 중 하나를 입력 해주세요: ");
+                input = sc.next();
+                if (input.equals("가위") || input.equals("바위") || input.equals("보")) {
+                    break;
+                }
+                System.out.println("잘못된 입력입니다. 다시 시도해주세요.");
+            }
+
+            // 컴퓨터의 선택 (1: 가위, 2: 바위, 3: 보)
+            int pcNumber = (int) (Math.random() * 3) + 1;
+
+            switch (pcNumber) {
+                case 1:
+                    pcInput = "가위";
+                    break;
+                case 2:
+                    pcInput = "바위";
+                    break;
+                case 3:
+                    pcInput = "보";
+                    break;
+            }
+
+            System.out.printf("컴퓨터는 [%s]를 선택했습니다.\n", pcInput);
+
+            // 유저 입력에 따른 숫자 매칭
+            switch (input) {
+                case "가위":
+                    number = 1;
+                    break;
+                case "바위":
+                    number = 2;
+                    break;
+                case "보":
+                    number = 3;
+                    break;
+            }
+
+            // 승패 판정 로직
+            if (number == pcNumber) {
+                tied++;
+                System.out.println("비겼습니다.");
+            } else if ((number == 1 && pcNumber == 3) || 
+                       (number == 2 && pcNumber == 1) || 
+                       (number == 3 && pcNumber == 2)) {
+                won++;
+                System.out.println("플레이어 승!");
+            } else {
+                lost++;
+                System.out.println("졌습니다ㅠㅠ");
+            }
+
+            // 현재 기록 출력
+            System.out.printf("현재 기록: %d승 %d무 %d패\n", won, tied, lost);
+        }
+
+        // Scanner 닫기
+        sc.close();
+    }
+
+    public static void main(String[] args) {
+        RPSGame game = new RPSGame();
+        game.startGame();
+    }
+}
+*/
 		
 		
 		
