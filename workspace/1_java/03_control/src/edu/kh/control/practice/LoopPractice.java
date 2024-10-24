@@ -279,40 +279,158 @@ public class LoopPractice {
 	public void practice11() {
 	 	
 		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("홀수 입력 : ");
+
+		System.out.print("11. 정수 입력 : ");
 		int input = sc.nextInt();
-		
+
 		// 정수 입력 : 4
 		//    *   
 		//   ***  
 		//  ***** 
 		// *******
-		
 
-		for(int x = 1 ; x <= input ; x++) { // 일단 input 만큼 출력
-			for(int i = 1; i <= input ; i++) {
-				
+		for (int x = 1; x <= input; x++) { // input 만큼 출력 
+
+			for (int i = input - x; i >= 1; i--) { // 점점 줄어들기
+				System.out.print(" ");
+			}
+			// 별 출력
+			for (int i = 1; i <= 2 * x -1 ; i++) { // 점점 늘어나기
+				System.out.print("*");
+			}
+			System.out.println();  // 줄바꿈
+		}
+  
+		// 5
+		//  *  
+		// *** 
+		//*****
+	
+		
+		
+		
+		
+		
+		
+	}
+		
+		
+	public void practice12() {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("12. 정수 입력 : "); 
+		int input = sc.nextInt();
+		
+		//정수 입력 : 5 
+		//*****
+		//*   *
+		//*   *
+		//*   *
+		//*****
+
+		
+		for(int x = 1 ; x <= input ; x++) { // 몇줄? input 만큼 반복
+			for(int y = 1 ; y <= input ; y++) { // 몇개? "*" 또는 " " 을 옆으로 input 만큼 출력 
+				if( x == 1 || x == input || y == 1 || y == input ) {
+					System.out.print("*");
+				} else {
+					System.out.print(" ");
+				}
 			}
 			System.out.println();
-		}	 
+		}
+		 
+		
+		for(int x = 1 ; x <= input ; x++) {
+			if (x == 1 || x == input) {
+				for(int y = 1 ; y <= input ; y++) {
+					System.out.print("*");
+				} System.out.println();
+			} else {			
+				for(int y = 1 ; y <= input; y++) {
+					if(y == 1 || y == input) {
+						System.out.print("*");
+					} else {
+						System.out.print(" ");}
+				} System.out.println();
+			}		
+		}
+		
+		for (int i=1; i<=input; i++) {
+	         if (i==1||i==input) {
+	            for (int j=1; j<=input; j++) {
+	               System.out.print("*");
+	            }
+	            System.out.println();
+	         } else {
+	            for (int j=1; j<=input; j++) {
+	               System.out.print(j==1||j==input?"*":" ");
+	            }
+	            System.out.println();
+	         }
+	      }
+		
+	}
 
 		 
-		for(int x = input ; x >= 1 ; x--) {
-			if(x % 2 != 0) {
-				for(int i = 1; i <= x ; i++) {
-					System.out.print("*");
-				}
-				System.out.println();
-			}	 
-		}
+		
+//		
+//		
+//		
+//		
+//		
+//		
+//		
+//		for(int x = 1 ; x <= input ; x++) { // 일단 input 만큼 출력
+//			for(int i = 1; i <= input ; i++) {
+//				
+//			}
+//			System.out.println();
+//		}	 
+//
+//		 
+//		for(int x = input ; x >= 1 ; x--) {
+//			if(x % 2 != 0) {
+//				for(int i = 1; i <= x ; i++) {
+//					System.out.print("*");
+//				}
+//				System.out.println();
+//			}	 
+//		}
 
 
 		// for문 끝
 
 		
+	public void practice13() {
+		// 1부터 입력받은 수 까지 중에서 
+		// 1) 2와 3의 배수를 모두 출력하고 
+		// 2) 2와 3의 공배수의 개수를 출력하세요 
 		
-	}
-	
-}
+		Scanner sc = new Scanner(System.in);
 
+		System.out.print("자연수 하나를 입력세요 : ");
+		int input = sc.nextInt();
+
+		int count = 0;
+
+		for(int i = 1 ; i <= input ; i++) {
+			if(i % 2 == 0 || i % 3 == 0) {
+				System.out.printf("%d ", i);
+				if(i % 2 == 0 && i % 3 == 0) {
+					count++;
+				}
+			}
+		} 
+		System.out.println();
+		System.out.printf("count : %d", count);
+	}
+		
+		
+		
+}
+	
+	
+	
+	
+	
