@@ -199,36 +199,40 @@ public class BranchExample {
 	// 가위바위보 게임 만들기
 	// 몇판인지 입력 필요?
 	public void RPSGame() {
-		
+
 		Scanner sc = new Scanner(System.in);
 		System.out.print("몇판을 진행할까요? : ");
 		int rounds = sc.nextInt();
-		
+
 		String input = "";
 		String pcInput = "";
-		
-		int number = 0;
-		
-		int won = 0;
-		int lost = 0;
-		int tied = 0;
-		
-		for(int i = 1 ; i <= rounds ; i++) { // rounds 입력값 만큼 플레이
-			
-			
-			while (true) {
-                		System.out.print("가위/바위/보 중 하나를 입력 해주세요: ");
-		                input = sc.next();
-		                if (input.equals("가위") || input.equals("바위") || input.equals("보")) {
-		                    break;
-		                }
-		        System.out.println("잘못된 입력입니다. 다시 시도해주세요.");
-			}
- 
 
-			
+		int number = 0;
+
+		int win = 0;
+		int lose = 0;
+		int draw = 0;
+
+		for(int i = 1 ; i <= rounds ; i++) { // rounds 입력값 만큼 플레이
+
+			System.out.println("\n" + i + "번째 게임");
+
+			while (true) {
+				System.out.print("가위/바위/보 중 하나를 입력 해주세요: ");
+				input = sc.next();
+				if (input.equals("가위") || input.equals("바위") || input.equals("보")) {
+					break;
+				}
+				if (i == rounds) {
+					continue;
+				}
+				System.out.println("잘못된 입력입니다. 다시 시도해주세요.");
+			}
+
+
+
 			int pcNumber = (int)(Math.random() * 3) + 1; // (int)(0.0 <= pc < 1.0) * 3 + 1
-			 // 1 <= pc < 4 	// 1 부터 4 미만(3 이하) 출력 
+			// 1 <= pc < 4 	// 1 부터 4 미만(3 이하) 출력 
 
 
 			// pc 인풋 int -> string
@@ -240,8 +244,8 @@ public class BranchExample {
 			case 3 : 
 				pcInput = "보"; break;
 			}
-			System.out.printf("컴퓨터는 [%s]를 선택했습니다.",pcInput);
-			
+			System.out.printf("컴퓨터는 [%s]를 선택했습니다.\n",pcInput);
+
 
 			// 유저 인풋 string -> int
 			switch(input) {
@@ -258,19 +262,19 @@ public class BranchExample {
 
 			// 승패 판정
 			if (number == pcNumber) {
-                		tied++;
+                		draw++;
                 	System.out.println("비겼습니다.");
             		} else if ((number == 1 && pcNumber == 3) || 
                        		   (number == 2 && pcNumber == 1) || 
                        		   (number == 3 && pcNumber == 2)) {
-                		won++;
+                		win++;
                 		System.out.println("플레이어 승!");
             		} else {
-                		lost++;
+                		lose++;
                 		System.out.println("졌습니다ㅠㅠ");
             		}		
 			
-			System.out.printf("현재 기록 : %d승 %d무 %d패\n", won, tied, lost);
+			System.out.printf("현재 기록 : %d승 %d무 %d패\n", win, draw, lose);
 		}
 		
 //		1: 가위
