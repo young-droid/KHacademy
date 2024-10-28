@@ -1,5 +1,6 @@
 package edu.kh.array.practice;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayPractice {
@@ -106,48 +107,48 @@ public void practice4() {
   
 
 // *******************다시 하자*************
+// 문자열을입력받아문자하나하나를배열에넣고검색할문자가문자열에몇개들어가있는지
+// 개수와몇번째인덱스에위치하는지인덱스를출력하세요.
+// [실행화면]
+// 문자열: application
+// 문자: i
+// application에i가존재하는위치(인덱스) : 4 8 
+// i개수: 2
+
 public void practice5() {
-        Scanner sc = new Scanner(System.in);
+       Scanner sc = new Scanner(System.in);
+        
+       int count = 0;
+        
+       System.out.print("문자열 : ");
+       String input = sc.nextLine();
 
-        System.out.print("문자열 : ");
-        String input = sc.nextLine();
-
-        System.out.println("문자열 길이 : " + input.length());
-        int charLength = input.length();
+       char[] arr = new char[input.length()];
+       
+       for(int i = 0; i < arr.length; i++) {
+    	   arr[i] = input.charAt(i);
+       }
+       
+       
+       System.out.print("문자 : ");
+       char input2 = sc.nextLine().charAt(0);
+       
+       
+       
+       System.out.printf("%s에 %s가 존재하는 위치(인덱스) : ", input, input2);
+       for(int i = 0; i < arr.length; i++) {
+    	   if(arr[i] == input2 ) {
+    		   System.out.print(i + " ");
+    		   count ++;
+    	   }
+       }
+    
+       System.out.println();
+       System.out.print("개수 : " + count);
         
-        // 입력받은 문자열 크기만큼 문자형 변수 배열 칸 생성
-        char[] ch = new char[input.length()];
+	}        
         
-        // 하나씩 값 대입
-        for(int i = 0; i < input.length() ; i++) {
-        	ch[i] += input.charAt(i);
-        }
-        
-        
-        System.out.print("문자 : ");
-        char first = sc.nextLine().charAt(0); // 문자열 중 제일 앞 문자 얻어오기
-        
-        System.out.printf("%s 에 %s가 존재하는 위치(인덱스) : ", input, first);
-        
-        
-        String searchChar = sc.next();
-
-        int count = 0; // 문자 개수 저장
-
-        
-        for (int i = 0; i < input.length(); i++) {
-            if (searchChar == searchChar) {
-                count++;
-            }
-        }
-
-        if (count > 0) {
-            System.out.printf("%s에 %c가 존재하는 위치(인덱스) : %s\n", input, searchChar);
-            System.out.printf("%c 개수 : %d\n", searchChar, count);
-        } else {
-            System.out.printf("%s에 %c가 존재하지 않습니다.\n", input, searchChar);
-        }
-    }
+    
 
       public void practice6() {
         Scanner sc = new Scanner(System.in);
@@ -251,4 +252,165 @@ public void practice5() {
        System.out.println(arr); // char 배열 출력
    }
   
+   
+   public void practice8() {
+	
+	   Scanner sc = new Scanner(System.in);
+	   
+	   System.out.print("정수 : ");
+	   int input = sc.nextInt();	   
+
+	   while(true) {
+
+		   int[] arr = new int[input];
+
+
+		   if(input < 3 || input % 2 == 0) {
+			   System.out.println("다시 입력하세요.");
+		   }
+
+
+		   int num = 1; 
+
+		   for(int i = 0 ; i < arr.length ; i++) {
+			   if(i <= (arr.length/2)) {
+				   arr[i] = num++;
+			   } 
+			   else {
+				   arr[i] = arr.length-i;
+			   }
+
+			   if(i == 0) {
+				   System.out.print(arr[i]);
+
+			   } else {
+				   System.out.print(", " + arr[i]);
+			   }
+		   }
+		   break;
+	   }
+   } 
+   
+   
+   public void practice9() {
+	   
+	   int[] arr = new int[10];
+	   
+	   System.out.print("발생한 난수 : ");
+	   
+	   for(int i = 0 ; i < arr.length ; i++) {
+		   int num = (int)(Math.random()*10+1);
+		   arr[i] = num;
+		   System.out.print(arr[i] + " ");
+	   }
+   }
+
+   
+   
+   // 난수 발생시키고 min, max 찾기
+   public void practice10() {
+
+	   int[] arr = new int[10];
+
+	   System.out.print("발생한 난수 :");
+
+	   for(int i = 0 ; i < arr.length ; i++ ) {
+		   arr[i] = (int)(Math.random()*10+1);
+		   
+		   System.out.print(" " + arr[i]);
+	   }
+
+	   // 최대 최소 찾기
+	   int min = arr[0];
+	   int max = arr[0];
+
+	   for(int i = 0 ; i < arr.length ; i++) {
+
+		   if(arr[i] > max) {
+			   max = arr[i];		   
+		   }
+		   if(min > arr[i]) {
+			   min = arr[i]; 
+		   }
+	   }
+	   System.out.println();
+	   System.out.println("최대 : " + max);
+	   System.out.println("최소 : " + min);
+
+   }
+
+   
+   public void practice11() {
+	   
+	   int[] arr = new int[10];
+
+	   // 배열에 난수 초기화
+
+	   for(int i = 0 ; i < arr.length; i++ ) {
+
+		   arr[i] = (int)(Math.random()*10 + 1);
+
+		   for(int x = 0 ; x < i ; x++) {
+			   if(arr[i] == arr[x]) {
+				   i--;
+				   break;
+			   }
+
+		   }
+
+	   }
+	   // 출력용	
+	   for(int i = 0 ; i < arr.length ; i++) {
+		   System.out.print(arr[i]+ " ");
+
+	   }
+
+	   
+   }
+   
+   // 로또
+   public void practice12() {
+	   
+   }
+   
+
+   public void practice13() {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	  System.out.print("문자열 : " );
+	  String input = sc.nextLine();
+	  
+	  char[] arr = new char[input.length()];
+	  
+	  System.out.print("문자열에 있는 문자 : ");
+	  
+	  
+	  // 배열 인덱스에 각 문자 대입
+	  for(int i = 0 ; i < arr.length; i++ ) {
+		  
+		  arr[i] = input.charAt(i);
+		  
+		  for(int x = 0 ; x < i; x++) {
+			  
+			  if(arr[x] == arr[i]) {
+				  i--;
+				  break;
+			  }
+			  System.out.print(arr[i] + " ");
+		  }
+		  
+	  }
+	  
+	  
+	 
+	  
+	  
+	  
+	  
+	  
+	  
+	   
+   }
+   
 }
