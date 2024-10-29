@@ -10,17 +10,10 @@ public class ArrayRun {
 //		arrEx.ex4();
 //		arrEx.ex5();
 //		arrEx.ex6();
-//		arrEx.ex7();
+		arrEx.ex7();
 //		arrEx.ex8();
 //		arrEx.ex9();
 //		arrEx.ex10();
-		
-		
-		ArrayExample2 arrEx2 = new ArrayExample2();
-		
-//		arrEx2.shallowCopy();
-//		arrEx2.deepCopy();
-		arrEx2.createLotto();
 		
 	}
 }
