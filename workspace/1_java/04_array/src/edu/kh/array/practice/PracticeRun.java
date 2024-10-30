@@ -16,12 +16,12 @@ public class PracticeRun {
 //		ap.ex8();
 //		ap.ex9();
 //		ap.ex10();
-//		ap.ex11();
+		ap.ex11();
 //		ap.ex12();
 //		ap.ex13();
 //		ap.ex13_1();
 //		ap.ex13_2();
-		ap.ex14();
+//		ap.ex14();
 	}
 	
 }

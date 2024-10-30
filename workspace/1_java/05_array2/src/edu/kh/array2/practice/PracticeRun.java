@@ -11,7 +11,17 @@ public class PracticeRun {
 //		arrPractice.practice3();
 //		arrPractice.practice4();
 //		arrPractice.practice4_answer();
-		arrPractice.practice5();
+//		arrPractice.practice5();
+//		arrPractice.practice6();
+//		arrPractice.practice6_answer();
+//		arrPractice.practice7();
+//		arrPractice.practice8();
+//		arrPractice.practice9();
+//		arrPractice.practice9_answer();
+//		arrPractice.practice10();
+//		arrPractice.bingoGame();
+//		arrPractice.bingo_answer();
+		arrPractice.bingoGame_cs();
 			
 			
 		
