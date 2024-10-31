@@ -52,6 +52,10 @@ public class People {	// 국민의 정보를 저장할 객체를 위한 클래�
 	public void setJob(String job) {
 		this.job = job;
 	}
+	
+	public String getJob() {
+		return job;
+	}
 
 	public char getGender() {
 		return gender;
@@ -93,9 +97,7 @@ public class People {	// 국민의 정보를 저장할 객체를 위한 클래�
 		this.pNo = pNo;
 	}
 
-	public String getJob() {
-		return job;
-	}
+
 	
 	
 	

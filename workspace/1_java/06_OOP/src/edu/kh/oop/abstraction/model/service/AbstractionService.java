@@ -49,6 +49,8 @@ public class AbstractionService {
 		System.out.println("p1의 pNo : " + p1.getpNo());
 		System.out.println("p1의 job : " + p1.getJob());
 		
+		p1.vote();
+		
 		System.out.println("===============================");
 		
 		/*
