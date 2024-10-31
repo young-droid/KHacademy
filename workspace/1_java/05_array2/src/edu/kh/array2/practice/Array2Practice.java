@@ -532,10 +532,9 @@ public class Array2Practice {
 		            	flag = false; // 값 존재 O 
 		                bingo[r][c] = "★"; // 일치하면 ★로 바꿈
 		            } 
-// 출력 구문		            
-		            System.out.printf("%4s", bingo[r][c]);
+// 출력 구문 하단으로	            
 		        }
-		        System.out.println();
+
 		    }
 	
 		    // 빙고 검사
@@ -574,6 +573,7 @@ public class Array2Practice {
 		    		if(colLine.equals(bingoLine)) {
 		    			bingoCount++;
 		    		}
+		    		
 		    	}
 		    }
 		    	// 대각선 빙고 여부
@@ -596,12 +596,26 @@ public class Array2Practice {
 		    if(diaLine2.equals(bingoLine)) {
 		    	bingoCount++;
 		    }
-		    System.out.println("현재 " + bingoCount + "빙고");
+		    System.out.println("\n현재 " + bingoCount + "빙고\n");
 		    
 		    if(bingoCount == 3) {
 		    	System.out.println("**** Bingo! ****");
 		    	break;
     		}
+		    
+	        if(flag == true) {
+	        	System.out.println("다시 입력하세요.");
+	        	continue;
+	        }
+	          
+		    for(int r = 0 ; r < size ; r++) {
+		    	for(int c = 0 ; c < size ; c++) {
+		    	    System.out.printf("%4s", bingo[r][c]);
+		    	}
+		    	System.out.println();
+		    }
+		    
+		    
 		}
 	}
 
@@ -697,4 +711,4 @@ public class Array2Practice {
 	         }
 	      }
 	}
-}
+} 

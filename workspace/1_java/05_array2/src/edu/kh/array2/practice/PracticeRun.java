@@ -20,8 +20,8 @@ public class PracticeRun {
 //		arrPractice.practice9_answer();
 //		arrPractice.practice10();
 //		arrPractice.bingoGame();
-//		arrPractice.bingo_answer();
-		arrPractice.bingoGame_cs();
+		arrPractice.bingo_answer();
+//		arrPractice.bingoGame_cs();
 			
 			
 		
