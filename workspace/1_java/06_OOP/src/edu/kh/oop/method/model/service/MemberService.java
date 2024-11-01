@@ -166,8 +166,13 @@ public class MemberService { // 클래스
 	} // selectMember() 
 		
 
-	/*
+
 	// 회원 정보 수정
+	// 이름, 나이 입력 받아서
+	// 로그인이 되어있으며, 
+	// 수정할 때 로그인한 회원의 비밀번호와 입력한 비밀번호가 일치 했을 때 수정 
+	
+	
 	public String changeInfo() {
 		
 		if(loginMember == null) {
@@ -191,7 +196,7 @@ public class MemberService { // 클래스
 		return "회원 정보가 수정되었습니다.";
 	} // 회원 정보 수정
 		
-	*/	
+
 		
 
 	
