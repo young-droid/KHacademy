@@ -7,14 +7,17 @@ public class ClsRun {
 
 	public static void main(String[] args) {
 		
-		Student std = new Student();
+		//Student std = new Student();
 //		std.ex();
 		
 		
 		
 		ClsService cls = new ClsService();
-		cls.ex2();
+		//cls.ex1();
+//		cls.ex2();
 //		System.out.println(Student.schoolName);
+//		cls.ex3();
+		cls.ex4();
 		
 	}
 }
