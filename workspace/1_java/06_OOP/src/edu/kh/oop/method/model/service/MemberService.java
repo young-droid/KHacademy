@@ -19,7 +19,7 @@ public class MemberService { // 클래스
 		
 	// ** 메소드 작성법 ** 
 		
-	// [접근제한자]	[예약어]			반환형				메소드명9[매개변수]){}
+	// [접근제한자]	[예약어]			반환형				메소드명[매개변수]){}
 	// public		static			기본자료형
 	// protected	final			참조형(배열, 클래스)
 	// default		abstract		void
@@ -180,16 +180,18 @@ public class MemberService { // 클래스
 		} 
 		
 		String input = null;
-		
+		int menuNum = 0;
+
+
 		do {
 		System.out.println("\n***** 회원 정보 조회 *****");
 		System.out.println("1. 이름 : " + loginMember.getMemberName() +
 				  "2. 나이 : " + loginMember.getMemberAge() + "세"); 
 		
 		System.out.print("변경하고 싶은 정보를 선택하세요 :");
+			menuNum = sc.nextInt();
 		
-		
-		} while (num != 0);
+		} while (menuNum != 0);
 		
 		
 		
