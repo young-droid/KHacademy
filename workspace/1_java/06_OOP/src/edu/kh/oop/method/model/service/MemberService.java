@@ -206,10 +206,10 @@ public class MemberService { // 클래스
 			default : 
 				System.out.println("\n잘못 입력하셨습니다. 다시 입력해주세요.");
 		}
-		return "\n회원 정보가 수정되었습니다.\n";
+	} while (menuNum != 0);
 		
-		} while (menuNum != 0);
-		
+	return "\n회원 정보가 수정되었습니다.\n";
+	
 	} // 회원 정보 수정
 		
 }
