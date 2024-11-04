@@ -41,11 +41,10 @@ public class MemberService { // 클래스
 			menuNum = sc.nextInt(); // 필드에 작성된 Scanner sc 사용
 			
 			switch(menuNum) {
-			case 1 : System.out.println( signUp() ); break;
+			case 1 : System.out.println( signUp() ) ; break;
 			case 2 : System.out.println( signIn() ) ; break; 
 			case 3 : System.out.println( selectMember() ) ; break;
-			case 4 :
-				; break;
+			case 4 : System.out.println( changeInfo() ) ; break;
 			case 0 : System.out.println("프로그램을 종료합니다."); break;
 			default : System.out.println("잘못 입력하셨습니다. 다시 입력해주세요.");
 			}
@@ -149,12 +148,12 @@ public class MemberService { // 클래스
 		System.out.println("\n***** 회원 정보 조회 *****");
 		
 		if(loginMember == null) {
-			return "\n사용자 정보가 없습니다. 회원가입을 진행해 주세요.\n";
+			return "\n로그인 정보가 없습니다. 로그인을 진행해 주세요.\n";
 		} 
 		
 		return "이름 : " + loginMember.getMemberName() +
 				  "\n아이디 : " + loginMember.getMemberId() +
-				  "\n나이 : " + loginMember.getMemberAge() + "세";
+				  "\n나이 : " + loginMember.getMemberAge() + "세\n";
 		
 		// int edu.kh.oop.method.model.vo.Member.getMemberAge()
 		// 반환형 		메소드 코드 위치
@@ -174,32 +173,43 @@ public class MemberService { // 클래스
 	
 	
 	public String changeInfo() {
-		
+		System.out.println("\n===== 회원 정보 수정 =====");
+
 		if(loginMember == null) {
-			return "\n사용자 정보가 없습니다. 회원가입을 진행해 주세요.\n";
+			return "\n로그인 정보가 없습니다. 로그인을 진행해 주세요.\n";
 		} 
 		
-		String input = null;
 		int menuNum = 0;
 
-
 		do {
-		System.out.println("\n***** 회원 정보 조회 *****");
-		System.out.println("1. 이름 : " + loginMember.getMemberName() +
-				  "2. 나이 : " + loginMember.getMemberAge() + "세"); 
+		System.out.println("\n*** 회원 정보 ***");
+		System.out.println("1. 이름 : " + loginMember.getMemberName());
+		System.out.println("2. 나이 : " + loginMember.getMemberAge() + "세");
+		System.out.println("0. 수정 종료"); 
 		
-		System.out.print("변경하고 싶은 정보를 선택하세요 :");
+		System.out.print("\n변경하고 싶은 정보의 번호를 선택하세요 :");
 			menuNum = sc.nextInt();
+
+		switch(menuNum){
+			case 1 : 
+				System.out.print("\n변경할 이름 입력 : ");
+				String nameChange = sc.next();
+				loginMember.setMemberName(nameChange)
+				; break ;
+				case 2 : 
+				System.out.print("\n변경할 나이 입력 : ");
+				int ageChange = sc.nextInt();
+				loginMember.setMemberAge(ageChange)
+				; break ;
+			case 0 : 
+				; break ;
+			default : 
+				System.out.println("\n잘못 입력하셨습니다. 다시 입력해주세요.");
+		}
+		return "\n회원 정보가 수정되었습니다.\n";
 		
 		} while (menuNum != 0);
 		
-		
-		
-		return "회원 정보가 수정되었습니다.";
 	} // 회원 정보 수정
 		
-
-		
-
-	
 }
