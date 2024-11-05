@@ -22,7 +22,7 @@ public class BookService {
         book1.setDiscountRate(0.1);
         book1.setAuthor("홍길동");
 
-        System.out.println(book1.toString());
+        System.out.println(book1);
 
         System.out.println("=============================");
 

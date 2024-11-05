@@ -88,7 +88,7 @@ public class MemberService { // 클래스
 			// 메소드를 호출한 곳으로 "회원 가입 성공" 반환함
 			
 		} else {
-			return "회원 가입 실패\n";
+			return "회원 가입 실패. 비밀번호를 확인 해 주세요\n";
 		}
 	} //signUp
 		
@@ -179,37 +179,47 @@ public class MemberService { // 클래스
 			return "\n로그인 정보가 없습니다. 로그인을 진행해 주세요.\n";
 		} 
 		
-		int menuNum = 0;
-
-		do {
-		System.out.println("\n*** 회원 정보 ***");
-		System.out.println("1. 이름 : " + loginMember.getMemberName());
-		System.out.println("2. 나이 : " + loginMember.getMemberAge() + "세");
-		System.out.println("0. 수정 종료"); 
+		System.out.print("비밀번호 입력 : ");
+		String inputPw = sc.next();
 		
-		System.out.print("\n변경하고 싶은 정보의 번호를 선택하세요 :");
-			menuNum = sc.nextInt();
-
-		switch(menuNum){
-			case 1 : 
-				System.out.print("\n변경할 이름 입력 : ");
-				String nameChange = sc.next();
-				loginMember.setMemberName(nameChange)
-				; break ;
-				case 2 : 
-				System.out.print("\n변경할 나이 입력 : ");
-				int ageChange = sc.nextInt();
-				loginMember.setMemberAge(ageChange)
-				; break ;
-			case 0 : 
-				; break ;
-			default : 
-				System.out.println("\n잘못 입력하셨습니다. 다시 입력해주세요.");
-		}
-	} while (menuNum != 0);
+		if(loginMember.getMemberPw().equals(inputPw)) {
 		
-	return "\n회원 정보가 수정되었습니다.\n";
+			
+			
+			int menuNum = 0;
 	
+			do {
+			System.out.println("\n*** 회원 정보 ***");
+			System.out.println("1. 이름 : " + loginMember.getMemberName());
+			System.out.println("2. 나이 : " + loginMember.getMemberAge() + "세");
+			System.out.println("0. 수정 종료"); 
+			
+			System.out.print("\n변경하고 싶은 정보의 번호를 선택하세요 :");
+				menuNum = sc.nextInt();
+	
+			switch(menuNum){
+				case 1 : 
+					System.out.print("\n변경할 이름 입력 : ");
+					String nameChange = sc.next();
+					loginMember.setMemberName(nameChange)
+					; break ;
+					case 2 : 
+					System.out.print("\n변경할 나이 입력 : ");
+					int ageChange = sc.nextInt();
+					loginMember.setMemberAge(ageChange)
+					; break ;
+				case 0 : 
+					; break ;
+				default : 
+					System.out.println("\n잘못 입력하셨습니다. 다시 입력해주세요.");
+			}
+		} while (menuNum != 0);
+			
+		return "\n회원 정보가 수정되었습니다.\n";
+		} else {
+			return "\n 비밀번호를 확인해 주세요. \n";
+		}
+
 	} // 회원 정보 수정
 		
 }
