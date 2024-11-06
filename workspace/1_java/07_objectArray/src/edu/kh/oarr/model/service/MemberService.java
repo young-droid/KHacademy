@@ -41,6 +41,8 @@ public class MemberService {
 			System.out.println("3. 회원 정보 조회");
 			System.out.println("4. 회원 정보 수정");
 			System.out.println("5. 회원 검색(지역)");
+			
+			System.out.println("8. 탈퇴");
 			System.out.println("9. 로그아웃");
 			System.out.println("0. 프로그램 종료");
 
@@ -53,6 +55,7 @@ public class MemberService {
 			case 3 : System.out.println( selectMember() ) ; break;
 			case 4 : System.out.println( changeMember() ) ; break;
 			case 5 : searchRegion();  break;
+			case 8 : deleteMember(); break;
 			case 9 : System.out.println( logOut() ) ; break;
 			case 0 : System.out.println("프로그램을 종료합니다."); break;
 			default : System.out.println("잘못 입력하셨습니다. 다시 입력해주세요.");
@@ -303,13 +306,21 @@ public class MemberService {
 			System.out.println("일치하는 검색 결과가 없습니다.\n");
 		}
 
-		
-		
-		
 	}
 
-	
-	
+	public void deleteMember() {
+		
+		
+		
+		char confirm = sc.next().charAt(0);
+		if(confirm == 'N' || confirm =='n') {
+			
+		} else if(confirm == 'Y' || confirm =='y') {
+			System.out.println("탈퇴되었습니다.");
+			
+		}
+			
+	}
 	
 }
 

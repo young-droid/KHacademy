@@ -2,21 +2,18 @@ package edu.kh.oarr.practice.model.service;
 
 import java.util.Scanner;
 
-import edu.kh.oarr.model.vo.Member;
 import edu.kh.oarr.practice.model.vo.Employee;
 
 public class EmployeeService {
 
 	Scanner sc = new Scanner(System.in);
 	
-	boolean flag = true; // true 기본 상태
-	
 	private Employee[] employeeArr = new Employee[3];
 	
 	public EmployeeService() {
-		employeeArr[0] = new Employee(10, "유관순", "마케팅팀", "부장", 1000000);
+		employeeArr[0] = new Employee(10, "유관순", "마케팅팀", "부장", 5000000);
 		employeeArr[1] = new Employee(20, "홍실동", "개발팀", "대리", 3500000);
-		employeeArr[2] = new Employee(30, "이순신", "총무팀", "사원", 2000000);
+		employeeArr[2] = new Employee(30, "이순신", "총무팀", "사원", 5000000);
 	}
 	
 	
@@ -41,15 +38,15 @@ public class EmployeeService {
 		switch(menuNum) {
 		case 1 : employeeAdd()
 			; break;
-		case 2 : employeeInfo()
+		case 2 : System.out.println( employeeInfo() )
 			; break;
-		case 3 : searchName()
+		case 3 : System.out.println( searchName() )
 			; break;
 		case 4 : searchId()
 			; break;
 		case 5 : wageSum()
 			; break;
-		case 6 : System.out.println( highest() )
+		case 6 : highest()
 			; break;
 		case 0 : System.out.println("프로그램 종료.");
 			; break;
@@ -84,17 +81,20 @@ public class EmployeeService {
 	
 	
 	// 2. 직원 정보 출력
-	public void employeeInfo() {
+	public String employeeInfo() {
+		
+		String str = "";
 		
 		for(int i = 0; i < employeeArr.length ; i++) {
-			System.out.println(employeeArr[i].toString());
+			str += employeeArr[i].toString() + "\n";
+//			System.out.println(employeeArr[i].toString());
 		}
-		System.out.println();
+		return str;
 	}
 	
 	
 	// 3. 특정 직원 정보 출력(이름 검색) 
-	public void searchName() {
+	public String searchName() {
 		System.out.println("=== 특정 사원 정보 출력(이름 검색) ===");
 		
 		System.out.print("\n이름 입력 : ");
@@ -102,13 +102,11 @@ public class EmployeeService {
 		
 		for(int i = 0 ; i < employeeArr.length ; i++) {
 			if(inputName.equals(employeeArr[i].getEmployeeName())) {
-				System.out.println(employeeArr[i].toString());
-			} else {
-				flag = false;
-			}
+//				System.out.println(employeeArr[i].toString());
+				return employeeArr[i].toString() + "\n";
+			} 
 		}
-		System.out.println();
-		System.out.println();
+		return "일치하는 사원이 없습니다.\n";
 	}
 	
 	
@@ -130,7 +128,14 @@ public class EmployeeService {
 //			System.out.println("사번이 일치하는 직원 없습니다.");
 //		} 
 		
-		System.out.println();
+		System.out.println("=== 직원 관리 프로그램 === \r\n"
+				+ "1. 직원 정보 입력(3명) \r\n"
+				+ "2. 모든 직원 정보 출력 \r\n"
+				+ "3. 특정 직원 정보 출력(이름 검색) \r\n"
+				+ "4. 특정 직원 급여/연봉 출력(사번 검색) \r\n"
+				+ "5. 모든 직원 급여 합/연봉 합 출력 \r\n"
+				+ "6. 모든 직원중 급여가 가장 높은 직원의 이름, 부서, 급여 출력 \r\n"
+				+ "0. 종료 ");
 		System.out.println();
 	}
 	
@@ -157,24 +162,32 @@ public class EmployeeService {
 	
 	
 	// 6. 모든 직원중 급여가 가장 높은 직원의 이름, 부서, 급여 출력 
-	public String highest() {
+	public void highest() {
+	    int max = employeeArr[0].getEmployeeWage(); // 최고 급여를 저장할 변수
 
-		int indexWage = 0;
-		
-		int max = employeeArr[0].getEmployeeWage(); // 0번 wage 값 
-		
-		for(int i = 0 ; i < employeeArr.length ; i++) {
-				if(employeeArr[i].getEmployeeWage() > max) {
-					max = employeeArr[i].getEmployeeWage();
-					indexWage = i;
-			}
-		}
+	    // 최고 급여 찾기
+	    for (int i = 1; i < employeeArr.length; i++) {
+	        if (employeeArr[i].getEmployeeWage() > max) {
+	            max = employeeArr[i].getEmployeeWage();
+	        }
+	    }
 
-		return "이름 : " + employeeArr[indexWage].getEmployeeName() + 
-			   ", 부서 : " + employeeArr[indexWage].getEmployeeDepart() +
-			   ", 급여 : " + employeeArr[indexWage].getEmployeeWage() + 
-			   "\n";
-		
-	}	
+	    System.out.println("=== 최고 급여를 가진 직원 목록 ===");
+	    
+	    // 최고 급여와 동일한 직원 출력
+	    for (int i = 0; i < employeeArr.length; i++) {
+	        if (employeeArr[i].getEmployeeWage() == max) {
+	            System.out.println("이름 : " + employeeArr[i].getEmployeeName() + 
+	                               ", 부서 : " + employeeArr[i].getEmployeeDepart() +
+	                               ", 급여 : " + employeeArr[i].getEmployeeWage());
+	        }
+	    }
+	    System.out.println();
+	}
 
+	public void deleteUser() {
+		
+	}
+	
+	
 }
