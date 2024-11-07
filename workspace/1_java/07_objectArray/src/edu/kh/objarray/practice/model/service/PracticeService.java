@@ -44,11 +44,12 @@ public class PracticeService {
 
 			while(true) {
 				System.out.print("계속 입력 하시겠습니까 ? (y/n): ");
-				confirm = sc.next().charAt(0);
-
+				confirm = sc.next().toUpperCase().charAt(0);
+									// 문자열을 대문자로 바꿈
+				
 				// 3) 10명을 입력한 경우 모두 입력하거나, 계속 추가할 것인지 물어볼 때 ‘n’을 입력한 경우 
 				// 학생 정보 입력을 멈춤 
-				if(confirm == 'n' || confirm == 'N') {
+				if(confirm == 'N') {
 					break;
 				} else if(confirm == 'y' || confirm == 'Y') {
 					break;
@@ -68,13 +69,11 @@ public class PracticeService {
 			// 5) 입력된 모든 학생들의 정보 + 평균 점수를 출력 
 			// 출력 구문
 		} 
-		if (count == 0) { 
-			System.out.println("입력된 학생 정보가 없습니다."); 
-		} else { 
-			for (int i = 0; i < count; i++) 
-			{ 
-				System.out.println(studentArr[i].toString()); 
-			} 
+
+		for (int i = 0; i < count; i++) 
+		{ 
+			System.out.println(studentArr[i].toString()); 
 		} 
+
 	}
 }
