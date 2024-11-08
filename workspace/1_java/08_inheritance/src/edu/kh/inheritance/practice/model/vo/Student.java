@@ -4,31 +4,27 @@ public class Student extends Person {
 
 	private int grade;
 	private String major;
-	
+
 	public Student() {
-		
+
 	}
 
-
-	
 	public Student(String name, int age, double height, double weight, int grade, String major) {
 		super(age, height, weight);
-		
-		// 직접접근 - 수정 필요
-		super.name = name; 
+
+		super.name = name;
 //		this.name = name;
-		
+
 		this.grade = grade;
 		this.major = major;
 	}
 
-
+	@Override  
 	public String toString() {
-		return super.toString() + String.format(" / %d / %s", grade, major);
+		return super.toString() + String.format(" |  %d  | %s", grade, major);
 	}
-	
-	
-	// getter / setter 
+
+	// getter / setter
 	public int getGrade() {
 		return grade;
 	}
@@ -44,8 +40,5 @@ public class Student extends Person {
 	public void setMajor(String major) {
 		this.major = major;
 	}
-	
-	
-	
-	
+
 }

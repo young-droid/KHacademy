@@ -1,38 +1,31 @@
 package edu.kh.inheritance.practice.model.vo;
 
-public class Employee extends Person{
+public class Employee extends Person {
 
 	private int salary;
 	private String dept;
 
 	public Employee() {
-		
+
 	}
-	
-	
-	
-	
+
 	public Employee(String name, int age, double height, double weight, int salary, String dept) {
 		super(age, height, weight);
-		
+
 		// 직접접근 - 수정 필요
-//		this.name = super.name; ?????????????
+//		super.name = name; 
 		this.name = name;
-		
+
 		this.salary = salary;
 		this.dept = dept;
 	}
 
-
-
-
+	@Override
 	public String toString() {
-		return super.toString() + String.format(" / %d / %s", salary, dept);
+		return super.toString() + String.format(" | %d | %s", salary, dept);
 	}
-	
-	
-	
-	// getter / setter 
+
+	// getter / setter
 	public int getSalary() {
 		return salary;
 	}

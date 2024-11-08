@@ -16,8 +16,10 @@ public class Person {
 		this.weight = weight;
 	}
 
+	
+	@Override 
 	public String toString() {
-		return String.format("[%s] %d / %.1f / %.1f", name, age, height, weight);
+		return String.format("[%s] %d | %.1f | %.1f", name, age, height, weight);
 	}
 
 	
