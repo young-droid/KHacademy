@@ -94,51 +94,88 @@ public class MainService {
 	// 아이디, 비밀번호, 이름을 입력 받고
 	// Member객체를 생성하여 members 배열에 추가
 	// 단, 이미 중복되는 아이디가 존재하는 경우 가입 불가
-	public void signUp() { 
+	// public void signUp() { 
 
-		boolean idDup = false;
-		String id = null;
-		
-		System.out.println("[회원 가입]");
-		
-		
-		while (idDup = true) {
 
-			System.out.println("아이디 : ");
-			id = sc.next();
+	public void signUp() {
+        System.out.println("[회원 가입]");
+
+        if(memberCount >= members.length) {
+            System.out.println("더 이상 회원을 추가할 수 없습니다.");
+            return;
+        }
+
+        String id;
+        boolean flag;
+
+        do {
+            System.out.print("아이디: ");
+            id = sc.next();
+            flag = false;
+
+            // 아이디 중복 체크
+            for(Member member : members) {
+                if(member != null && member.getMemberId().equals(id)) {
+                    System.out.println("입력하신 아이디는 이미 존재하는 아이디입니다. 새로운 아이디를 입력해주세요.");
+                    flag = true;
+                    break;
+                }
+            }
+        } while(flag);
+
+        System.out.print("비밀번호: ");
+        String pw = sc.next();
+        System.out.print("이름: ");
+        String name = sc.next();
+
+        // 회원 객체를 생성하여 배열에 추가
+        members[memberCount++] = new Member(id, pw, name);
+        System.out.println("회원 가입이 완료되었습니다.");
+    }
+
+	// 	boolean idDup = false;
+	// 	String id = null;
+		
+	// 	System.out.println("[회원 가입]");
+		
+		
+	// 	while (idDup = true) {
+
+	// 		System.out.println("아이디 : ");
+	// 		id = sc.next();
 			
-			for(int i = 0 ; i < members.length ; i++ ) {
-				if(members[i] != null) {
-					if(id == members[i].getMemberId()) {
-						System.out.println("입력하신 아이디는 이미 존재하는 아이디입니다. 새로운 아이디를 입력해주세요.");
-						break;
-					} 
-				} else {
-					idDup = true;
-				}
-			}
+	// 		for(int i = 0 ; i < members.length ; i++ ) {
+	// 			if(members[i] != null) {
+	// 				if(id == members[i].getMemberId()) {
+	// 					System.out.println("입력하신 아이디는 이미 존재하는 아이디입니다. 새로운 아이디를 입력해주세요.");
+	// 					break;
+	// 				} 
+	// 			} else {
+	// 				idDup = true;
+	// 			}
+	// 		}
 
-		}
-			System.out.println("비밀번호 : ");
-			String pw = sc.next();
-			System.out.println("이름 : ");
-			String name = sc.next();
+	// 	}
+	// 		System.out.println("비밀번호 : ");
+	// 		String pw = sc.next();
+	// 		System.out.println("이름 : ");
+	// 		String name = sc.next();
 
 				
-			for (int i = 0; i < members.length; i++) {
-				if (members[i] == null) {
-					members[i] = new Member(id, pw, name);
-					break;
-				} 
+	// 		for (int i = 0; i < members.length; i++) {
+	// 			if (members[i] == null) {
+	// 				members[i] = new Member(id, pw, name);
+	// 				break;
+	// 			} 
 
-			}
+	// 		}
 			
-			System.out.println(members[0].toString());
+	// 		System.out.println(members[0].toString());
 			
 
 			
 		
-	} 
+	// } 
 
 
 	// [로그인]
@@ -148,7 +185,26 @@ public class MainService {
 
 		System.out.println("[로그인]");
 
+		System.out.print("아이디: ");
+        String id = sc.next();
+        System.out.print("비밀번호: ");
+        String pw = sc.next();
 
+        boolean flag = false; // 로그인 X 
+					// true; // 로그인 O
+
+        for(Member member : members) {
+            if(member != null && member.getMemberId().equals(id) && member.getMemberPw().equals(pw)) {
+                loginMember = member;
+                System.out.println("로그인 성공! " + loginMember.getMemberName() + "님 환영합니다.");
+                flag = true;
+                break;
+            }
+        }
+
+        if(!flag) {
+            System.out.println("아이디 또는 비밀번호가 일치하지 않습니다.");
+        }
 
 	}
 
