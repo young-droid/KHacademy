@@ -1,6 +1,7 @@
 package edu.kh.collection.list.model.service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import edu.kh.collection.list.model.vo.Student;
@@ -139,5 +140,24 @@ public class StudentService {
 		return studentList.contains(s);
 			
 		
+	}
+
+	/** 
+	 * 성적 순서로 정렬 service 메소드
+	 * @return sortList
+	 */
+	public List<Student> sortScore() {
+		// Objects / Arrays / Collections : 유용한 기능 모음
+
+		// Collections.sort(List) : 원본 List가 정렬
+		// -> 이 기능을 사용하려면
+		//	  List의 요소(Student)에 정렬 기준을 정하는 코드가 있어야 함
+		
+		Collections.sort(studentList);
+		// -> 점수 오름차순 (점점 커지는 순서) 정렬
+		
+		Collections.reverse(studentList);
+		
+		return studentList;
 	}
 }

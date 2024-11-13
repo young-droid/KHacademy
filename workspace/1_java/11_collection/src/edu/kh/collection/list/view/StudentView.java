@@ -29,6 +29,7 @@ public class StudentView {
 				System.out.println("6. 같은 학년 조회");
 				System.out.println("7. 이름으로 조회");
 				System.out.println("8. 중복 체크");
+				System.out.println("9. 성적 순서로 조회(정렬)");
 
 				System.out.println("0. 프로그램 종료");
 
@@ -59,6 +60,9 @@ public class StudentView {
 					break;
 				case 8:
 					duplicateValidation();
+					break;
+				case 9:
+					sortScore();
 					break;
 				case 0:
 					System.out.println("<프로그램 종료>");
@@ -256,12 +260,12 @@ public class StudentView {
 	 * 중복 확인 view 메소드
 	 */
 	private void duplicateValidation() {
-		
+
 		// 학년, 반, 번호, 이름, 성별, 점수를 입력 받아
 		// 모두 똑같은 학생이 존재하는지 확인
-		
+
 		System.out.println("\n----- 중복 확인 -----\n");
-		
+
 		System.out.print("학년 : ");
 		int grade = sc.nextInt();
 
@@ -279,16 +283,29 @@ public class StudentView {
 
 		System.out.print("점수 : ");
 		int score = sc.nextInt();
-		
+
 		// 입력 받은 값을 서비스로 전달하여
 		// 중복이면 true, 아니면 false 반환 받기
-		boolean result = 
-				service.duplicateValidation(grade, ban, number, name, gender, score);
-		
-		if(result) {
+		boolean result = service.duplicateValidation(grade, ban, number, name, gender, score);
+
+		if (result) {
 			System.out.println("같은 학생이 있습니다.");
 		} else {
 			System.out.println("같은 학생이 없습니다.");
+		}
+
+	}
+
+	/**
+	 * 성적 순서로 조회(정렬) view 메소드
+	 */
+	private void sortScore() {
+		System.out.println("\n----- 성적 순서로 조회(정렬) -----\n");
+
+		List<Student> sortList = service.sortScore();
+		
+		for(Student std : sortList) {
+			System.out.println(std);
 		}
 		
 	}

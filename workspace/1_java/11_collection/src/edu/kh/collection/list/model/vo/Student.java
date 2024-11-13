@@ -2,18 +2,23 @@ package edu.kh.collection.list.model.vo;
 
 import java.util.Objects;
 
-public class Student {
+// Comparable<Student> 인터페이스
+// -> Student 객체 정렬 기준을 정하기 위한 기능
+//	  compareTo()를 제공하는 인터페이스
 
-    private int grade;
-    private int ban;
-    private int number;
-    private String name;
-    private char gender;
-    private int score;
-	
-    public Student() {};
-    
-    public Student(int grade, int ban, int number, String name, char gender, int score) {
+public class Student implements Comparable<Student> {
+
+	private int grade;
+	private int ban;
+	private int number;
+	private String name;
+	private char gender;
+	private int score;
+
+	public Student() {
+	};
+
+	public Student(int grade, int ban, int number, String name, char gender, int score) {
 		super();
 		this.grade = grade;
 		this.ban = ban;
@@ -71,25 +76,82 @@ public class Student {
 		this.score = score;
 	}
 
-	
-	
 //	@Override
 //	public String toString() {
 //		return "Student [grade=" + grade + ", ban=" + ban + ", number=" + number + ", name=" + name + ", gender="
 //				+ gender + ", score=" + score + "]";
 //	}
-	
+
 	@Override
 	public String toString() {
 		return String.format("%s 학생(%c) : %d학년 %d반 %d번 / 점수: %d", name, gender, grade, ban, number, score);
-    
+
 	}
 
+
+//	@Override
+//	// A.equals(B)
+//	// A 객체와 B 객체가 가지고 있는 필드의 값이 모두 같으면 true, 아니면 false
+//	public boolean equals(Object obj) {
+//		if (this == obj)
+//			return true;
+//		if (obj == null)
+//			return false;
+//		if (getClass() != obj.getClass())
+//			return false;
+//		Student other = (Student) obj;
+//		return ban == other.ban && gender == other.gender && grade == other.grade && Objects.equals(name, other.name)
+//				&& number == other.number && score == other.score;
+//	}
+	
+	// (중요!!) equals()를 오버라이딩 했으면
+	// hashCode()도 오버라이딩을 해야한다!!
+	// hashCode() : 해시 테이블(객체 주소록)에서
+	//				객체를 빨리 찾아가게 하기 위한 번호
+	
+// 	*********************************************
+//	* A.equals(B)의 결과가 true 라면
+//	* A.hashCode() == B.hashCode() 의 결과도 true여야 한다. 
+// 	*********************************************
+	
+	
+//	@Override	// Object의 hashCode() 오버라이딩
+//	public int hashCode() {
+//		// 필드 값이 같은 객체는 같은 정수를 반환해야 한다. 
+//		// == 필드 값을 이용해서 정수를 만들면 된다. 
+//		
+//		int result = 1; // 결과 저장 변수
+//		
+//		final int PRIME = 31; // 31이 연산속도가 빠른 소수 중 하나
+//				// 소수
+//		
+//		result = result * PRIME * ban;
+//		
+//		result = result * PRIME * (name == null ? 0 : name.hashCode());
+//		
+//		return result;
+//		
+//		
+//		return Objects.hash(ban, gender, grade, name, number, score);
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(ban, gender, grade, name, number, score);
 	}
 
+	
+	
+	
+	
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -102,9 +164,31 @@ public class Student {
 		return ban == other.ban && gender == other.gender && grade == other.grade && Objects.equals(name, other.name)
 				&& number == other.number && score == other.score;
 	}
-    
-	// A.equals(B)
-	// A 객체와 B 객체가 가지고 있는 필드의 값이 모두 같으면 true, 아니면 false
+
+
+	
+
+	@Override
+	// 비교 기준을 제시하는 메소드
+	public int compareTo(Student o) {
+
+		// this : 현재 객체
+		// o : 비교 객체
+
+		return this.score - o.score;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 //	@Override
 //	public boolean equals(Object obj) {
@@ -133,5 +217,5 @@ public class Student {
 //				&& this.score == other.score ;
 //		
 //	}
-	
+
 }
