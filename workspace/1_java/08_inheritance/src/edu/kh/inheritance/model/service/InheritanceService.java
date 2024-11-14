@@ -111,6 +111,7 @@ public class InheritanceService {
 		
 		String str = "adc";
 		
+		
 		// * Object 상속과 단계적인 상속 확인
 		System.out.println(p.hashCode()); // Object 에서 물려 받은 hashCode()
 		System.out.println(std.getAge()); // Person 에서 물려 받은 getAge()
