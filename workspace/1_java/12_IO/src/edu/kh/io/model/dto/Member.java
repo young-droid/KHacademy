@@ -29,10 +29,6 @@ public class Member implements Serializable{
 		this.point = point;
 	}
 	
-	public Member(String id, String pw) {}
-	public Member(String pw, String id) {}
-	
-	
 	public String getId() {
 		return id;
 	}

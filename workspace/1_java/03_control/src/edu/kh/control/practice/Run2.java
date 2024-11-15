@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package edu.kh.control.practice;
 
 public class Run2 {
@@ -23,29 +22,3 @@ public class Run2 {
 		lp.practice13();
 	}
 }
-=======
-package edu.kh.control.practice;
-
-public class Run2 {
-
-	public static void main(String[] args) {
-		
-		LoopPractice lp = new LoopPractice();
-		
-//		lp.practice1(); 
-//		lp.practice2(); 
-//		lp.practice3(); 
-//		lp.practice3_cs(); 
-//		lp.practice4(); 
-//		lp.practice5(); 
-//		lp.practice6(); 
-//		lp.practice7(); 
-//		lp.practice8(); 
-//		lp.practice9(); 
-//		lp.practice10(); 
-//		lp.practice11();
-//		lp.practice12();
-		lp.practice13();
-	}
-}
->>>>>>> fa629db12ad3cbef6729f14311fd45817b469dee
