@@ -37,6 +37,7 @@ public class Sender implements Runnable {
 
 		while (true) {
 			try {
+				
 				out.writeUTF(name + " > " + sc.nextLine());
 				// UTF-8 형식의 문자열을 출력
 				// (자동 flush 처리)
