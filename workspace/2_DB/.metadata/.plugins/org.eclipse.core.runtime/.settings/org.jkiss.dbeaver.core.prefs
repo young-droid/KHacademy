@@ -1,8 +1,13 @@
 connection.closeOnSleep=true
+dataformat.profile.language=ko
+dataformat.type.date.pattern=yyyy-MM-dd HH\:mm\:ss
+dataformat.type.timestamp.pattern=yyyy-MM-dd HH\:mm\:ss
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 sample.database.canceled=true
 script.sql.delimiter.blank=ONLY_SEPARATOR
+sql.proposals.insert.table.alias=NONE
 swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1731910271555
+ui.auto.update.check.time=1731974601182
+ui.show.tip.of.the.day.on.startup=true

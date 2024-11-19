@@ -376,14 +376,7 @@ SELECT EMP_NAME, BONUS
 FROM EMPLOYEE 
 --ORDER BY BONUS ; -- NULLS LAST 기본값
 --ORDER BY BONUS DESC; -- NULLS FIRST 기본값
-ORDER BY BONUS NULLS FIRST; -- NULLS 를 먼저 출력한 뒤 기본값 오름차순 정렬
-
--- 정렬 중첩 (큰 분류를 먼저 정렬하고 내부에 작은 분류를 정렬)
--- EMPLOYEE 테이블에서 부서코드 오름차순 정렬 후 
--- 부서별 급여 내림차순 정렬
-SELECT EMP_NAME , DEPT_CODE , SALARY 
-FROM EMPLOYEE 
-ORDER BY DEPT_CODE , SALARY DESC; --> 정렬 중첩
+ORDER BY BONUS NULLS FIRST; -- NULLS FIRST 기본값
 
 
 

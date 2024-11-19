@@ -1,0 +1,59 @@
+/* SELECT (DML 또는 DQL) : 조회
+ * 
+ * - 데이터를 조회(SELECT)하면 조건에 맞는 행들이 조회됨
+ * -> 조회된 결과 행의 집합 == RESULT SET (결과 집합)
+ * 
+ * - RESULT SET은 0행 이상이 포함될 수 있다. 
+ * -> 조회 조건에 맞는 행이 없을 수도 있기 때문에 0행도 포함됨
+ * 
+ * */
+
+-- EMPLOYEE 테이블에서 모든 사원의 정보 조회
+-- '*' : ALL, 모든, 전부
+SELECT * FROM EMPLOYEE;
+
+-- SELECT 컬럼명 FROM 테이블
+-- EMPLOYEE 테이블에서 모든 사원의 이름만 조회
+SELECT EMP_NAME FROM EMPLOYEE;
+
+-- 테이블에서 모든 사원의 사번, 이름, 이메일, 급여 조회
+SELECT EMP_ID, EMP_NAME, EMAIL, SALARY FROM EMPLOYEE;
+
+-- DEPARTMENT 테이블에 있는 모든 행 조회
+SELECT * FROM DEPARTMENT; 
+
+
+----------------------------------------------------------------
+
+-- <컬럼 값 산술 연산>
+-- 컬럼 값 : 테이블의 한 칸(== 한 셀)에 적용된 값(data)
+
+-- SELECT문 작성 시 컬럼명에 산술 연산을 작성하면
+-- 조회되는 결과 컬럼 값에 산술 연산이 반영된다. 
+
+-- EMPLOYEE 테이블에서 모든 사원의 사번, 이름, 급여, 급여 + 100만을 조회
+SELECT EMP_ID, EMP_NAME, SALARY, SALARY + 1000000 SALARY_SUM
+FROM EMPLOYEE;
+
+SELECT EMP_NAME NAME, SALARY, SALARY*12 SALARY_YEARLY 
+FROM EMPLOYEE e;
+
+--------------------------------------------
+
+-- ** <오늘 날짜 조회> **
+SELECT SYSDATE FROM DUAL;
+
+-- SYSDATE 	: 시스템 상의 현재 날짜
+-- DUAL (DUmmy tAbLe): 더미 테이블(임시 테이블, 단순 조회 테이블)
+
+-- * DB는 날짜 데이터의 연산(+,-)이 가능하다 (일 단위) *
+
+SELECT SYSDATE, SYSDATE +1, SYSDATE -1 FROM DUAL;
+
+-- EMPLOYEE 테이블에서 이름, 입사일, 오늘까지 근무한 날짜 조회
+SELECT EMP_NAME, HIRE_DATE, (SYSDATE-HIRE_DATE) FROM EMPLOYEE e ;
+
+------------------------------------------------------
+
+-- <컬럼 별칭 지정>
+

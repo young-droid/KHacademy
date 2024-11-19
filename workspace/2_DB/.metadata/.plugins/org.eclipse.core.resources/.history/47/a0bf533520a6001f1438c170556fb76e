@@ -365,25 +365,10 @@ ORDER BY 2 DESC ; --> 2번째 컬럼을 내림차순
 -- 연봉 내림 차순
 SELECT EMP_NAME, SALARY * 12 연봉
 FROM EMPLOYEE 
---WHERE 연봉 >= 50000000 --> WHERE절 해석 순서가 별칭 해석 전이기 때문에 오류 발생
-WHERE SALARY*12 >= 50000000
---ORDER BY 연봉 DESC; --> 별칭 사용
-ORDER BY SALARY*12 DESC; --> 컬럼명 사용
-ORDER BY 2 DESC; --> 컬럼 순서 사용
+WHERE 연봉 > 50000000
+ORDER BY 연봉 DESC;
 
--- 보너스 정렬
-SELECT EMP_NAME, BONUS 
-FROM EMPLOYEE 
---ORDER BY BONUS ; -- NULLS LAST 기본값
---ORDER BY BONUS DESC; -- NULLS FIRST 기본값
-ORDER BY BONUS NULLS FIRST; -- NULLS 를 먼저 출력한 뒤 기본값 오름차순 정렬
 
--- 정렬 중첩 (큰 분류를 먼저 정렬하고 내부에 작은 분류를 정렬)
--- EMPLOYEE 테이블에서 부서코드 오름차순 정렬 후 
--- 부서별 급여 내림차순 정렬
-SELECT EMP_NAME , DEPT_CODE , SALARY 
-FROM EMPLOYEE 
-ORDER BY DEPT_CODE , SALARY DESC; --> 정렬 중첩
 
 
 

@@ -32,7 +32,7 @@ public class Receiver implements Runnable {
 				System.out.println(in.readUTF());
 				
 			}catch(Exception e) {
-				System.out.println("대화 상대가 없습니다......");
+				System.out.println("\n대화 상대가 없습니다......");
 				// 서버 또는 클라이언트 종료 시 입력 받을 수 없게 되면 예외 발생
 				break; // while문 종료
 			}
