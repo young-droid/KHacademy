@@ -9,5 +9,5 @@ script.sql.delimiter.blank=ONLY_SEPARATOR
 sql.proposals.insert.table.alias=NONE
 swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1731974601182
+ui.auto.update.check.time=1732060826072
 ui.show.tip.of.the.day.on.startup=true

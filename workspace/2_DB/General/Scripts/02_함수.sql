@@ -294,3 +294,125 @@ SELECT EMP_ID , EMP_NAME , SALARY ,
 FROM EMPLOYEE
 WHERE DEPT_CODE = 'D6'
 ORDER BY JOB_CODE;
+
+------------------------------------------------------
+/******** 그룹 함수 ********/
+-- 하나 이상의 행을 그룹으로 묶어 연산하여
+-- 총합, 평균 등의 하나의 결과 행으로 반환하는 함수
+
+-- SUM(숫자가 기록된 컬럼명) : 합계
+-- EMPLOYEE 테이블에서 모든 직원의 급여 합
+SELECT SUM(SALARY)
+FROM EMPLOYEE ;
+
+-- 부서코드가 'D9'인 직원들의 급여 합 조회
+SELECT SUM(SALARY) "D9의 합"
+FROM EMPLOYEE 
+WHERE DEPT_CODE = 'D9';
+
+-- AVG(숫자가 기록된 컬럼명) : 평균
+
+-- 전 직원 급여 평균
+SELECT AVG(SALARY)
+FROM EMPLOYEE ;
+
+
+-- MIN(컬럼명) : 최소값
+-- MAX(컬럼명) : 최대값
+--> 타입 제한 없음(숫자 : 대/소, 날짜 : 과거/미래, 문자열 : 문자 순서)
+
+-- 가장 낮은 급여, 가장 빠른 입사일, 알파벳 순서가 가장 빠른 이메일 조회
+SELECT MIN(SALARY) , MIN(HIRE_DATE) , MIN(EMAIL)
+FROM EMPLOYEE ;
+-- 그룹 함수는 여러 개를 동시 작성 가능
+-- 이 때, 결과는 각 그룹함수 별 독립된 결과
+
+-- 가장 높은 급여, 가장 늦은 입사일, 알파벳 순서가 가장 늦은 이메일
+SELECT MAX(SALARY) , MAX(HIRE_DATE) , MAX(EMAIL)
+FROM EMPLOYEE 
+WHERE EMP_NAME != '선동일';
+
+-- COUNT(* | 컬럼명) : 행 개수를 헤아려서 리턴
+-- COUNT([DISTINCT] 컬럼명) : 중복을 제거한 행 개수를 헤아려서 리턴
+-- COUNT(*) : NULL을 포함한 전체 행 개수를 리턴
+-- COUNT(컬럼명) : NULL을 제외한 실제 값이 기록된 행 개수를 리턴함
+
+-- EMPLOYEE 테이블 전체 행의 개수 == 전체 직원 수
+SELECT COUNT(*) FROM EMPLOYEE ;
+
+-- DEPT_CODE가 NULL이 아닌 행의 개수
+SELECT COUNT(DEPT_CODE) FROM EMPLOYEE ;
+-- 동일한 코드:
+SELECT COUNT(*) FROM EMPLOYEE 
+WHERE DEPT_CODE IS NOT NULL;
+
+-- EMPLOYEE 테이블의 남자 직원 수 조회
+SELECT COUNT(*) 
+FROM EMPLOYEE 
+WHERE SUBSTR(EMP_NO,8,1) = 1 ;
+
+SELECT COUNT(
+	CASE
+		WHEN SUBSTR(EMP_NO,8,1) = 1 THEN '남자'
+	END) 남자
+FROM EMPLOYEE ;
+
+SELECT SUM( DECODE (SUBSTR(EMP_NO,8,1), 1, 1)) 남자
+FROM EMPLOYEE ;
+
+-- EMPLOYEE 테이블에 있는 부서 개수
+SELECT COUNT(DISTINCT(DEPT_CODE)) "부서 수" FROM EMPLOYEE;	
+--> 7행의 결과가 있지만 1행이 NULL이기 때문에 COUNT 시 제외되어 6행 조회됨
+
+--------------------------------------------------------
+
+-- 연습 문제 --
+-- EMPLOYEE 테이블에서 사원명, 입사일-오늘, 오늘-입사일 조회
+-- 단, 입사일-오늘의 별칭은 "근무일수1", 
+-- 오늘-입사일의 별칭은 "근무일수2"로 하고
+-- 모두 정수(내림)처리, 양수가 되도록 처리
+SELECT EMP_NAME , 
+	FLOOR(ABS(HIRE_DATE - SYSDATE) ) "근무일수1", 
+	FLOOR(SYSDATE - HIRE_DATE) "근무일수2" 
+FROM EMPLOYEE ;
+
+-- EMPLOYEE 테이블에서 사번이 홀수인 직원들의 정보 모두 조회
+SELECT * FROM EMPLOYEE 
+--WHERE MOD(EMP_ID,2 ) = 1;
+WHERE SUBSTR(EMP_ID, -1, 1) IN (1,3,5,7,9);
+
+-- EMPLOYEE 테이블에서 근무 년수가 20년 이상인 직원 정보 조회
+SELECT * FROM EMPLOYEE 
+--WHERE (SYSDATE - HIRE_DATE)/365 >= 20;
+WHERE EXTRACT(YEAR FROM SYSDATE) - EXTRACT(YEAR FROM HIRE_DATE) >= 20;
+
+-- EMPLOYEE 테이블에서
+-- 직원명과 주민번호를 조회
+-- 단, 주민번호 9번째 자리부터 끝까지는 '*'문자로 채움
+-- 예 : 홍길동 771120-1******
+SELECT EMP_NAME 직원명, SUBSTR(EMP_NO , 1, 8)||'******' AS 주민등록번호
+FROM EMPLOYEE ; 
+
+-- EMPLOYEE 테이블에서
+-- 직원명, 직급코드, 연봉(원) 조회
+-- 단, 연봉은 보너스가 적용된 1년치 급여 + ￦57,000,000 으로 표시
+SELECT EMP_NAME , DEPT_CODE , 
+	   TO_CHAR(SALARY*(1+NVL(BONUS,0))*12, 'L999,999,999') 연봉
+FROM EMPLOYEE ;
+
+-- EMPLOYEE 테이블에서
+-- 부서코드가 D5, D9인 직원들 중에서 2004년도에 입사한 직원의 
+-- 사번 사원명 부서코드 입사일 조회
+SELECT EMP_ID 사번, EMP_NAME 사원명, DEPT_CODE 부서코드, TO_CHAR(HIRE_DATE , 'YYYY-MM-DD')입사일
+FROM EMPLOYEE
+WHERE DEPT_CODE IN ('D5', 'D9') 
+--	AND HIRE_DATE LIKE '04%';
+	AND EXTRACT(YEAR FROM HIRE_DATE) = 2004;
+
+-- EMPLOYEE 테이블에서 
+-- 직원명, 입사일, 입사한 달의 근무일수 조회
+-- 단, 입사한 날도 근무일수에 포함해서 +1 할 것
+SELECT EMP_NAME , HIRE_DATE , LAST_DAY(HIRE_DATE)-HIRE_DATE+1 "입사한 달의 근무일수"
+FROM EMPLOYEE ; 
+
+

@@ -1,0 +1,74 @@
+2024-11-20 09:00:12.578 - DBeaver 24.2.4.202411031831 is starting
+2024-11-20 09:00:12.578 - OS: Windows 10 10.0 (amd64)
+2024-11-20 09:00:12.578 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-11-20 09:00:12.579 - Install path: 'C:\Program Files\DBeaver'
+2024-11-20 09:00:12.579 - Instance path: 'file:/D:/KHacademy/workspace/2_DB/'
+2024-11-20 09:00:12.580 - Memory available 64Mb/1024Mb
+2024-11-20 09:00:12.591 - Create display
+2024-11-20 09:00:12.735 - Starting instance server at http://localhost:61763
+2024-11-20 09:00:12.750 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.500.v20240807-0911]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.600.v20240606-1020]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.400.v20240321-1245]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.400.v20240424-0444]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.38.0.v20240721-0634]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.500.v20240620-1945]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.500.v20240727-1037]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start Default Text Editor [org.eclipse.ui.editors 3.18.0.v20240807-0735]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.18.0.v20240819-1419]
+2024-11-20 09:00:20.498 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.132.202411031831]
+2024-11-20 09:00:20.622 - Total database drivers: 120 (120)
+> Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
+2024-11-20 09:00:20.697 - Create actions
+2024-11-20 09:00:20.701 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-11-20 09:00:20.702 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-11-20 09:00:20.702 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-11-20 09:00:20.702 - Create workbench actions
+2024-11-20 09:00:21.132 - Initialize workbench window
+2024-11-20 09:00:21.137 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.142.202411031831]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.142.202411031831]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.118.202411031831]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.500.v20240524-2010]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.500.v20240625-1706]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.179.202411031831]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.148.202411031831]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.17.0.202409021815]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.19.0.202409021815]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.102.202411031831]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.102.202411031831]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.139.202411031831]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.35.202411031831]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.227.202411031831]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.133.202411031831]
+> Start Console [org.eclipse.ui.console 3.14.100.v20240429-1358]
+> Start Debug Core [org.eclipse.debug.core 3.21.500.v20240801-2219]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.120.202411031831]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.129.202411031831]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.120.202411031831]
+2024-11-20 09:00:24.717 - Connect with 'sys 관리자 계정' (oracle_thin-1933de64842-196500cba65b8b2)
+2024-11-20 09:00:24.757 - Execution context opened (sys 관리자 계정; Main; 0)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.37.202411031831]
+2024-11-20 09:00:25.356 - Execution context opened (sys 관리자 계정; Metadata; 1)
+2024-11-20 09:00:25.480 - Connected (oracle_thin-1933de64842-196500cba65b8b2, Oracle JDBC driver [21.5.0.0.0])
+2024-11-20 09:00:25.485 - Execution context opened (sys 관리자 계정; SQLEditor <00_사용자계정생성.sql>; 2)
+2024-11-20 09:00:26.074 - Open [https://dbeaver.io/product/version.xml]
+2024-11-20 09:01:21.179 - Connect with 'KH_CYJ 사용자 계정' (oracle_thin-1933df61afb-479409d37091b205)
+2024-11-20 09:01:21.180 - Execution context opened (KH_CYJ 사용자 계정; Main; 3)
+2024-11-20 09:01:21.238 - Execution context opened (KH_CYJ 사용자 계정; Metadata; 4)
+2024-11-20 09:01:21.298 - Connected (oracle_thin-1933df61afb-479409d37091b205, Oracle JDBC driver [21.5.0.0.0])
+2024-11-20 09:01:21.312 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <02_함수.sql>; 5)
+2024-11-20 09:09:14.067 - Execution context closed (sys 관리자 계정, 2)
+2024-11-20 09:09:14.111 - Execution context closed (KH_CYJ 사용자 계정, 5)
+2024-11-20 09:09:14.285 - Dispose navigator model
+2024-11-20 09:09:14.323 - DBeaver is stopping
+2024-11-20 09:09:14.324 - Stop instance server
+2024-11-20 09:09:15.336 - DBeaver shutdown completed
