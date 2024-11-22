@@ -182,7 +182,7 @@ FROM EMPLOYEE;
 SELECT SYSDATE, TO_CHAR(SYSDATE, 'DY AM HH24:MI:SS') FROM DUAL;
 
 -- 직원들의 입사일을 '2024년 11월 06일 (수)' 형식으로 출력 
-SELECT EMP_NAME , TO_CHAR(HIRE_DATE , 'YYYY"년" MM"월" DD"일" (DY)') 
+SELECT EMP_NAME , TO_CHAR(SYSDATE, 'YYYY"년" MM"월" DD"일" (DY)') 
 FROM EMPLOYEE ;
 --> 년, 월,일은 오라클에 등록된 날짜 표기 패턴이 아니라서 오류
 --> 기존에 없던 패턴 추가 시 ""(쌍따옴표)로 감싸줘서 문자열 그대로 출력하게 함

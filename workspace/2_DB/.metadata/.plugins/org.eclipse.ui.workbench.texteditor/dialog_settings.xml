@@ -3,6 +3,13 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="NVL"/>
+		<item value="STR2"/>
+		<item value="ROLL"/>
+		<item value="STR"/>
+		<item value="NOT NULL"/>
+		<item value="NOT ULL"/>
+		<item value="year"/>
 		<item value="날짜"/>
 		<item value="31"/>
 		<item value="원화"/>

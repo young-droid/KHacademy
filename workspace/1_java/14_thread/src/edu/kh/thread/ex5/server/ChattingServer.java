@@ -21,7 +21,7 @@ public class ChattingServer {
 		String serverName = sc.nextLine();
 
 		// 1. 포트 번호 지정
-		int port = 12345;
+		int port = 12345; 
 
 		ServerSocket serverSocket = null;
 		Socket clientSocket = null;
