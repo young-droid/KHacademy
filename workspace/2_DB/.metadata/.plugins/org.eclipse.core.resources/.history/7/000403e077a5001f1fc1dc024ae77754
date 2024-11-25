@@ -1,8 +1,0 @@
--- 한 줄 주석 ctrl + /
-/* 범위 주석 ctrl + shift + / */
-
-
-ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE; 
-
-CREATE USER KH_CYJ IDENTIFIED BY KH1234;
-
