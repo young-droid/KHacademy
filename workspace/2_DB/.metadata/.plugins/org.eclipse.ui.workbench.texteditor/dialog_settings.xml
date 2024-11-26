@@ -3,6 +3,10 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="join"/>
+		<item value="left join"/>
+		<item value="숫자"/>
+		<item value="다중열"/>
 		<item value="교차"/>
 		<item value="곱집"/>
 		<item value="SELF"/>
@@ -14,10 +18,6 @@
 		<item value="NOT NULL"/>
 		<item value="NOT ULL"/>
 		<item value="year"/>
-		<item value="날짜"/>
-		<item value="31"/>
-		<item value="원화"/>
-		<item value="|"/>
 	</list>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="724"/>

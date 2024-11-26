@@ -1,0 +1,61 @@
+---- *** DML(Data Manipulation Language) : 데이터 조작 언어
+
+-- 테이블에 값을 삽입하거나(INSERT), 수정하거나(UPDATE), 삭제(DELETE)하는 구문
+
+-- 주의 : 혼자서 COMMIT, ROLLBACK 하지 말것! 
+
+-- 테스트용 테이블 생성
+CREATE TABLE EMPLOYEE2 AS SELECT * FROM EMPLOYEE ; 
+CREATE TABLE DEPARTMENT2 AS SELECT * FROM DEPARTMENT ; 
+
+------------------------------------------------------------
+
+-- 1. INSERT
+
+-- 테이블에 새로운 행을 추가하는 구문
+SELECT * FROM EMPLOYEE2;
+
+-- 1)  INSERT INTO 테이블명 VALUES(데이터, 데이터, ...)
+-- 테이블에 모든 컬럼에 대한 값을 INSERT할 때 사용
+-- INSERT하고자 하는 컬럼이 모든 컬럼인 경우 컬럼명 생략 가능. 
+-- 단, 컬럼의 순서를 지켜서 VALUES에 값을 기입해야 함
+INSERT INTO EMPLOYEE2
+VALUES(900, '홍길동', '881126-1234567', 'hong_gd@kh.or.kr', '01012341234',
+		'D1', 'J4', 'S6', 5000000, 0.3, 200, SYSDATE, NULL, 'N');
+
+ROLLBACK;
+-----------------------------------------------------------------------------
+-- 2) INSERT INTO 테이블명(컬럼명, 컬럼명, 컬럼명, ...)
+-- VALUES (데이터1, 데이터2, 데이터3, ...)
+-- 테이블에 내가 선택한 컬럼에 대한 값만 INSERT 할 때 사용
+-- 선택안된 컬럼은 값이 NULL이 들어감
+
+INSERT INTO EMPLOYEE2(EMP_ID, EMP_NAME,EMP_NO,EMAIL,PHONE,
+					  DEPT_CODE,JOB_CODE,SAL_LEVEL,SALARY)
+VALUES(999,'김수한무','971128-1234567','LSHM@GGG.COM','01000002222',
+		'D3', 'J2', 'S3', 3000000);
+
+COMMIT; -- 수행된 DML 결과를 DB에 반영
+ROLLBACK; -- 마지막 COMMIT 시점으로 돌아감
+
+----------------------------------------------------------------------------
+
+CREATE TABLE EMP_01(
+	EMP_ID NUMBER,
+	EMP_NAME VARCHAR2(30),
+	DEPT_TITLE VARCHAR2(20)
+);
+
+-- (참고) INSERT 시 VALUES 대신 서브쿼리 사용 가능
+
+-- EMP_ID, EMP_NAME, DEPT_TITLE 조회
+SELECT EMP_ID, EMP_NAME, DEPT_TITLE
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID);
+
+-- 서브쿼리(SQL 내부에 포함된 SELECT문)를 이용한 데이터 삽입 (VALUES 생략)
+INSERT INTO EMP_01 (SELECT EMP_ID, EMP_NAME, DEPT_TITLE
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID));
+
+SELECT * FROM EMP_01;

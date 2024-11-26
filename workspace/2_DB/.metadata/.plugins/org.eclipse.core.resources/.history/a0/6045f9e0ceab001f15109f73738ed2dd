@@ -311,9 +311,9 @@ WHERE ENT_DATE IS NOT NULL AND SUBSTR(EMP_NO,8,1) = 2 ;
 SELECT EMP_NAME , JOB_CODE , DEPT_CODE , HIRE_DATE 
 FROM EMPLOYEE 
 WHERE (DEPT_CODE , JOB_CODE )= (SELECT DEPT_CODE , JOB_CODE 
-								FROM EMPLOYEE 
-								WHERE ENT_YN = 'Y'
-								AND SUBSTR(EMP_NO,8,1) = 2 );
+							FROM EMPLOYEE 
+							WHERE ENT_YN = 'Y'
+							AND SUBSTR(EMP_NO,8,1) = 2 );
 							
 ------------------------------------------------------------
 						
@@ -338,11 +338,12 @@ GROUP BY JOB_CODE;
 SELECT EMP_ID , EMP_NAME , JOB_CODE , SALARY 
 FROM EMPLOYEE 
 WHERE (JOB_CODE , SALARY) IN (SELECT JOB_CODE , TRUNC(AVG(SALARY), -4)
-								FROM EMPLOYEE
+								FROM EMPLOYEE 
 								GROUP BY JOB_CODE) ;
 
-
-
+							
+							
+							
 ----------------------------------------------------------------------------
 							
 -- 5. 상[호연]관 서브쿼리 (메인 쿼리 1행씩 우선 해석, 서브쿼리 나중에 해석)
