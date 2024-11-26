@@ -3,6 +3,8 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="SAVE"/>
+		<item value="HAVING"/>
 		<item value="join"/>
 		<item value="left join"/>
 		<item value="숫자"/>
@@ -16,8 +18,6 @@
 		<item value="ROLL"/>
 		<item value="STR"/>
 		<item value="NOT NULL"/>
-		<item value="NOT ULL"/>
-		<item value="year"/>
 	</list>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="724"/>

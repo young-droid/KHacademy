@@ -1,0 +1,138 @@
+!SESSION 2024-11-26 17:19:43.196 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko
+Framework arguments:  -eclipse.keyring C:\Users\user1\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2024-11-26 17:19:56.572
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-11-26 17:35:47.077
+!MESSAGE No active connection
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-11-26 17:36:57.326
+!MESSAGE SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+Error position: line: 420 pos: 14
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-11-26 17:36:57.326
+!MESSAGE SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-11-26 17:36:57.326
+!MESSAGE Error : 942, Position : 14, Sql = SELECT * FROM EMP2, OriginalSql = SELECT * FROM EMP2, Error Msg = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+!STACK 0
+Error : 942, Position : 14, Sql = SELECT * FROM EMP2, OriginalSql = SELECT * FROM EMP2, Error Msg = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:969)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-11-26 17:39:56.912
+!MESSAGE No active connection
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-11-26 17:40:52.308
+!MESSAGE SQL Error [3001] [0A000]: ORA-03001: 현재에는 구현되어 있지 않은 기능입니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-11-26 17:40:52.308
+!MESSAGE Error : 3001, Position : 10, Sql = SAVEPOINT 'SP1', OriginalSql = SAVEPOINT 'SP1', Error Msg = ORA-03001: 현재에는 구현되어 있지 않은 기능입니다
+
+!STACK 0
+Error : 3001, Position : 10, Sql = SAVEPOINT 'SP1', OriginalSql = SAVEPOINT 'SP1', Error Msg = ORA-03001: 현재에는 구현되어 있지 않은 기능입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-11-26 17:41:28.701
+!MESSAGE SQL Error [2181] [42000]: ORA-02181: ROLLBACK WORK 옵션이 부적합합니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-11-26 17:41:28.701
+!MESSAGE Error : 2181, Position : 32, Sql = -- SP1까지 ROLLBACK
+ROLLBACK SP1, OriginalSql = -- SP1까지 ROLLBACK
+ROLLBACK SP1, Error Msg = ORA-02181: ROLLBACK WORK 옵션이 부적합합니다
+
+!STACK 0
+Error : 2181, Position : 32, Sql = -- SP1까지 ROLLBACK
+ROLLBACK SP1, OriginalSql = -- SP1까지 ROLLBACK
+ROLLBACK SP1, Error Msg = ORA-02181: ROLLBACK WORK 옵션이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

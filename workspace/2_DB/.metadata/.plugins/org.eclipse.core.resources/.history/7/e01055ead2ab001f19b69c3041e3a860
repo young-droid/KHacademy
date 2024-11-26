@@ -240,7 +240,6 @@ DELETE FROM EMPLOYEE2 WHERE EMP_NAME = '홍길동';
 DELETE FROM EMPLOYEE2 ;
 ROLLBACK;
 
-
 ------------------------------------------------------------------------
 
 -- 5. TRUNCATE (DDL임!!! DML 아님)
