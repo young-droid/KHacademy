@@ -1,0 +1,590 @@
+2024-11-26 17:19:47.539 - DBeaver 24.2.4.202411031831 is starting
+2024-11-26 17:19:47.539 - OS: Windows 10 10.0 (amd64)
+2024-11-26 17:19:47.539 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-11-26 17:19:47.539 - Install path: 'C:\Program Files\DBeaver'
+2024-11-26 17:19:47.540 - Instance path: 'file:/D:/KHacademy/workspace/2_DB/'
+2024-11-26 17:19:47.541 - Memory available 64Mb/1024Mb
+2024-11-26 17:19:47.546 - Create display
+2024-11-26 17:19:47.686 - Starting instance server at http://localhost:54811
+2024-11-26 17:19:47.692 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.500.v20240807-0911]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.600.v20240606-1020]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.400.v20240321-1245]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.400.v20240424-0444]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.38.0.v20240721-0634]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.500.v20240620-1945]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.500.v20240727-1037]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start Default Text Editor [org.eclipse.ui.editors 3.18.0.v20240807-0735]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.18.0.v20240819-1419]
+2024-11-26 17:19:54.841 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.132.202411031831]
+2024-11-26 17:19:54.962 - Total database drivers: 120 (120)
+> Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
+2024-11-26 17:19:55.031 - Create actions
+2024-11-26 17:19:55.036 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-11-26 17:19:55.036 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-11-26 17:19:55.036 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-11-26 17:19:55.037 - Create workbench actions
+2024-11-26 17:19:55.345 - Initialize workbench window
+2024-11-26 17:19:55.349 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.142.202411031831]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.142.202411031831]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.118.202411031831]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.500.v20240524-2010]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.500.v20240625-1706]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.179.202411031831]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.148.202411031831]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.17.0.202409021815]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.19.0.202409021815]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.102.202411031831]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.102.202411031831]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.139.202411031831]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.35.202411031831]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.227.202411031831]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.133.202411031831]
+> Start Console [org.eclipse.ui.console 3.14.100.v20240429-1358]
+> Start Debug Core [org.eclipse.debug.core 3.21.500.v20240801-2219]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.120.202411031831]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.129.202411031831]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.120.202411031831]
+2024-11-26 17:19:57.769 - Connect with 'workbook 사용자계정' (oracle_thin-19347f87990-31a880d6e02ac32d)
+2024-11-26 17:19:57.794 - Execution context opened (workbook 사용자계정; Main; 0)
+2024-11-26 17:19:58.192 - Execution context opened (workbook 사용자계정; Metadata; 1)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.37.202411031831]
+2024-11-26 17:19:58.303 - Connected (oracle_thin-19347f87990-31a880d6e02ac32d, Oracle JDBC driver [21.5.0.0.0])
+2024-11-26 17:19:58.305 - Execution context opened (workbook 사용자계정; SQLEditor <EX_SELECTION-OPTION.sql>; 2)
+2024-11-26 17:19:58.439 - Error while analyzing query text: -- 13. 
+SELECT CLASS_NAME , DEPARTMENT_NAME
+FROM TB_CLASS 
+LEFT JOIN TB_CLASS_PROFESSOR USING (CLASS_NO)
+JOIN TB_DEPARTMENT USING (DEPARTMENT_NO)
+WHERE CATEGORY = '예체능' AND PROFESSOR_NO IS NULL
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:90)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:19:58.533 - Error while analyzing query text: -- 14. 
+SELECT ENTRANCE_DATE,STUDENT_NAME "학생이름", NVL(PROFESSOR_NAME, '지도교수 미지정') "지도교수"
+FROM TB_STUDENT 
+LEFT JOIN TB_DEPARTMENT USING (DEPARTMENT_NO)
+LEFT JOIN TB_PROFESSOR ON (COACH_PROFESSOR_NO = PROFESSOR_NO)
+WHERE DEPARTMENT_NAME = '서반아어학과'
+ORDER BY ENTRANCE_DATE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:90)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:19:58.676 - Error while analyzing query text: -- 15. **** 진행중
+SELECT STUDENT_NO 학번, STUDENT_NAME 이름, DEPARTMENT_NAME "학과 이름", ROUND(AVG(POINT), 8) 평점 
+FROM TB_STUDENT 
+JOIN TB_DEPARTMENT USING(DEPARTMENT_NO) 
+JOIN TB_GRADE USING(STUDENT_NO)
+WHERE ABSENCE_YN = 'N' 
+GROUP BY STUDENT_NO, STUDENT_NAME, DEPARTMENT_NAME 
+HAVING AVG(POINT) >= 4.0 
+ORDER BY STUDENT_NO
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:90)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:19:59.590 - Open [https://dbeaver.io/product/version.xml]
+2024-11-26 17:20:00.136 - Error while analyzing query text: -- 13. 
+SELECT CLASS_NAME , DEPARTMENT_NAME
+FROM TB_CLASS 
+LEFT JOIN TB_CLASS_PROFESSOR USING (CLASS_NO)
+JOIN TB_DEPARTMENT USING (DEPARTMENT_NO)
+WHERE CATEGORY = '예체능' AND PROFESSOR_NO IS NULL
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:90)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:20:00.164 - Error while analyzing query text: -- 14. 
+SELECT ENTRANCE_DATE,STUDENT_NAME "학생이름", NVL(PROFESSOR_NAME, '지도교수 미지정') "지도교수"
+FROM TB_STUDENT 
+LEFT JOIN TB_DEPARTMENT USING (DEPARTMENT_NO)
+LEFT JOIN TB_PROFESSOR ON (COACH_PROFESSOR_NO = PROFESSOR_NO)
+WHERE DEPARTMENT_NAME = '서반아어학과'
+ORDER BY ENTRANCE_DATE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:90)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:20:00.182 - Error while analyzing query text: -- 15. **** 진행중
+SELECT STUDENT_NO 학번, STUDENT_NAME 이름, DEPARTMENT_NAME "학과 이름", ROUND(AVG(POINT), 8) 평점 
+FROM TB_STUDENT 
+JOIN TB_DEPARTMENT USING(DEPARTMENT_NO) 
+JOIN TB_GRADE USING(STUDENT_NO)
+WHERE ABSENCE_YN = 'N' 
+GROUP BY STUDENT_NO, STUDENT_NAME, DEPARTMENT_NAME 
+HAVING AVG(POINT) >= 4.0 
+ORDER BY STUDENT_NO
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:90)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:21:16.707 - Error while analyzing query text: -- 12.
+SELECT STUDENT_NAME, TERM_NO "TERM_NAME"
+FROM TB_GRADE 
+JOIN TB_STUDENT USING (STUDENT_NO)
+JOIN TB_CLASS USING (CLASS_NO)
+WHERE CLASS_NAME = '인간관계론' AND TERM_NO LIKE '2007%'
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:90)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:22:38.203 - Connect with 'KH_CYJ 사용자 계정' (oracle_thin-1933df61afb-479409d37091b205)
+2024-11-26 17:22:38.204 - Execution context opened (KH_CYJ 사용자 계정; Main; 3)
+2024-11-26 17:22:38.262 - Execution context opened (KH_CYJ 사용자 계정; Metadata; 4)
+2024-11-26 17:22:38.333 - Connected (oracle_thin-1933df61afb-479409d37091b205, Oracle JDBC driver [21.5.0.0.0])
+2024-11-26 17:22:38.347 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <05_SUBQUERY.sql>; 5)
+2024-11-26 17:22:39.337 - Error while analyzing query text: -- 3) 대리 직급의 직원들 중에서 과장 직급의 최소 급여보다 많이 받는 직원
+-- 3-1) MIN을 이용하여 단일행 서브쿼리 만들기
+SELECT EMP_ID , EMP_NAME , JOB_NAME , SALARY 
+FROM EMPLOYEE 
+JOIN JOB USING (JOB_CODE)
+WHERE JOB_NAME = '대리' 
+	AND SALARY >(SELECT MIN(SALARY ) 
+				FROM EMPLOYEE 
+				JOIN JOB USING (JOB_CODE)
+				WHERE JOB_NAME = '과장')
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:22:39.351 - Error while analyzing query text: -- 3-2) ANY를 이용하여 과장 중 가장 급여가 적은 직원을 초과하는 대리 조회
+SELECT EMP_ID , EMP_NAME , JOB_NAME , SALARY 
+FROM EMPLOYEE 
+JOIN JOB USING (JOB_CODE)
+WHERE JOB_NAME = '대리' 
+	AND SALARY > ANY (SELECT SALARY
+				FROM EMPLOYEE 
+				JOIN JOB USING (JOB_CODE)
+				WHERE JOB_NAME = '과장')
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:22:39.364 - Error while analyzing query text: -- A > ANY B : A가 B의 결과 중 하나라도 크면 TRUE
+				--> A가 B의 최소값 보다 큰 경우
+			
+-- A < ANY B : A가 B의 결과 중 하나라도 작으면 TRUE
+				--> A가 B의 최대값 보다 작은 경우
+			
+-- 차장 직급의 급여의 가장 큰 값 보다 많이 받는 과장 직급의 직원
+			-- 사번, 이름, 직급명, 급여를 조회
+--> < ALL 혹은 > ALL 연산자 사용
+			
+SELECT EMP_ID ,EMP_NAME ,JOB_CODE , SALARY 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE)
+WHERE JOB_NAME = '과장'
+	AND SALARY > ALL (SELECT SALARY 
+					FROM EMPLOYEE 
+					JOIN JOB USING(JOB_CODE)
+					WHERE JOB_NAME = '차장')
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:22:41.601 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:22:45.483 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <01_SELECT.sql>; 6)
+2024-11-26 17:23:04.365 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:04.374 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:04.377 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:04.377 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:04.392 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:04.408 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:04.408 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:04.426 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.034 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.043 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.051 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.060 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.069 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.078 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.086 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.095 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.103 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.111 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.120 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:05.129 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.138 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.146 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.153 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.153 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.169 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.169 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.184 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.184 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.200 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.200 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.219 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.228 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.236 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.245 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.253 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:30.273 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:23:33.988 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <04_JOIN.sql>; 7)
+2024-11-26 17:23:37.469 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <03_GROUPBY_HAVING.sql>; 8)
+2024-11-26 17:23:37.891 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:25:46.570 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <02_함수.sql>; 9)
+2024-11-26 17:25:52.805 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:25:52.813 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:25:52.821 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:25:52.829 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:28:20.335 - Error while analyzing query text: -- 2) 연결에 사용할 두 컬럼명이 같은 경우
+-- EMPLOYEE 테이블, JOB 테이블을 참조하여
+-- 사번, 이름, 직급코드, 직급명 조회
+
+-- ANSI
+SELECT EMP_ID, EMP_NAME, JOB_CODE, JOB_NAME
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE)
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 17:28:29.078 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:28:29.093 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:30:21.108 - Search condition or value expression expected while facing with valueReference
+2024-11-26 17:30:21.108 - Search condition or value expression expected while facing with valueReference
+2024-11-26 17:31:28.159 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:31:28.167 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:31:30.774 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:31:30.782 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+> Start Search Support [org.eclipse.search 3.16.300.v20240620-1945]
+2024-11-26 17:32:06.722 - Can't get column 'PLUGGED_IN': 부적합한 열 이름
+> Start Search Support Core [org.eclipse.search.core 3.16.300.v20240708-0708]
+2024-11-26 17:32:18.277 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:32:18.286 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:32:19.784 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:32:19.797 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:35:47.076 - No active connection
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.126.202411031831]
+2024-11-26 17:36:35.179 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:35.188 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:36.302 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:36.313 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:36.322 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:36.329 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:39.865 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:39.876 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:39.884 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:39.892 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:42.933 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:42.950 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:47.434 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:47.443 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:49.086 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:49.095 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:54.386 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:54.394 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:57.322 - SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+
+Error position: line: 420 pos: 14
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [942] [42000]: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:969)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 12 more
+Caused by: Error : 942, Position : 14, Sql = SELECT * FROM EMP2, OriginalSql = SELECT * FROM EMP2, Error Msg = ORA-00942: 테이블 또는 뷰가 존재하지 않습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 28 more
+2024-11-26 17:36:57.431 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:57.440 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:57.449 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:36:57.457 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:37:00.007 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:37:00.018 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:37:00.026 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:37:00.035 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:37:00.043 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:37:00.044 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:38:51.148 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:38:51.168 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:38:51.181 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:38:51.191 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:39:16.313 - Execution context closed (KH_CYJ 사용자 계정, 8)
+2024-11-26 17:39:18.314 - Execution context closed (KH_CYJ 사용자 계정, 7)
+2024-11-26 17:39:20.254 - Execution context closed (KH_CYJ 사용자 계정, 6)
+2024-11-26 17:39:22.143 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:39:24.006 - Execution context closed (KH_CYJ 사용자 계정, 9)
+2024-11-26 17:39:56.912 - No active connection
+2024-11-26 17:40:02.042 - Execution context opened (workbook 사용자계정; SQLEditor <07_TCL.sql>; 10)
+2024-11-26 17:40:03.676 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <07_TCL.sql>; 11)
+2024-11-26 17:40:03.697 - Execution context closed (workbook 사용자계정, 10)
+2024-11-26 17:40:52.307 - SQL Error [3001] [0A000]: ORA-03001: 현재에는 구현되어 있지 않은 기능입니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [3001] [0A000]: ORA-03001: 현재에는 구현되어 있지 않은 기능입니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-03001: 현재에는 구현되어 있지 않은 기능입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 12 more
+Caused by: Error : 3001, Position : 10, Sql = SAVEPOINT 'SP1', OriginalSql = SAVEPOINT 'SP1', Error Msg = ORA-03001: 현재에는 구현되어 있지 않은 기능입니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 26 more
+2024-11-26 17:40:52.572 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:40:52.581 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:40:52.588 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:40:52.596 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:40:57.412 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:41:28.700 - SQL Error [2181] [42000]: ORA-02181: ROLLBACK WORK 옵션이 부적합합니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [2181] [42000]: ORA-02181: ROLLBACK WORK 옵션이 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-02181: ROLLBACK WORK 옵션이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 12 more
+Caused by: Error : 2181, Position : 32, Sql = -- SP1까지 ROLLBACK
+ROLLBACK SP1, OriginalSql = -- SP1까지 ROLLBACK
+ROLLBACK SP1, Error Msg = ORA-02181: ROLLBACK WORK 옵션이 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 26 more
+2024-11-26 17:41:28.957 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:41:28.966 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:41:28.973 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:41:28.981 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:41:45.096 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:46:23.475 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <06_DML(INSERT,UPDATE,DELETE).sql>; 12)
+2024-11-26 17:46:23.543 - Datasource oracle_thin-19348b50cf2-1540138c5bf99fbb not found in project General (/General/Scripts/Script.sql)
+2024-11-26 17:46:23.874 - Execution context closed (workbook 사용자계정, 2)
+2024-11-26 17:46:23.918 - Execution context closed (KH_CYJ 사용자 계정, 5)
+2024-11-26 17:46:23.962 - Execution context closed (KH_CYJ 사용자 계정, 12)
+2024-11-26 17:46:24.018 - Execution context closed (KH_CYJ 사용자 계정, 11)
+2024-11-26 17:46:24.154 - Dispose navigator model
+2024-11-26 17:46:24.177 - DBeaver is stopping
+2024-11-26 17:46:24.179 - Stop instance server
+2024-11-26 17:46:25.187 - Instance server has been stopped
+2024-11-26 17:46:25.187 - DBeaver shutdown completed

@@ -3,6 +3,9 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="제약 조건 확인"/>
+		<item value="제약조건 확인"/>
+		<item value="FOREIGN"/>
 		<item value="SAVE"/>
 		<item value="HAVING"/>
 		<item value="join"/>
@@ -15,9 +18,6 @@
 		<item value="NATURAL"/>
 		<item value="NVL"/>
 		<item value="STR2"/>
-		<item value="ROLL"/>
-		<item value="STR"/>
-		<item value="NOT NULL"/>
 	</list>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="724"/>

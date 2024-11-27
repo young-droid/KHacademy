@@ -83,20 +83,15 @@ COMMIT;
 
 -- EMPLOYEE2 테이블에서 보너스를 받지 않는 사원의 
 -- BONUS를 0.1로 변경
+
 UPDATE EMPLOYEE2
 SET BONUS = 0.1 
-WHERE BONUS IS NULL;  
+WHERE BONUS IS NULL;
 
 SELECT * FROM EMPLOYEE2;
 
 -- * 여러 컬럼을 한번에 수정할 시 콤마(,)로 컬럼을 구분
 -- 'D9', 전략기획팀 -> 'D0', 전략기획2팀 으로 수정
-UPDATE DEPARTMENT2 
-SET DEPT_ID = 'D8', DEPT_TITLE = '전략기획2팀'
-WHERE DEPT_ID = 'D8';
-ROLLBACK;
-SELECT * FROM DEPARTMENT2 ;
-
 UPDATE DEPARTMENT2
 SET DEPT_ID = 'D0', DEPT_TITLE = '전략기획2팀'
 WHERE DEPT_ID = 'D9'
