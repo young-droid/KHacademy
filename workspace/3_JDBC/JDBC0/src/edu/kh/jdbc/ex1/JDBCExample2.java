@@ -5,10 +5,17 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Scanner;
 
-public class JDBCExample1 {
-
+public class JDBCExample2 {
 	public static void main(String[] args) {
+		
+
+		
+		// 입력 받은 급여보다 많이 받는 사원의
+		// 사번, 이름, 급여, 직급명을 급여 내림차순 조회
+		
+
 		// JDBC : java가 DB와 연결할 수 있게 해주는 java API
 		// [1단계] : JDBC 객체 참조 변수 선언 (java.sql 패키지)
 		
@@ -57,10 +64,21 @@ public class JDBCExample1 {
 			// System.out.println(conn); // oracle.jdbc.driver.T4CConnection@4961f6af
 			
 			// 3. Statement 객체에 적재할 SQL 작성하기
+
+//--------------		
+			Scanner sc = new Scanner(System.in); 
+			System.out.print("정수 입력 : ");
+			int inputSal = sc.nextInt();
+			
+//--------------				
+			
 			
 			// ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
 			// **** Java에서 작성된 SQL문은 마지막에 ;(세미콜론)을 찍으면 안됨!! ****
-			String sql = "SELECT EMP_ID, EMP_NAME, SALARY, DEPT_CODE FROM EMPLOYEE";
+			String sql = "SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME \r\n"
+					+ "FROM EMPLOYEE \r\n"
+					+ "JOIN JOB USING(JOB_CODE) \r\n"
+					+ "WHERE SALARY > " + inputSal + "ORDER BY SALARY DESC";
 			
 			// 4. Statement 객체 생성
 			stmt = conn.createStatement();  // 셔틀버스 생성
@@ -84,11 +102,11 @@ public class JDBCExample1 {
 				int empId = rs.getInt("EMP_ID");
 				String empName = rs.getString("EMP_NAME");
 				int salary = rs.getInt("SALARY");
-				String deptCode = rs.getString("DEPT_CODE");
+				String jobName = rs.getString("JOB_NAME");
 				
 				// 조회 결과 출력
-				System.out.printf("사번: %d 이름: %s 급여: %d 부서코드: %s\n",
-										empId, empName, salary, deptCode);
+				System.out.printf("사번: %d 이름: %s 급여: %d 직급명: %s\n",
+										empId, empName, salary, jobName);
 			}
 		}catch(SQLException e) {
 			// SQLException : DB 연결 관련 예외의 최상위 부모 
@@ -110,5 +128,11 @@ public class JDBCExample1 {
 				e.printStackTrace();
 			}
 		}
+		
+		
+		
+		
+		
 	}
+	
 }

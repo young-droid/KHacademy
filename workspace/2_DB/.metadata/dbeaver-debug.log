@@ -1,0 +1,1529 @@
+2024-11-28 09:04:10.838 - DBeaver 24.2.4.202411031831 is starting
+2024-11-28 09:04:10.839 - OS: Windows 10 10.0 (amd64)
+2024-11-28 09:04:10.839 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-11-28 09:04:10.839 - Install path: 'C:\Program Files\DBeaver'
+2024-11-28 09:04:10.840 - Instance path: 'file:/D:/KHacademy/workspace/2_DB/'
+2024-11-28 09:04:10.841 - Memory available 64Mb/1024Mb
+2024-11-28 09:04:10.853 - Create display
+2024-11-28 09:04:11.160 - Error accessing instance server: java.net.ConnectException
+2024-11-28 09:04:11.175 - Starting instance server at http://localhost:59708
+2024-11-28 09:04:11.187 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.500.v20240807-0911]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.600.v20240606-1020]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.400.v20240321-1245]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.400.v20240424-0444]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.38.0.v20240721-0634]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.500.v20240620-1945]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.500.v20240727-1037]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start Default Text Editor [org.eclipse.ui.editors 3.18.0.v20240807-0735]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.18.0.v20240819-1419]
+2024-11-28 09:04:19.230 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.132.202411031831]
+2024-11-28 09:04:19.400 - Total database drivers: 120 (120)
+> Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
+2024-11-28 09:04:19.487 - Create actions
+2024-11-28 09:04:19.494 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-11-28 09:04:19.496 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-11-28 09:04:19.497 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-11-28 09:04:19.497 - Create workbench actions
+2024-11-28 09:04:19.834 - Initialize workbench window
+2024-11-28 09:04:19.834 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.142.202411031831]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.142.202411031831]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.118.202411031831]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.500.v20240524-2010]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.500.v20240625-1706]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.179.202411031831]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.148.202411031831]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.17.0.202409021815]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.19.0.202409021815]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.102.202411031831]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.102.202411031831]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.139.202411031831]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.35.202411031831]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.227.202411031831]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.133.202411031831]
+> Start Console [org.eclipse.ui.console 3.14.100.v20240429-1358]
+> Start Debug Core [org.eclipse.debug.core 3.21.500.v20240801-2219]
+2024-11-28 09:04:22.374 - Connect with 'KH_CYJ 사용자 계정' (oracle_thin-1933df61afb-479409d37091b205)
+2024-11-28 09:04:22.404 - Execution context opened (KH_CYJ 사용자 계정; Main; 0)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.37.202411031831]
+2024-11-28 09:04:22.888 - Execution context opened (KH_CYJ 사용자 계정; Metadata; 1)
+2024-11-28 09:04:23.022 - Connected (oracle_thin-1933df61afb-479409d37091b205, Oracle JDBC driver [21.5.0.0.0])
+2024-11-28 09:04:23.124 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <10_VIEW,SEQUENCE.sql>; 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.120.202411031831]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.129.202411031831]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.120.202411031831]
+2024-11-28 09:04:24.196 - Open [https://dbeaver.io/product/version.xml]
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.126.202411031831]
+2024-11-28 09:47:55.386 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-11-28 09:47:55.429 - Unrecognized Oracle client version at C:\app\user1\product\18.0.0\dbhomeXE
+2024-11-28 09:48:04.410 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-11-28 09:48:48.721 - Connect with 'jdbc:oracle:thin:@//localhost:1521/XE' (oracle_thin-193703df422-6538283112e00b9d)
+2024-11-28 09:48:48.721 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/XE; Main; 3)
+2024-11-28 09:48:49.003 - Connected (oracle_thin-193703df422-6538283112e00b9d, Oracle JDBC driver [21.5.0.0.0])
+2024-11-28 09:48:49.018 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/XE, 3)
+2024-11-28 09:48:49.018 - Disconnected (oracle_thin-193703df422-6538283112e00b9d)
+2024-11-28 10:17:13.077 - Connect with 'sys 관리자 계정' (oracle_thin-1933de64842-196500cba65b8b2)
+2024-11-28 10:17:13.077 - Execution context opened (sys 관리자 계정; Main; 4)
+2024-11-28 10:17:13.131 - Execution context opened (sys 관리자 계정; Metadata; 5)
+2024-11-28 10:17:13.171 - Connected (oracle_thin-1933de64842-196500cba65b8b2, Oracle JDBC driver [21.5.0.0.0])
+2024-11-28 10:17:13.187 - Execution context opened (sys 관리자 계정; SQLEditor <00_사용자계정생성.sql>; 6)
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.126.202411031831]
+2024-11-28 10:19:59.524 - Connect with 'cyj_sample 계정' (oracle_thin-1936cb0bb89-11d1c7f09eab8075)
+2024-11-28 10:19:59.525 - Execution context opened (cyj_sample 계정; Main; 7)
+2024-11-28 10:19:59.552 - Execution context opened (cyj_sample 계정; Metadata; 8)
+2024-11-28 10:19:59.581 - Connected (oracle_thin-1936cb0bb89-11d1c7f09eab8075, Oracle JDBC driver [21.5.0.0.0])
+2024-11-28 10:19:59.600 - Execution context opened (cyj_sample 계정; SQLEditor <Script-2.sql>; 9)
+2024-11-28 10:20:26.878 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <Script-2.sql>; 10)
+2024-11-28 10:20:26.899 - Execution context closed (cyj_sample 계정, 9)
+2024-11-28 10:49:18.707 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <08_DDL(CREATE).sql>; 11)
+2024-11-28 10:49:19.688 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <09_DDL(ALTER,DROP).sql>; 12)
+2024-11-28 10:49:27.258 - Error while analyzing query text: /*  VIEW
+
+    - SELECT문의 실행 결과(RESULT SET)를 저장하는 객체
+    - 논리적 가상 테이블
+        -> 테이블 모양을 하고는 있지만, 실제 값을 저장하고 있진 않음.
+        
+    ** VIEW 사용 목적 ** 
+    1) 복잡한 SELECT문을 쉽게 재사용하기 위해서 사용.
+    2) 테이블의 진짜 모습을 감출 수 있어 보안상 유리하다.
+    
+    *** VIEW 사용 시 주의사항 ***
+    1) 가상의 테이블(실체 X)이기 때문에 ALTER 구문 사용 불가능.
+    2) VIEW를 이용한 DML(INSERT, UPDATE, DELETE)가 가능한 경우도 있지만
+       제약이 많이 따르기 때문에 보통은 조회(SELECT) 용도로 많이 사용함.
+        
+        
+    [VIEW 생성 방법]
+    CREATE [OR REPLACE] [FORCE | NOFORCE] VIEW 뷰이름 [(alias[,alias]...]
+    AS subquery
+    [WITH CHECK OPTION]
+    [WITH READ ONLY];
+    
+    -- 1) OR REPLACE 옵션 : 기존에 동일한 뷰 이름이 존재하는 경우 덮어쓰고, 
+    --                      존재하지 않으면 새로 생성.
+    -- 2) FORCE / NOFORCE 옵션
+    --      FORCE : 서브쿼리에 사용된 테이블이 존재하지 않아도 뷰 생성
+    --      NOFORCE : 서브쿼리에 사용된 테이블이 존재해야만 뷰 생성(기본값)
+    -- 3) WITH CHECK OPTION 옵션 : 옵션을 설정한 컬럼의 값을 수정 불가능하게 함.
+    -- 4) WITH READ ONLY 옵션 : 뷰에 대해 조회만 가능(DML 수행 불가)    
+        
+*/
+
+-- EMPLOYEE 테이블에서 모든 사원의 사번, 이름, 부서명, 직급명 조회
+SELECT EMP_ID ,EMP_NAME , DEPT_TITLE , JOB_NAME
+FROM EMPLOYEE
+LEFT JOIN DEPARTMENT ON (DEPT_ID = DEPT_CODE)
+JOIN JOB USING (JOB_CODE)
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+> Start Search Support [org.eclipse.search 3.16.300.v20240620-1945]
+> Start Search Support Core [org.eclipse.search.core 3.16.300.v20240708-0708]
+2024-11-28 10:49:51.286 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <06_DML(INSERT,UPDATE,DELETE).sql>; 13)
+2024-11-28 10:49:55.968 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <07_TCL.sql>; 14)
+2024-11-28 11:17:55.620 - Error while analyzing query text: SELECT 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE)
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:18:51.568 - Error while analyzing query text: SELECT JOB
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE)
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:18:52.279 - Error while analyzing query text: SELECT JOB_+
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE)
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:18:53.552 - Error while analyzing query text: SELECT JOB_NAME
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE)
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:18:55.801 - Error while analyzing query text: SELECT JOB_NAME
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE)
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:38.455 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME FROM EMPLOYEE JOIN JOB USING(JOB_CODE) WHERE SALARY > " + inputSal + "ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:42.888 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE JOIN JOB USING(JOB_CODE) WHERE SALARY > " + inputSal + "ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:44.824 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) WHERE SALARY > " + inputSal + "ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:45.995 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > " + inputSal + "ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:47.477 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > " + inputSal + "
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:49.783 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7101
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:52.857 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:19:54.865 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:31:41.531 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:31:47.403 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:31:52.700 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:31:56.300 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:31:58.644 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:32:21.755 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:32:29.042 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:32:31.968 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:32:42.802 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:32:47.031 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:32:57.386 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:33:01.451 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:33:06.159 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:33:09.450 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:33:10.856 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:41:47.706 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 11:41:50.563 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:05:04.310 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:05:58.661 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:06.594 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_NAME, JOB_TITLE
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:07.965 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:07.974 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_NAME, JOB_TITLE
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:13.189 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE DEPT_NAME, JOB_TITLE
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:16.290 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_TITLE
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:28.823 - Error while analyzing query text: SELECT EMP_ID, EMP_NAME, SALARY, JOB_NAME 
+FROM EMPLOYEE 
+JOIN JOB USING(JOB_CODE) 
+WHERE SALARY > 7000000
+ORDER BY SALARY DESC
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:30.138 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)]
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:30.947 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+
+
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:32.161 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE 
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:34.874 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE JOB
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:39.467 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE JOB
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:40.658 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DE
+
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:44.091 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = ""
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:47.715 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = ""
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:06:51.467 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = ""
+ORDER BY 
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:22.502 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = ''
+ORDER BY 
+
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:24.794 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = 'GO
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:27.393 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '해외영업부1'
+ORDER BY 
+
+
+
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:31.683 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+--
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:36.436 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+--WHERE DEPT_TITLE = ''
+ORDER BY JO
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:37.235 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+--WHERE DEPT_TITLE = ''
+ORDER BY JOB
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:38.919 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+--WHERE DEPT_TITLE = ''
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:45.803 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:49.365 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = 'ㅎ
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:49.940 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = 'ㅎ'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:07:55.379 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:17:04.495 - Error while analyzing query text: SELECT 
+
+SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:17:05.663 - Error while analyzing query text: SELECT 
+
+
+SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:17:07.210 - Error while analyzing query text: SELECT 
+dep
+
+SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:17:10.966 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:17:40.879 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:17:41.658 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:29:21.882 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:29:25.338 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:29:29.013 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-28 12:29:35.206 - Error while analyzing query text: SELECT EMP_ID , EMP_NAME , DEPT_TITLE , JOB_NAME 
+FROM EMPLOYEE 
+LEFT JOIN DEPARTMENT ON (DEPT_CODE = DEPT_ID)
+JOIN JOB USING (JOB_CODE)
+WHERE DEPT_TITLE = '총무부'
+ORDER BY JOB_CODE
+java.lang.IllegalStateException: Symbol already classified
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setSymbolClass(SQLQuerySymbol.java:53)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQuerySymbol.setDefinition(SQLQuerySymbol.java:78)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsNaturalJoinModel.propagateContextImpl(SQLQueryRowsNaturalJoinModel.java:100)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsProjectionModel.propagateContextImpl(SQLQueryRowsProjectionModel.java:151)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.applyContext(SQLQueryRowsSourceModel.java:69)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
