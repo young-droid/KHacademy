@@ -7,7 +7,6 @@
 			<library type="jar" path="maven:/com.oracle.database.xml:xdb6:RELEASE" custom="false" disabled="true" version="18.3.0.0"/>
 			<library type="jar" path="maven:/com.oracle.database.xml:xmlparserv2:RELEASE" custom="false" disabled="true" version="23.2.0.0"/>
 			<library type="jar" path="C:\tools\DB\ojdbc11-21.5.0.0.jar" custom="true"/>
-			<library type="jar" path="D:\workspace\KHacademy_tools\ojdbc11.jar" custom="true"/>
 		</driver>
 	</provider>
 </drivers>
