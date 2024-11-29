@@ -4,8 +4,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class CreateXML {
+public class CreateXML { // ********* 혼자서 실행하면 파일 사라짐 주의!!!!
 	// XML(eXtensible Markup Language) : 단순화된 데이터 기술 형식
+	// 				  -> tag 사용하는 언어들. html 포함
 	
 	
 	// XML을 사용하려는 이유
@@ -27,7 +28,7 @@ public class CreateXML {
 		
 		// * Properties 컬렉션 객체 *
 		// 1. <String, String>으로 Key, Value 타입이 제한된 Map
-		// 2. XML 파일은 생성하고 읽어오는데 특화
+		// 2. XML 파일을 생성하고 읽어오는데 특화
 		
 		Properties prop = new Properties();
 		
