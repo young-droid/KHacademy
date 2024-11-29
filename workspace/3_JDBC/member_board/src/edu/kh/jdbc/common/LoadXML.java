@@ -43,7 +43,7 @@ public class LoadXML {
 			e.printStackTrace();
 		}		
 		
-		System.out.println(JDBCTemplate.getConnection());
+//		System.out.println(JDBCTemplate.getConnection());
 		
 	}
 }

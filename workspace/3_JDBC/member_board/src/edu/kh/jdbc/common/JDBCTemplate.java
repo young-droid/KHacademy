@@ -3,7 +3,9 @@ package edu.kh.jdbc.common;
 import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Properties;
 
 public class JDBCTemplate {
@@ -57,7 +59,6 @@ public class JDBCTemplate {
 				
 				// 3. 트랜잭션 제어를 위한 자동 커밋 비활성화
 				conn.setAutoCommit(false);
-				
 			}
 		}catch(Exception e) {
 			e.printStackTrace();
@@ -81,7 +82,55 @@ public class JDBCTemplate {
 			e.printStackTrace();
 		}
 	}
-
-
 	
+	// Statement(부모), PreparedStatement(자식) 반환 메소드 (다형성 적용)
+	public static void close(Statement stmt) {
+		try {
+			// 참조하는 conn이 존재하면서 닫혀있지 않은 경우
+			if(stmt != null && !stmt.isClosed())
+				// conn.isClosed() : 닫혀있으면 true
+				stmt.close();
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	// ResultSet 반환 메소드
+	public static void close(ResultSet rs) {
+		try {
+			// 참조하는 conn이 존재하면서 닫혀있지 않은 경우
+			if(rs != null && !rs.isClosed())
+				// conn.isClosed() : 닫혀있으면 true
+				rs.close();
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	// 트랜잭션 제어
+	
+	// commit
+	public static void commit(Connection conn) {
+		try {
+			// 참조하는 conn이 존재하면서 닫혀있지 않은 경우
+			if(conn != null && !conn.isClosed())
+				// conn.isClosed() : 닫혀있으면 true
+				conn.commit();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	// rollback
+	public static void rollback(Connection conn) {
+		try {
+			// 참조하는 conn이 존재하면서 닫혀있지 않은 경우
+			if(conn != null && !conn.isClosed())
+				// conn.isClosed() : 닫혀있으면 true
+				conn.rollback();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
 }
