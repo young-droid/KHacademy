@@ -26,8 +26,6 @@ public class EmployeeDAO {
 	// - ?(위치홀더)를 이용하여 SQL에 작성되어지는 리터럴을 동적으로 제어함
 	// -> 오타 위험 감소, 가독성 상승 
 	
-	
-	
 	private ResultSet rs;// SELECT 수행 후 반환되는 객체
 	
 	
@@ -329,7 +327,7 @@ public class EmployeeDAO {
 			
 			
 			// 트랜잭션 제어
-			if(result > 0) conn.commit(); // DML 성공 시 commit 수행
+			if(result != 0) conn.commit(); // DML 성공 시 commit 수행
 			else		   conn.rollback(); // DML 실패 시 rollback 수행
 			
 			
@@ -351,8 +349,180 @@ public class EmployeeDAO {
 
 // ===========================================================================================
 	public int deleteId(int input) {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		int result = 0; // 결과 저장용 변수
+		
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+			String type = "jdbc:oracle:thin:@"; // JDBC 드라이버가 thin 타입
+			String ip = "localhost"; // DB 서버 컴퓨터 IP
+			String port = ":1521";
+			String sid = ":XE"; // DB 이름
+			String user = "KH_CYJ"; // 사용자명
+			String pw = "KH1234";	// 비밀번호
+			
+			conn = DriverManager.getConnection(type + ip + port + sid, user ,pw);
+			
+			// SQL 작성
+			String sql = "DELETE FROM EMPLOYEE2 WHERE EMP_ID = ? ";
+			
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, input);
+			
+		result = pstmt.executeUpdate(); 
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		} finally {
+			
+			try {
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		return result;
 	}
 
+
+	public int updateEmployee(int inputId, String email, String phone, int salary) {
+		
+		int result = 0; // 결과 저장용 변수
+		
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+//			String type = "jdbc:oracle:thin:@"; // JDBC 드라이버가 thin 타입
+//			String ip = "localhost"; // DB 서버 컴퓨터 IP
+//			String port = ":1521";
+//			String sid = ":XE"; // DB 이름
+//			String user = "KH_CYJ"; // 사용자명
+//			String pw = "KH1234";	// 비밀번호
+//			
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE" , "KH_CYJ","KH1234");
+			
+			// SQL 작성
+			String sql = "UPDATE EMPLOYEE2 \r\n"
+					+ "SET EMAIL = ? , PHONE = ? , SALARY = ? \r\n"
+					+ "WHERE EMP_ID = ?";
+			
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, email);
+			pstmt.setString(2, phone);
+			pstmt.setInt(3, salary);
+			pstmt.setInt(4, inputId);
+			
+		result = pstmt.executeUpdate(); 
+		
+		// 트랜잭션 제어
+		if(result != 0) conn.commit(); // DML 성공 시 commit 수행
+		else		   conn.rollback(); // DML 실패 시 rollback 수행
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		} finally {
+			
+			try {
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		return result;
+	}
+
+// Statement 사용
+	public int updateBonus(String deptCode, double bonus) {
+		int result = 0; // 결과 저장용 변수
+		List<Employee> empList = new ArrayList<Employee>();
+
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");	
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE" , "KH_CYJ","KH1234");
+			// SQL 작성
+			String sql = "UPDATE EMPLOYEE2 \r\n"
+					+ "SET BONUS = " + bonus + "\r\n"
+					+ "WHERE DEPT_CODE = '" + deptCode+"'";
+			// 4. Statement 객체 생성
+			stmt = conn.createStatement();
+			// 5. SQL 수행 후 결과(ResultSet) 반환 받기
+			rs = stmt.executeQuery(sql);
+//			while(rs.next()) {
+//				int empId = rs.getInt("EMP_ID");
+//				String empName = rs.getString("EMP_NAME");
+//				String empNo = rs.getString("EMP_NO");
+//				String email = rs.getString("EMAIL");
+//				String phone = rs.getString("PHONE");
+//				String deptCode2 = rs.getString("DEPT_CODE"); 
+//				String jobCode = rs.getString("JOB_CODE");
+//				String salLevel = rs.getString("SAL_LEVEL");
+//				int salary = rs.getInt("SALARY");
+//				double bonus2 = rs.getDouble("BONUS");
+//				int managerId = rs.getInt("MANAGER_ID");
+//				Date hireDate = rs.getDate("HIRE_DATE");
+//				Date entDate = rs.getDate("ENT_DATE");
+//				char entYn = rs.getString("ENT_YN").charAt(0);
+//				// rs.getChar()는 존재하지 않음
+//				// 왜? 자바에서는 문자하나(char)의 개념이 있지만
+//				// 	  DB는 오로지 문자열 개념만 존재함
+//				// -> String.charAt(0) 을 사용
+//				Employee emp = new Employee(empId, empName, empNo, email, phone, deptCode2, jobCode, salLevel, salary, bonus2, managerId, hireDate, entDate, entYn);
+//				empList.add(emp);
+//			}
+		if(rs != null) {
+		result = 1; 
+		}
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		} finally {
+			
+			try {
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		return result;
+	}
+
+	// preparedStatement 사용 
+	public int updateBonusPrepared(String deptCode, double bonus) {
+		int result = 0; // 결과 저장용 변수
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");	
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE" , "KH_CYJ","KH1234");
+			// SQL 작성
+			String sql = "UPDATE EMPLOYEE2 \r\n"
+					+ "SET BONUS = ? \r\n"
+					+ "WHERE DEPT_CODE = ?";
+			pstmt = conn.prepareStatement(sql);
+			
+			pstmt.setDouble(1, bonus);
+			pstmt.setString(2, deptCode);
+			
+			result = pstmt.executeUpdate();
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		} finally {
+			
+			try {
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		return result;
+	}
+	
 }

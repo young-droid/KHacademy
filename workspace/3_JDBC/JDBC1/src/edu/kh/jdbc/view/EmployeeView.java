@@ -40,6 +40,8 @@ public class EmployeeView {
 				System.out.println("3. 입력 받은 급여 이상으로 받는 모든 직원 조회"); 
 				System.out.println("4. 새로운 직원 정보 추가"); 
 				System.out.println("5. 직원 정보 삭제(사번 검색)"); 
+				System.out.println("6. 직원 정보 수정"); 
+				System.out.println("7. 부서 전체 보너스 수정"); 
 				System.out.println("0. 프로그램 종료");
 				System.out.println("====================================");
 
@@ -53,6 +55,8 @@ public class EmployeeView {
 				case 3 : selectSalary(); break;
 				case 4 : insertEmployee(); break;
 				case 5 : deleteEmployee(); break;
+				case 6 : updateEmployee(); break;
+				case 7 : updateBonus(); break;
 				case 0 : System.out.println("프로그램을 종료합니다."); break;
 				default : System.out.println("잘못 입력하셨습니다. 다시 입력해주세요.");
 				}
@@ -114,7 +118,6 @@ public class EmployeeView {
 
 		List<Employee> empList = service.selectSalary(input);
 		
-		
 		// 2) 서비스 호출 결과를 출력 
 		printList(empList);
 		
@@ -171,6 +174,9 @@ public class EmployeeView {
 	}
 	
 	
+	/** 
+	 * 사번으로 사원 정보 삭제
+	 */
 	public void deleteEmployee() {
 		
 		// 숙제 
@@ -185,16 +191,97 @@ public class EmployeeView {
 	System.out.println("[사번으로 사원 정보 삭제]");
 		
 		// 사번 입력 받기
-		System.out.print("사번 입력 : ");
-		int input = sc.nextInt();
 		
-		int result = service.deleteId(input);
+		int result = service.deleteId(inputId());
 		
-		
+	    if(result != 0) { // 삽입 성공
+	   	  System.out.println("사원의 정보가 삭제되었습니다.");
+	    } else {
+	      System.out.println("사원 정보 삭제 실패");
+	    }
+	
 	}
 	
+
+	/**
+	 * 사번으로 사원 정보 수정
+	 */
+	private void updateEmployee() {
+		System.out.println("[사번으로 사원 정보 수정]");
+		
+		while(true) {
+			
+			// 사번 입력 받기
+			int input = inputId();
+			
+			Employee emp = service.selectOne(input);
+			
+			if(emp != null) {// 조회 결과가 있을 경우
+			System.out.println(emp.toString());
+			} else { // 조회 결과가 없을 경우
+				System.out.println("해당 사번의 사원은 존재하지 않습니다.");
+				continue;
+			}
+			
+			// 이메일, 전화번호, 급여 입력 받기
+			System.out.print("변경할 이메일 입력 : ");
+			String email = sc.next();
+			System.out.print("변경할 전화번호 입력 : ");
+			String phone = sc.next();
+			System.out.print("변경할 급여 입력 : ");
+			int salary = sc.nextInt(); 
+			
+			service.updateEmployee(input,email,phone,salary);
+			int result = service.updateEmployee(input,email,phone,salary);
+			
+		    if(result != 0) { // 삽입 성공
+		   	  System.out.println("사원의 정보가 수정되었습니다.");
+		   	  break;
+		    } else {
+		      System.out.println("사원 정보 수정 실패");
+		      break;
+		    }
+		}
+	}
+
+	private void updateBonus() {
+		System.out.print("부서 코드를 입력하세요 : ");
+		String deptCode = sc.next();
+		System.out.print("보너스율을 입력하세요: ");
+		double bonus = sc.nextDouble();
+		
+		int result = service.updateBonus(deptCode, bonus);
+
+	    if(result != 0) { // 삽입 성공
+		   	  System.out.printf("%s 부서의 보너스율이 %.1f으로 변경되었습니다.", deptCode, bonus);
+		    } else {
+		      System.out.println("일치하는 부서코드가 존재하지 않습니다.");
+		    }
+		
+	   // 메소드명 : updateBonus()
+    // [실행화면]
+    // 부서 코드를 입력하세요 : D1
+    // 보너스율을 입력하세요 : 0.3
+    
+    // (성공 시) : D1 부서의 보너스율이 0.3으로 변경되었습니다.
+    // (실패 시) : 일치하는 부서코드가 존재하지 않습니다.
+    // 출력
+    
+    // DAO 작성 시 Statement 사용
+	}
 	
-	
+	/** 
+	 * 사번 입력 메소드
+	 * @return input - 사번
+	 */
+	private int inputId() {
+		
+		int input;
+		System.out.print("사번 입력 : ");
+		input = sc.nextInt();
+		return input;
+		
+	}
 	
 	/**
 	 * Employee List 출력용 view

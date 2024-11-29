@@ -52,4 +52,16 @@ public class EmployeeService {
 		return result;
 	}
 
+
+	public int updateEmployee(int inputId, String email, String phone, int salary) {
+		int result = dao.updateEmployee(inputId, email, phone, salary);
+		return result;
+	}
+
+
+	public int updateBonus(String deptCode, double bonus) {
+		int result = dao.updateBonusPrepared(deptCode, bonus);
+		return result;
+	}
+
 }
