@@ -141,7 +141,19 @@ public class BoardView {
 	            switch(menuNum) {
 	            case 1 : insertReply(loginMember, boardNo); break;
 	            case 2 : case 3 : 
+	            	// 수정 혹은 삭제 하고자 하는 댓글 번호 입력 받기
+	            	// 입력 받은 댓글의 번호가 댓글 목록에 존재하는 경우 수정/삭제 진행
+	            	// 만약 내가 작성한 댓글의 번호가 아닌 경우 "현재 로그인한 회원의 댓글이 아닙니다."
+	            	
+	            	// 존재하지 않는 경우 "해당 댓글이 존재하지 않습니다"
 	            	// 댓글을 작성한 회원 번호 == 로그인한 회원 번호
+	            	System.out.println("[수정 / 삭제]");
+	            	System.out.print(");
+	            	int input = sc.
+	            	
+	            	if()
+	            	
+	            	
 	            	break;
 	            case 4 : case 5 : 
 	            	// 게시글 작성자 번호 == 로그인 회원 번호
