@@ -16,8 +16,7 @@ public class Member {
 	public Member() {
 	}
 
-	public Member(int memberNo, String memberId, String memberPw, String memberName, char memberGen, Date enrollDate,
-			char secessionflag) {
+	public Member(String memberId, String memberPw, Date enrollDate) {
 		this.memberNo = memberNo;
 		this.memberId = memberId;
 		this.memberPw = memberPw;

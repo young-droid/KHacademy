@@ -1,0 +1,460 @@
+2024-12-03 08:54:08.797 - DBeaver 24.2.4.202411031831 is starting
+2024-12-03 08:54:08.797 - OS: Windows 10 10.0 (amd64)
+2024-12-03 08:54:08.798 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-12-03 08:54:08.798 - Install path: 'C:\Program Files\DBeaver'
+2024-12-03 08:54:08.798 - Instance path: 'file:/D:/KHacademy/workspace/2_DB/'
+2024-12-03 08:54:08.799 - Memory available 64Mb/1024Mb
+2024-12-03 08:54:08.810 - Create display
+2024-12-03 08:54:08.942 - Starting instance server at http://localhost:50662
+2024-12-03 08:54:08.948 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.500.v20240807-0911]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.400.v20240413-1529]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.300.v20231201-1637]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.600.v20240606-1020]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.400.v20240321-1245]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.400.v20240424-0444]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.38.0.v20240721-0634]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.500.v20240620-1945]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.500.v20240727-1037]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start Default Text Editor [org.eclipse.ui.editors 3.18.0.v20240807-0735]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.18.0.v20240819-1419]
+2024-12-03 08:54:16.942 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.132.202411031831]
+2024-12-03 08:54:17.087 - Total database drivers: 120 (120)
+> Start Help System Core [org.eclipse.help 3.10.400.v20240415-0528]
+2024-12-03 08:54:17.164 - Create actions
+2024-12-03 08:54:17.169 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-12-03 08:54:17.170 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-12-03 08:54:17.170 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-12-03 08:54:17.170 - Create workbench actions
+2024-12-03 08:54:17.509 - Initialize workbench window
+2024-12-03 08:54:17.513 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.142.202411031831]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.142.202411031831]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.118.202411031831]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.500.v20240524-2010]
+> Start Search Support [org.eclipse.search 3.16.300.v20240620-1945]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.500.v20240625-1706]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.179.202411031831]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.148.202411031831]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.17.0.202409021815]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.19.0.202409021815]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.102.202411031831]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.102.202411031831]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.139.202411031831]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.35.202411031831]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.227.202411031831]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.133.202411031831]
+> Start Console [org.eclipse.ui.console 3.14.100.v20240429-1358]
+> Start Debug Core [org.eclipse.debug.core 3.21.500.v20240801-2219]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.120.202411031831]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.129.202411031831]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.120.202411031831]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.37.202411031831]
+2024-12-03 08:54:20.518 - Connect with 'member_cyj 사용자 계정' (oracle_thin-19375b61eaa-1f486e1be234dd35)
+2024-12-03 08:54:20.547 - Execution context opened (member_cyj 사용자 계정; Main; 0)
+2024-12-03 08:54:21.054 - Execution context opened (member_cyj 사용자 계정; Metadata; 1)
+2024-12-03 08:54:21.190 - Connected (oracle_thin-19375b61eaa-1f486e1be234dd35, Oracle JDBC driver [21.5.0.0.0])
+2024-12-03 08:54:21.193 - Execution context opened (member_cyj 사용자 계정; SQLEditor <JDBC게시판프로그램.sql>; 2)
+2024-12-03 08:54:21.950 - Open [https://dbeaver.io/product/version.xml]
+2024-12-03 09:37:27.654 - End idle 1 transactions for oracle_thin-19375b61eaa-1f486e1be234dd35
+2024-12-03 10:59:20.397 - End idle 1 transactions for oracle_thin-19375b61eaa-1f486e1be234dd35
+2024-12-03 11:33:42.426 - Connect with 'KH_CYJ 사용자 계정' (oracle_thin-1933df61afb-479409d37091b205)
+2024-12-03 11:33:42.427 - Execution context opened (KH_CYJ 사용자 계정; Main; 3)
+2024-12-03 11:33:42.485 - Execution context opened (KH_CYJ 사용자 계정; Metadata; 4)
+2024-12-03 11:33:42.532 - Connected (oracle_thin-1933df61afb-479409d37091b205, Oracle JDBC driver [21.5.0.0.0])
+2024-12-03 11:33:42.546 - Execution context opened (KH_CYJ 사용자 계정; SQLEditor <06_DML(INSERT,UPDATE,DELETE).sql>; 5)
+2024-12-03 11:33:55.674 - Can't get column 'PLUGGED_IN': 부적합한 열 이름
+2024-12-03 11:51:27.709 - SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:969)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 12 more
+Caused by: Error : 911, Position : 121, Sql = -- 로그인 
+SELECT MEMBER_NO, MEMBER_ID, MEMBER_NM, MEMBER_GENDER, ENROLL_DATE 
+						 FROM MEMBER WHERE MEMBER_ID = ?
+						 AND MEMBER_PW = ? 
+						 AND SECESSION_FL = 'N'
+
+-- 전체 회원 조회
+SELECT MEMBER_ID, MEMBER_NM, ENROLL_DATE						
+						FROM MEMBER 
+						WHERE SECESSION_FL = 'N'
+
+-- updateMyInfo 회원 정보 수정	(이름, 성별)					
+UPDATE MEMBER 
+SET MEMBER_NM = ?, MEMBER_GENDER = ?
+WHERE MEMBER_ID = ?, OriginalSql = -- 로그인 
+SELECT MEMBER_NO, MEMBER_ID, MEMBER_NM, MEMBER_GENDER, ENROLL_DATE 
+						 FROM MEMBER WHERE MEMBER_ID = ?
+						 AND MEMBER_PW = ? 
+						 AND SECESSION_FL = 'N'
+
+-- 전체 회원 조회
+SELECT MEMBER_ID, MEMBER_NM, ENROLL_DATE						
+						FROM MEMBER 
+						WHERE SECESSION_FL = 'N'
+
+-- updateMyInfo 회원 정보 수정	(이름, 성별)					
+UPDATE MEMBER 
+SET MEMBER_NM = ?, MEMBER_GENDER = ?
+WHERE MEMBER_ID = ?, Error Msg = ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 28 more
+2024-12-03 11:51:31.271 - SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:969)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 12 more
+Caused by: Error : 911, Position : 121, Sql = -- 로그인 
+SELECT MEMBER_NO, MEMBER_ID, MEMBER_NM, MEMBER_GENDER, ENROLL_DATE 
+						 FROM MEMBER WHERE MEMBER_ID = ?
+						 AND MEMBER_PW = ? 
+						 AND SECESSION_FL = 'N'
+
+-- 전체 회원 조회
+SELECT MEMBER_ID, MEMBER_NM, ENROLL_DATE						
+						FROM MEMBER 
+						WHERE SECESSION_FL = 'N'
+
+-- updateMyInfo 회원 정보 수정	(이름, 성별)					
+UPDATE MEMBER 
+SET MEMBER_NM = ?, MEMBER_GENDER = ?
+WHERE MEMBER_ID = ?, OriginalSql = -- 로그인 
+SELECT MEMBER_NO, MEMBER_ID, MEMBER_NM, MEMBER_GENDER, ENROLL_DATE 
+						 FROM MEMBER WHERE MEMBER_ID = ?
+						 AND MEMBER_PW = ? 
+						 AND SECESSION_FL = 'N'
+
+-- 전체 회원 조회
+SELECT MEMBER_ID, MEMBER_NM, ENROLL_DATE						
+						FROM MEMBER 
+						WHERE SECESSION_FL = 'N'
+
+-- updateMyInfo 회원 정보 수정	(이름, 성별)					
+UPDATE MEMBER 
+SET MEMBER_NM = ?, MEMBER_GENDER = ?
+WHERE MEMBER_ID = ?, Error Msg = ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 28 more
+2024-12-03 12:44:57.753 - End idle 1 transactions for oracle_thin-19375b61eaa-1f486e1be234dd35
+2024-12-03 13:20:20.642 - End idle 1 transactions for oracle_thin-19375b61eaa-1f486e1be234dd35
+2024-12-03 14:15:36.927 - SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [911] [22019]: ORA-00911: 문자가 부적합합니다
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 12 more
+Caused by: Error : 911, Position : 71, Sql = -- updatePw 회원 비밀번호 수정
+UPDATE MEMBER
+SET MEMBER_PW = ? 
+WHERE MEMBER_NO = ?
+AND MEMBER_PW = ?
+
+-- secession 회원 탈퇴
+DELETE FROM MEMBER WHERE MEMBER_ID = '111', OriginalSql = -- updatePw 회원 비밀번호 수정
+UPDATE MEMBER
+SET MEMBER_PW = ? 
+WHERE MEMBER_NO = ?
+AND MEMBER_PW = ?
+
+-- secession 회원 탈퇴
+DELETE FROM MEMBER WHERE MEMBER_ID = '111', Error Msg = ORA-00911: 문자가 부적합합니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 26 more
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.126.202411031831]
+2024-12-03 14:16:56.866 - Can't parse numeric value [UPDATE MEMBER
+							SET MEMBER_PW = ? 
+							WHERE MEMBER_NO = ?
+							AND MEMBER_PW = ?] using formatter: Character array is missing "e" notation exponential mark.
+2024-12-03 14:16:56.868 - Can't parse numeric value [UPDATE MEMBER
+							SET MEMBER_PW = ? 
+							WHERE MEMBER_NO = ?
+							AND MEMBER_PW = ?] using formatter: Character array is missing "e" notation exponential mark.
+2024-12-03 14:16:56.871 - Can't parse numeric value [UPDATE MEMBER
+							SET MEMBER_PW = ? 
+							WHERE MEMBER_NO = ?
+							AND MEMBER_PW = ?] using formatter: Character array is missing "e" notation exponential mark.
+2024-12-03 14:16:56.873 - Can't parse numeric value [UPDATE MEMBER
+							SET MEMBER_PW = ? 
+							WHERE MEMBER_NO = ?
+							AND MEMBER_PW = ?] using formatter: Character array is missing "e" notation exponential mark.
+2024-12-03 14:16:56.876 - Can't parse numeric value [UPDATE MEMBER
+							SET MEMBER_PW = ? 
+							WHERE MEMBER_NO = ?
+							AND MEMBER_PW = ?] using formatter: Character array is missing "e" notation exponential mark.
+2024-12-03 15:18:17.853 - SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+
+Error position: line: 127 pos: 7
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLTimeoutException: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 11 more
+Caused by: Error : 1013, Position : 7, Sql = UPDATE MEMBER SET SECESSION_FL='Y' WHERE MEMBER_NO = 41 AND MEMBER_PW = 123, OriginalSql = UPDATE MEMBER SET SECESSION_FL='Y' WHERE MEMBER_NO = 41 AND MEMBER_PW = 123, Error Msg = ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 25 more
+2024-12-03 15:18:46.886 - SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+
+Error position: line: 127 pos: 7
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLTimeoutException: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 11 more
+Caused by: Error : 1013, Position : 7, Sql = UPDATE MEMBER SET SECESSION_FL='Y' WHERE MEMBER_NO = 41 AND MEMBER_PW = 123, OriginalSql = UPDATE MEMBER SET SECESSION_FL='Y' WHERE MEMBER_NO = 41 AND MEMBER_PW = 123, Error Msg = ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 25 more
+2024-12-03 15:20:18.552 - SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLTimeoutException: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 11 more
+Caused by: Error : 1013, Position : 7, Sql = UPDATE MEMBER 
+SET SECESSION_FL='Y' 
+WHERE MEMBER_NO = 41 
+AND MEMBER_PW = 123, OriginalSql = UPDATE MEMBER 
+SET SECESSION_FL='Y' 
+WHERE MEMBER_NO = 41 
+AND MEMBER_PW = 123, Error Msg = ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 25 more
+2024-12-03 15:20:38.673 - SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+
+Error position: line: 127 pos: 7
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1013] [72000]: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:544)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLTimeoutException: ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 11 more
+Caused by: Error : 1013, Position : 7, Sql = UPDATE MEMBER 
+SET SECESSION_FL='Y' 
+WHERE MEMBER_NO = 41, OriginalSql = UPDATE MEMBER 
+SET SECESSION_FL='Y' 
+WHERE MEMBER_NO = 41, Error Msg = ORA-01013: 사용자가 현재 작업의 취소를 요청했습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	... 25 more
+2024-12-03 15:20:44.712 - Execution context closed (KH_CYJ 사용자 계정, 5)
+2024-12-03 15:20:44.764 - Execution context closed (member_cyj 사용자 계정, 2)
+2024-12-03 15:20:44.985 - Dispose navigator model
+2024-12-03 15:20:45.026 - DBeaver is stopping
+2024-12-03 15:20:45.027 - Stop instance server
+2024-12-03 15:20:46.039 - DBeaver shutdown completed

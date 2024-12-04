@@ -119,7 +119,7 @@
 		"oracle_thin-19375b61eaa-1f486e1be234dd35": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
-			"name": "localhost",
+			"name": "member_cyj 사용자 계정",
 			"save-password": true,
 			"configuration": {
 				"host": "localhost",

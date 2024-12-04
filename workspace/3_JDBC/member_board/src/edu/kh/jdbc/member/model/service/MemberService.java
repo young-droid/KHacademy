@@ -1,8 +1,9 @@
 package edu.kh.jdbc.member.model.service;
 
 import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
 
-import edu.kh.jdbc.common.JDBCTemplate;
 import edu.kh.jdbc.member.model.dao.MemberDAO;
 import edu.kh.jdbc.member.model.dto.Member;
 
@@ -10,10 +11,7 @@ import edu.kh.jdbc.member.model.dto.Member;
 // 					   클래스명.static메소드() 형태에서
 //					   클래스명을 생략할 수 있게 하는 구문
 
-import static edu.kh.jdbc.common.JDBCTemplate.getConnection;
-import static edu.kh.jdbc.common.JDBCTemplate.close;
-import static edu.kh.jdbc.common.JDBCTemplate.commit;
-import static edu.kh.jdbc.common.JDBCTemplate.rollback;
+import static edu.kh.jdbc.common.JDBCTemplate.*;
 
 
 
@@ -64,7 +62,7 @@ public class MemberService {
 		int result = dao.signUp(conn, signUpMember);
 		
 		// 3. DAO 수행 결과에 따라 트랜잭션 처리
-		commit(conn);
+		if(result>0) {commit(conn);} else {rollback(conn);};
 		
 		// 4. 사용한 Connection 반환
 		close(conn);
@@ -72,4 +70,69 @@ public class MemberService {
 		// 5. DAO 수행 결과 View로 반환
 		return result;
 	}
+
+	public Member signIn(String memberId, String memberPw) throws SQLException {
+		Connection conn = getConnection();
+		Member loginMember = dao.login(conn, memberId,memberPw);
+		
+		// 4. 사용한 Connection 반환
+		close(conn);
+		return loginMember;
+	}
+
+	public List<Member> selectAll() throws SQLException {
+		Connection conn = getConnection();
+		
+		List<Member> memberList = dao.selectAll(conn); 
+		
+		close(conn);
+		
+		return memberList;
+		
+	}
+
+	/** 내 정보 수정
+	 * @param memberNo
+	 * @param memberName
+	 * @param memberGender
+	 * @return result : update 성공 시 1, 실패 시 0
+	 * @throws SQLException
+	 */
+	public int updateMyInfo(int memberNo, String memberName, char memberGender) throws SQLException {
+		int result = 0;
+		Connection conn = getConnection();
+		result = dao.updateMyInfo(conn, memberNo, memberName, memberGender);
+		
+		if(result>0) {commit(conn);} else {rollback(conn);};
+		
+		close(conn);
+		return result;
+		
+	}
+
+	public int updatePw(int memberNo, String newPw, String currentPw) throws SQLException {
+		int result = 0;
+		Connection conn = getConnection();
+		
+		result = dao.updatePw(conn, memberNo, newPw, currentPw);
+		
+		if(result>0) { 
+			commit(conn);
+		} else {
+			rollback(conn);
+		}
+		
+		return result;
+		
+	}
+
+
+	public int secession(int memberNo, String currentPw) throws SQLException {
+		int result = 0;
+		Connection conn = getConnection();
+		result = dao.secession(conn, memberNo, currentPw);
+		return result;
+	}
+
+
 }
