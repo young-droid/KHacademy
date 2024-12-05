@@ -11708,3 +11708,409 @@ Error : 2291, Position : 0, Sql = INSERT INTO REPLY VALUES (SEQ_REPLY_NO.NEXTVAL
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-12-05 08:51:10.243 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko
+Framework arguments:  -eclipse.keyring C:\Users\user1\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2024-12-05 08:51:25.111
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.848
+!MESSAGE Error loading object metadata from database
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.848
+!MESSAGE 명령문 종료
+!STACK 0
+java.sql.SQLException: 명령문 종료
+	at oracle.jdbc.driver.OracleClosedStatement.setFetchSize(OracleClosedStatement.java:2466)
+	at oracle.jdbc.driver.OracleStatementWrapper.setFetchSize(OracleStatementWrapper.java:274)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.setFetchSize(JDBCStatementImpl.java:694)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.reloadObject(JDBCStructLookupCache.java:118)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.getObject(JDBCStructLookupCache.java:63)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.getChild(OracleSchema.java:388)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:157)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:106)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:54)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObjectImpl(SQLQueryDataSourceContext.java:111)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObject(SQLQueryDataSourceContext.java:103)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsTableDataModel.propagateContextImpl(SQLQueryRowsTableDataModel.java:163)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryDMLStatementModel.applyContext(SQLQueryDMLStatementModel.java:56)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.850
+!MESSAGE Error loading object metadata from database
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.850
+!MESSAGE 접속 종료
+!STACK 0
+java.sql.SQLRecoverableException: 접속 종료
+	at oracle.jdbc.driver.PhysicalConnection.requireOpenConnection(PhysicalConnection.java:11773)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatementInternal(PhysicalConnection.java:2354)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2309)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2300)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2211)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:264)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:641)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.reloadObject(JDBCStructLookupCache.java:117)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.getObject(JDBCStructLookupCache.java:63)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.getChild(OracleSchema.java:388)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:157)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:123)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:54)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObjectImpl(SQLQueryDataSourceContext.java:111)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObject(SQLQueryDataSourceContext.java:103)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsTableDataModel.propagateContextImpl(SQLQueryRowsTableDataModel.java:163)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryDMLStatementModel.applyContext(SQLQueryDMLStatementModel.java:56)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.851
+!MESSAGE Error loading object metadata from database
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.851
+!MESSAGE 접속 종료
+!STACK 0
+java.sql.SQLRecoverableException: 접속 종료
+	at oracle.jdbc.driver.PhysicalConnection.requireOpenConnection(PhysicalConnection.java:11773)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatementInternal(PhysicalConnection.java:2354)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2309)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2300)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2211)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:264)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:641)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.reloadObject(JDBCStructLookupCache.java:117)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.getObject(JDBCStructLookupCache.java:63)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.getChild(OracleSchema.java:388)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:157)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:106)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:54)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObjectImpl(SQLQueryDataSourceContext.java:111)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealTable(SQLQueryDataSourceContext.java:92)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQuerySyntaxContext.findRealTable(SQLQuerySyntaxContext.java:63)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataContext.resolveSource(SQLQueryDataContext.java:106)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQuerySyntaxContext.resolveSource(SQLQuerySyntaxContext.java:103)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsTableDataModel.propagateContextImpl(SQLQueryRowsTableDataModel.java:212)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryDMLStatementModel.applyContext(SQLQueryDMLStatementModel.java:56)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.853
+!MESSAGE Error loading object metadata from database
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.853
+!MESSAGE 접속 종료
+!STACK 0
+java.sql.SQLRecoverableException: 접속 종료
+	at oracle.jdbc.driver.PhysicalConnection.requireOpenConnection(PhysicalConnection.java:11773)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatementInternal(PhysicalConnection.java:2354)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2309)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2300)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2211)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:264)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:641)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.reloadObject(JDBCStructLookupCache.java:117)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.getObject(JDBCStructLookupCache.java:63)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.getChild(OracleSchema.java:388)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:157)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:123)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:54)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObjectImpl(SQLQueryDataSourceContext.java:111)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealTable(SQLQueryDataSourceContext.java:92)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQuerySyntaxContext.findRealTable(SQLQuerySyntaxContext.java:63)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataContext.resolveSource(SQLQueryDataContext.java:106)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQuerySyntaxContext.resolveSource(SQLQuerySyntaxContext.java:103)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsTableDataModel.propagateContextImpl(SQLQueryRowsTableDataModel.java:212)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryDMLStatementModel.applyContext(SQLQueryDMLStatementModel.java:56)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.855
+!MESSAGE Error loading object metadata from database
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.855
+!MESSAGE 접속 종료
+!STACK 0
+java.sql.SQLRecoverableException: 접속 종료
+	at oracle.jdbc.driver.PhysicalConnection.requireOpenConnection(PhysicalConnection.java:11773)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatementInternal(PhysicalConnection.java:2354)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2309)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2300)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2211)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:264)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:641)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.reloadObject(JDBCStructLookupCache.java:117)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.getObject(JDBCStructLookupCache.java:63)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.getChild(OracleSchema.java:388)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:157)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:106)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:54)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObjectImpl(SQLQueryDataSourceContext.java:111)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealTable(SQLQueryDataSourceContext.java:92)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataContext.resolveSource(SQLQueryDataContext.java:106)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQuerySyntaxContext.resolveSource(SQLQuerySyntaxContext.java:104)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsTableDataModel.propagateContextImpl(SQLQueryRowsTableDataModel.java:212)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryDMLStatementModel.applyContext(SQLQueryDMLStatementModel.java:56)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.857
+!MESSAGE Error loading object metadata from database
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:33.857
+!MESSAGE 접속 종료
+!STACK 0
+java.sql.SQLRecoverableException: 접속 종료
+	at oracle.jdbc.driver.PhysicalConnection.requireOpenConnection(PhysicalConnection.java:11773)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatementInternal(PhysicalConnection.java:2354)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2309)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2300)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2211)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:264)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:641)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.reloadObject(JDBCStructLookupCache.java:117)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.getObject(JDBCStructLookupCache.java:63)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.getChild(OracleSchema.java:388)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByPath(SQLSearchUtils.java:157)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:123)
+	at org.jkiss.dbeaver.model.sql.SQLSearchUtils.findObjectByFQN(SQLSearchUtils.java:54)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealObjectImpl(SQLQueryDataSourceContext.java:111)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataSourceContext.findRealTable(SQLQueryDataSourceContext.java:92)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQueryDataContext.resolveSource(SQLQueryDataContext.java:106)
+	at org.jkiss.dbeaver.model.sql.semantics.context.SQLQuerySyntaxContext.resolveSource(SQLQuerySyntaxContext.java:104)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsTableDataModel.propagateContextImpl(SQLQueryRowsTableDataModel.java:212)
+	at org.jkiss.dbeaver.model.sql.semantics.model.select.SQLQueryRowsSourceModel.propagateContext(SQLQueryRowsSourceModel.java:81)
+	at org.jkiss.dbeaver.model.sql.semantics.model.dml.SQLQueryDMLStatementModel.applyContext(SQLQueryDMLStatementModel.java:56)
+	at org.jkiss.dbeaver.model.sql.semantics.model.SQLQueryModel.propagateContext(SQLQueryModel.java:80)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:156)
+	at org.jkiss.dbeaver.model.sql.semantics.SQLQueryModelRecognizer.recognizeQuery(SQLQueryModelRecognizer.java:934)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob.doWork(SQLBackgroundParsingJob.java:641)
+	at org.jkiss.dbeaver.ui.editors.sql.semantics.SQLBackgroundParsingJob$1.run(SQLBackgroundParsingJob.java:97)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:44.492
+!MESSAGE Operation failed. Retry count remains = 1
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:44.492
+!MESSAGE SQL Error [17008] [08003]: 접속 종료
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-12-05 10:03:44.492
+!MESSAGE 접속 종료
+!STACK 0
+java.sql.SQLRecoverableException: 접속 종료
+	at oracle.jdbc.driver.PhysicalConnection.requireOpenConnection(PhysicalConnection.java:11773)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatementInternal(PhysicalConnection.java:2354)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2309)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2300)
+	at oracle.jdbc.driver.PhysicalConnection.prepareStatement(PhysicalConnection.java:2211)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:264)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:641)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema$TableCache.prepareLookupStatement(OracleSchema.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCStructLookupCache.prepareObjectsStatement(JDBCStructLookupCache.java:155)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:108)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:75)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleSchema.getChildren(OracleSchema.java:376)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeProposalsFromChildren(SQLCompletionAnalyzer.java:1060)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.makeDataSourceProposals(SQLCompletionAnalyzer.java:940)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:353)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.runAnalyzer(SQLCompletionAnalyzer.java:120)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:104)
+	at org.jkiss.dbeaver.model.sql.completion.SQLCompletionAnalyzer.run(SQLCompletionAnalyzer.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.syntax.SQLCompletionProcessor$ProposalSearchJob.run(SQLCompletionProcessor.java:506)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:43:52.789
+!MESSAGE SQL Error [907] [42000]: ORA-00907: 누락된 우괄호
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:43:52.789
+!MESSAGE Error : 907, Position : 66, Sql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%' || BOARD_CONTENT LIKE '%?%'), OriginalSql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%' || BOARD_CONTENT LIKE '%?%'), Error Msg = ORA-00907: 누락된 우괄호
+
+!STACK 0
+Error : 907, Position : 66, Sql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%' || BOARD_CONTENT LIKE '%?%'), OriginalSql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%' || BOARD_CONTENT LIKE '%?%'), Error Msg = ORA-00907: 누락된 우괄호
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:969)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 10:43:58.379
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+
+Error position: line: 268 pos: 78
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 10:43:58.379
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-12-05 10:43:58.379
+!MESSAGE Error : 933, Position : 78, Sql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%') || (BOARD_CONTENT LIKE '%?%'), OriginalSql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%') || (BOARD_CONTENT LIKE '%?%'), Error Msg = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 78, Sql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%') || (BOARD_CONTENT LIKE '%?%'), OriginalSql = -- 제목 + 내용 검색
+SELECT * FROM BOARD WHERE (BOARD_TITLE LIKE '%?%') || (BOARD_CONTENT LIKE '%?%'), Error Msg = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:969)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-12-05 11:50:52.089
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-12-05 11:50:52.089
+!MESSAGE Error : 933, Position : 241, Sql = -- 게시글 검색
+-- 제목 검색
+
+SELECT BOARD_NO, BOARD_TITLE, CREATE_DATE, READ_COUNT, MEMBER_NM, 
+(SELECT COUNT(*) FROM REPLY WHERE REPLY.BOARD_NO = BOARD.BOARD_NO) AS "REPLY_COUNT" 
+FROM BOARD 
+JOIN MEMBER USING (MEMBER_NO)
+
+COMMIT, OriginalSql = -- 게시글 검색
+-- 제목 검색
+
+SELECT BOARD_NO, BOARD_TITLE, CREATE_DATE, READ_COUNT, MEMBER_NM, 
+(SELECT COUNT(*) FROM REPLY WHERE REPLY.BOARD_NO = BOARD.BOARD_NO) AS "REPLY_COUNT" 
+FROM BOARD 
+JOIN MEMBER USING (MEMBER_NO)
+
+COMMIT, Error Msg = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+!STACK 0
+Error : 933, Position : 241, Sql = -- 게시글 검색
+-- 제목 검색
+
+SELECT BOARD_NO, BOARD_TITLE, CREATE_DATE, READ_COUNT, MEMBER_NM, 
+(SELECT COUNT(*) FROM REPLY WHERE REPLY.BOARD_NO = BOARD.BOARD_NO) AS "REPLY_COUNT" 
+FROM BOARD 
+JOIN MEMBER USING (MEMBER_NO)
+
+COMMIT, OriginalSql = -- 게시글 검색
+-- 제목 검색
+
+SELECT BOARD_NO, BOARD_TITLE, CREATE_DATE, READ_COUNT, MEMBER_NM, 
+(SELECT COUNT(*) FROM REPLY WHERE REPLY.BOARD_NO = BOARD.BOARD_NO) AS "REPLY_COUNT" 
+FROM BOARD 
+JOIN MEMBER USING (MEMBER_NO)
+
+COMMIT, Error Msg = ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:969)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1271)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1149)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1661)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1470)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2505)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2460)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:328)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:335)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:631)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:522)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:541)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1001)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4237)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5166)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:117)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

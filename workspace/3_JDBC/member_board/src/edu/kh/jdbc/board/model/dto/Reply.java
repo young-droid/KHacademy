@@ -92,7 +92,4 @@ public class Reply {
 		this.memberName = memberName;
 	}
 
-
-	
-	
 }
