@@ -1,3 +1,13 @@
+숙제
+숙제
+숙제
+숙제
+숙제
+숙제
+숙제
+숙제
+숙제
+
 SELECT EMP_ID, EMP_NAME, SALARY, DEPT_CODE FROM EMPLOYEE; 
 
 SELECT * FROM EMPLOYEE ;

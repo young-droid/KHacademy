@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 반응형 웹을 만들기 위한 설정(기계의 넓이를 인식) -->
+    <title>04_표관련태그</title>
+
+    <!-- HTML 문서의 스타일(크기, 색상, 모양 등)을 지정하는 태그 == CSS -->
+    <style>
+        .tb3{
+            border: 2px solid rgb(143, 27, 133);
+            font-size: 15px;
+        }
+
+        thead{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 151, 199);
+        }
+        
+        td{
+            border: 1px solid black;
+
+        }
+
+        th{
+            border: 1px solid black;
+        }
+
+
+ 
+
+        tbody{
+            background-color: rgb(233, 233, 233)
+        }
+
+        tfoot{
+            background-color: rgb(241, 158, 222);
+            border: 1px solid black;
+        }
+
+        tfoot th{
+            background-color: rgb(255, 209, 243);
+        }
+
+        
+        tbody th{
+            border: 1px solid black;
+            background-color: rgb(255, 209, 243);
+        }
+
+       
+    </style>
+</head>
+<body>
+    <br>
+    <table class="tb3">
+        <thead>
+            <td colspan="5" align="middle">
+                <b>혜선쌤 굿즈</b>
+            </td>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="5">
+                    제품리스트
+                </th>
+                <th>
+                    코드
+                </th>
+                <th>
+                    분류
+                </th>
+                <th>
+                    가격
+                </th>
+                <th>
+                    구매가능개수
+                </th>
+            </tr>
+
+            <tr>
+                <td>
+                    A01-468
+                </td>
+                <td>
+                    키링
+                </td>
+                <td>
+                    200,000원
+                </td>
+                <td>
+                    1068
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    A01-469
+                </td>
+                <td>
+                    스티커
+                </td>
+                <td>
+                    150,000원
+                </td>
+                <td>
+                    1700
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    A01-470
+                </td>
+                <td>
+                    인형
+                </td>
+                <td>
+                    950,000원
+                </td>
+                <td>
+                    2500
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    A01-471
+                </td>
+                <td>
+                    텀블러
+                </td>
+                <td>
+                    120,000원
+                </td>
+                <td>
+                    3200
+                </td>
+            </tr>
+        <tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="3">총합</th>
+                <td>1,420,000</td>
+                <td>8468개</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>

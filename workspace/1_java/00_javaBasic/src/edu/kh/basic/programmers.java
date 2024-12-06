@@ -8,6 +8,12 @@ public class programmers {
 		int[] change = {-10, 20, 30, -5}; // 예시 데이터
 		int result = solution.solution(storage, usage, change);
 		System.out.println("Result: " + result);
+
+
+
+
+
+		System.out.println("숙제");
 	}
 }
 
@@ -22,5 +28,7 @@ class Solution {
 			}
 		}
 		return -1;
+
 	}
+
 }
