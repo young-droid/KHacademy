@@ -1,0 +1,193 @@
+body{
+    position: relative;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.header {
+    height: 40px;
+    padding: 5px;
+} 
+
+.page-top{
+    height: 60px;
+    position: relative;
+}
+
+.top-menus{
+    width: 255px;
+    height: 50px;
+    position: absolute;
+    margin: auto;
+    right: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.top-menu{
+    
+
+    margin: 5px;
+    float: left;
+
+}
+
+.top-icon{
+    width: 30px;
+    height: 30px;
+
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.top-icon{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+.page-middle{
+    position: relative;
+}
+
+.logo{
+    width: 272px;
+    height: 92px;
+    display: flex;
+
+    margin-top: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+.middle-searchbar{
+    width: 448px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 40px;
+    border: 2px solid rgb(219, 219, 219);
+    box-shadow: 10px;
+}
+
+.searchbar{
+    width: 300px;
+    height: 38px;
+    border: 0;
+}
+
+.searchbar-items{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.middle-bookmark{
+    width: 448px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+
+.bookmark{
+    width: 112px;
+    height: 112px;
+    text-align: center;
+    position: relative;
+}
+    
+.bookmark-icon{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: rgb(200, 200, 200);
+    border-radius: 50px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+.bookmark-img{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+}
+
+.bookmark-text{
+    font-size: 90%;
+    height: 25px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+.fixed-area{
+    width: 157px;
+    height: 32px;
+    color: cornflowerblue;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 40px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(186, 226, 252);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+    
+.fixed-icon{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.fixed-text{
+    font-size: small;
+    margin: auto;
+}
