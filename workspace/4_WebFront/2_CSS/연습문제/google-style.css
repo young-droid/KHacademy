@@ -1,0 +1,179 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 헤더 */
+
+.header{
+    height: 60px;
+
+    position: fix;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-content: center;
+
+    box-sizing: border-box;
+}
+
+.header>div{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header a{
+    margin: 10px;
+    font-size: 10pt;
+    color: black;
+    text-decoration: none;
+}
+
+.header-right div{
+    width: 73px;    
+    height: 40px;
+    background-color: #0b57d0;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.header img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+/* 중간 */
+
+.middle{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.middle-logo img {
+    width: 272px;
+    height: 92px;
+
+    padding-bottom: 20px;
+}
+
+.middle-searchbar{
+    width: 100%;
+    max-width: 584px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: 0px 0px 5px rgb(223, 223, 222),
+                2px 3px 6px rgb(223, 223, 223);
+    padding: 5px;
+}
+
+.searchbar{
+    width: 300px;
+    height: 30px;
+    border: 0;
+}
+
+
+.middle-buttons{
+    padding-top: 15px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.middle-buttons a{
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 10px;
+    line-height: 35px;
+
+    font-size: 10.5pt;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.middle-tip {
+    min-width: 500px;
+    margin-top: 20px;
+    display: flex;    
+    justify-content: center;
+}
+
+
+.middle-tip img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.middle-tip a{
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 9.5pt;
+    text-decoration: none;
+    color: #1b53ac;
+}
+
+
+
+
+
+/* 푸터 */
+
+.footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    display: block;
+    align-items: flex-end;
+
+    flex-shrink: 0;
+
+    box-sizing: border-box;
+}
+
+.footer-top{
+    height: 50px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: flex;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    margin-left: 10px;
+}

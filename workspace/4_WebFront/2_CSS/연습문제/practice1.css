@@ -17,8 +17,8 @@ div{
 }
 
 .top-menus{
-    width: 255px;
-    height: 50px;
+    width: 240px;
+    height: 60px;
     position: absolute;
     margin: auto;
     right: 5px;
@@ -28,29 +28,23 @@ div{
 }
 
 .top-menu{
-    
-
-    margin: 5px;
+    margin: 7px;
     float: left;
-
+    font-size: 12px;
 }
 
-.top-icon{
-    width: 30px;
-    height: 30px;
-
-}
 
 .profile{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     position: relative;
 }
 
 .top-icon{
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
+    margin: 10px;
 }
 
 
@@ -65,10 +59,11 @@ div{
     height: 92px;
     display: flex;
 
-    margin-top: auto;
-    margin-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 
@@ -86,13 +81,14 @@ div{
     align-items: center;
     margin: auto;
     border-radius: 40px;
-    border: 2px solid rgb(219, 219, 219);
-    box-shadow: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: 1px 1px 2px rgb(223, 223, 223);
+    padding: 10px;
 }
 
 .searchbar{
     width: 300px;
-    height: 38px;
+    height: 30px;
     border: 0;
 }
 
@@ -110,7 +106,7 @@ div{
 
 .middle-bookmark{
     width: 448px;
-    height: 170px;
+    height: 140px;
     display: flex;
     align-items: center;
     margin: auto;
@@ -128,7 +124,7 @@ div{
     width: 50px;
     height: 50px;
     border: 0;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(223, 223, 223);
     border-radius: 50px;
     position: absolute;
     margin: auto;
@@ -165,19 +161,20 @@ div{
 
 .fixed-area{
     width: 157px;
-    height: 32px;
+    height: 40px;
     color: cornflowerblue;
     font-weight: bolder;
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 15px;
+    right: 15px;
     border-radius: 40px;
     border: 1px solid rgb(219, 219, 219);
-    background-color: rgb(186, 226, 252);
     text-align: center;
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding: 5px;
+    box-shadow: 1px 1px 2px rgb(223, 223, 223);
 }
 
     
@@ -190,4 +187,6 @@ div{
 .fixed-text{
     font-size: small;
     margin: auto;
+    color: black;
+    font-weight: 500;
 }
