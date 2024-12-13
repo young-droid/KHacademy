@@ -1,0 +1,173 @@
+*{box-sizing: border-box;}
+
+/* section{border: 1px solid black;} */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f5ef;
+    min-width: 1100px;
+}
+
+/* 헤더 */
+.header-fixed{
+    border-top: 2px solid black;
+    background-color: #f6f5ef;
+    width: 100%;
+    height: 123px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10%;
+}
+
+/* 헤더의 로고 이미지 */
+.header-fixed > img {
+    width: 75px;
+    height: 75px;
+}
+
+/* 헤더의 우측 두줄 */
+
+.member-search{
+    margin: 15px ;
+}
+
+.member-search a{
+    color: rgb(83, 83, 83);
+    font: 100 13px Arial, georgia;
+    text-decoration: 0;
+}
+
+.member-search span{
+    color: #ddd;
+}
+
+.member-search button{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 34px;
+    height: 34px;
+}
+
+/* NAV */
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: black;
+    text-decoration: 0;
+    padding: 5px 10px 0 10px; 
+}
+
+
+
+
+/* 메인 */
+main{
+    margin-top: 123px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventbanner{
+    background-color: aqua;
+}
+
+.eventbanner img{
+    width: 100%;
+
+}
+
+.eventbanner a{
+    width: 125px;
+    height: 38px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: 0;
+    font: bold 13px Arial;
+    position:absolute;
+    top: 100%;
+    left: 15%;
+    line-height: 38px;
+    text-align: center;
+}
+
+
+main>a{
+    position: fixed;
+    top: 155px;
+    right: 5%;
+}
+
+.announcement-promotion{
+    margin-top: -4px;
+    height: 62px;
+    display: flex;
+}
+
+.announcement-promotion > div:nth-child(1){
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: large;
+    line-height: 60px;
+}
+.announcement-promotion > div:nth-child(2){
+    width: 50%;
+    background-color: white;
+    font-size: large;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+    
+    padding-left: 80px;
+}
+
+
+
+
+
+
+/* 리워드 */
+section[class="rewards-wrap"]{
+    height: 240px;
+    background-color: #1e3932;
+    padding: 20px;
+}
+
+.rewards{
+    height: 100%;
+    background-color: #1e3932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewards div:nth-child(1) img{
+    height: 100%;
+    margin-right: 20px;
+}
+
+.rewards div:nth-child(2){
+    color: white;
+
+}
+
+.rewards a{
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: 0;
+    color: white;
+    height: 34px;
+}
+
