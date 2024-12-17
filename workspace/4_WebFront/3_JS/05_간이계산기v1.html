@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05_간이계산기v1</title>
+</head>
+<body>
+    <h1>간이 계산기 만들기</h1>
+
+    <b>첫번째 값</b> : <input type="text" id="inputFirst"><br>
+    <b>두번째 값</b> : <input type="text" id="inputSecond"><br>
+    <button onclick="sum()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mul()">*</button>
+    <button onclick="div()">/</button>
+    <button onclick="divLeft()">%</button>
+    
+    <br>
+
+    <h3>계산 결과 : <span id="result"></span></h3>
+
+    <script>
+        const n1 = document.getElementById("inputFirst").value;
+        const n2 = document.getElementById("inputSecond");
+        const result = document.getElementById("result");
+
+
+
+        // Number(문자열) : 문자열을 number 타입으로 변환
+        function sum(){
+            console.log(n1);
+            console.log(n2);
+            result.innerText = Number(n1) + Number(n2.value);
+        }
+        function sub(){result.innerText = Number(n1.value) - Number(n2.value);}
+        function mul(){result.innerText = Number(n1.value) * Number(n2.value);}
+        function div(){result.innerText = Number(n1.value) / Number(n2.value);}
+        function divLeft(){result.innerText = Number(n1.value) % Number(n2.value);}
+        // NAN : Not a Number
+
+    </script>
+
+<h1></h1>
+
+</body>
+</html>
