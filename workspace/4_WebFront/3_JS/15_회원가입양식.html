@@ -1,93 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>15_회원가입 양식</title>
 
     <style>
-      fieldset {
-        border: 2px solid grey;
-      }
+        fieldset {
+            border: 2px solid grey;
+        }
 
-      fieldset legend {
-        font-size: 15pt;
-      }
+        fieldset legend {
+            font-size: 15pt;
+        }
 
-      #submit {
-        display: flex;
-        justify-content: flex-end;
-      }
+        #submit {
+            display: flex;
+            justify-content: flex-end;
+        }
 
-      #reset {
-        margin-right: 5px;
-      }
+        #reset {
+            margin-right: 5px;
+        }
 
-      .confirm {
-        color: green;
-      }
+        .confirm {
+            color: green;
+        }
 
-      .error {
-        color: red;
-      }
+        .error {
+            color: red;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
-    <form>
-      <fieldset>
-        <legend>회원 가입 양식</legend>
-        <table>
-          <tr>
-            <td>아이디</td>
-            <td><input type="text" id="userId" /></td>
-            <td><button type="button">중복확인</button></td>
-          </tr>
-          <tr>
-            <td>비밀번호</td>
-            <td><input type="password" id="userPw" /></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>비밀번호확인</td>
-            <td>
-                <input type="password" id="userPw2" />
-            </td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>이름</td>
-            <td><input type="text" id="userName" /></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>성별</td>
-            <td id="gender" name="gender">
-              남<input type="radio" name="gender" value="male" />
-              여<input type="radio" name="gender" value="female" />
-            </td>
-          </tr>
-          <tr>
-            <td>전화번호</td>
-            <td><input type="text" id="phone" /></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>이메일</td>
-            <td><input type="text" id="email" /></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td id="submit">
-              <button id="reset">초기화</button>
-              <button type="submit" id="signUp" onclick="validate()">회원가입</button>
-            </td>
-          </tr>
-        </table>
-      </fieldset>
+<body>
+    <form onsubmit="return validate()">
+        <fieldset>
+            <legend>회원 가입 양식</legend>
+            <table>
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" id="userId" /></td>
+                    <td><button type="button">중복확인</button></td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td>
+                        <input type="password" id="userPw" />
+                        <span></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>비밀번호확인</td>
+                    <td>
+                        <input type="password" id="userPw2" />
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" id="userName" /></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>성별</td>
+                    <td id="gender" name="gender">
+                        남<input type="radio" name="gender" value="male" />
+                        여<input type="radio" name="gender" value="female" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>전화번호</td>
+                    <td><input type="text" id="phone" /></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td><input type="text" id="email" /></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="submit">
+                        <button id="reset">초기화</button>
+                        <button type="submit" id="signUp">회원가입</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
     </form>
 
     <script src="js/15_회원가입양식.js"></script>
-  </body>
+</body>
+
 </html>
