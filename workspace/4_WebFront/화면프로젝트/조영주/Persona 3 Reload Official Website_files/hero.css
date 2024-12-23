@@ -1,0 +1,134 @@
+#hero {
+    text-align: center;
+    color: #fff;
+    /* padding: 5em; */
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    /* font-family: eurostile, sans-serif; */
+}
+
+/* #hero::before {
+    content: "";
+    background: url('../media/img/hero.jpg') #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+#hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+} */
+
+.herovideo {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+}
+#hero .logo {
+    /* width: 50%;
+    margin-left: auto; */
+    position: absolute;
+    right: 11%;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    width: 40%;
+    justify-items: center;
+    z-index: 2;
+}
+#hero .logo h1 {
+    align-self: self-end;
+    text-align: center;
+    width: 50%;
+}
+#hero .logo object {
+    align-self: center;
+}
+#hero .logo span {
+    font-size: clamp(8px, 3vw, 40px);
+    font-family: basic-sans, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#heroReleaseDate {
+    font-weight: 900;
+    font-size: 1.75em;
+    text-shadow: 1px 1px 0px #000;
+    width: 50%;
+    margin-left: auto;
+    position: absolute;
+    right: 0;
+}
+
+#heroCta {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.hero-button {
+    margin: 1em;
+    font-weight: 600;
+}
+
+.esrbContainer {
+    bottom: 5%;
+	height: 10%;
+	right: 1%;
+	margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+}
+
+.esrbHero {
+	height: 100%;
+}
+
+#hero::before {
+    content: '';
+    background: url('../media/img/red.png') center / 100% no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: screen;
+    top:0;
+    left: 0;
+    z-index: 5;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* #hero {
+        padding: 5em 1em 10em;
+    } */
+
+    #heroReleaseDate {
+        font-size: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .hero-button {
+        margin: auto;
+        margin-bottom: 0.25em;
+        width: 100%;
+        max-width: 300px;
+        display:block;
+    }
+}

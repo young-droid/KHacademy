@@ -1,0 +1,1128 @@
+const purchaseLinks = {
+  en: {
+    digital: {
+      xbox: {
+        standard: 'https://www.microsoft.com/store/productid/9NKK6Z0K3RH2',
+        deluxe: 'https://www.microsoft.com/store/productid/9PPLXJ981STX',
+        premium: 'https://www.microsoft.com/store/productid/9NDGTQVVRSVS',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/product/UP0177-PPSA10872_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/product/UP0177-PPSA10872_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/product/UP0177-PPSA10872_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        {
+          name: 'GameStop - AIGIS Edition',
+          url: 'https://www.gamestop.com/video-games/products/persona-3-reload-collectors-edition---xbox-series-x/400278.html',
+        },
+        {
+          name: 'GameStop - Standard Edition',
+          url: 'https://www.gamestop.com/video-games/products/persona-3-reload---xbox-series-x/400272.html',
+        },
+        {
+          name: 'Amazon - AIGIS Edition',
+          url: 'https://www.amazon.com/dp/B0CGFBJ4T2',
+        },
+        {
+          name: 'Amazon - Standard Edition',
+          url: 'https://www.amazon.com/dp/B0CGFCTBY8',
+        },
+        {
+          name: 'Best Buy - AIGIS Edition',
+          url: 'https://www.bestbuy.com/site/persona-3-reload-collectors-edition-xbox-series-x-xbox-one/6560574.p?skuId=6560574',
+        },
+        {
+          name: 'Best Buy - Standard Edition',
+          url: 'https://www.bestbuy.com/site/persona-3-reload-launch-edition-xbox-series-x-xbox-one/6559694.p?skuId=6559694',
+        },
+        {
+          name: 'Target - AIGIS Edition',
+          url: 'https://www.target.com/p/persona-3-reload-collector-39-s-edition-xbox-series-x-xbox-one/-/A-89863011#lnk=sametab',
+        },
+        {
+          name: 'Target - Standard Edition',
+          url: 'https://www.target.com/p/persona-3-reload-xbox-series-x-xbox-one/-/A-89862989#lnk=sametab',
+        },
+        {
+          name: 'GameStop(CANADA) - AIGIS Edition',
+          url: 'https://www.gamestop.ca/Xbox%20Series%20X/Games/911761/persona-3-reload-aigis-edition',
+        },
+        {
+          name: 'GameStop(CANADA) - Standard Edition',
+          url: 'https://www.gamestop.ca/Xbox%20Series%20X/Games/911758/persona-3-reload',
+        },
+        {
+          name: 'VGP(CANADA) - AIGIS Edition',
+          url: 'https://videogamesplus.ca/collections/persona-3-reload-collection/products/persona-3-reload-collectors-edition-xbox-one-xbox-series-x',
+        },
+        {
+          name: 'VGP(CANADA) - Standard Edition',
+          url: 'https://videogamesplus.ca/collections/persona-3-reload-collection/products/persona-3-reload',
+        },
+      ],
+      ps5: [
+        {
+          name: 'GameStop - AIGIS Edition',
+          url: 'https://www.gamestop.com/video-games/products/persona-3-reload-collectors-edition---playstation-5/400276.html',
+        },
+        {
+          name: 'GameStop - Standard Edition',
+          url: 'https://www.gamestop.com/video-games/products/persona-3-reload---playstation-5/400268.html',
+        },
+        {
+          name: 'Amazon - AIGIS Edition',
+          url: 'https://www.amazon.com/dp/B0CGFCKCW8',
+        },
+        {
+          name: 'Amazon - Standard Edition',
+          url: 'https://www.amazon.com/dp/B0CGFCC193',
+        },
+        {
+          name: 'Best Buy - AIGIS Edition',
+          url: 'https://www.bestbuy.com/site/persona-3-reload-collectors-edition-playstation-5/6560576.p?skuId=6560576',
+        },
+        {
+          name: 'Best Buy - Standard Edition',
+          url: 'https://www.bestbuy.com/site/persona-3-reload-launch-edition-playstation-5/6559692.p?skuId=6559692',
+        },
+        {
+          name: 'Target - AIGIS Edition',
+          url: 'https://www.target.com/p/persona-3-reload-collector-39-s-edition-playstation-5/-/A-89862992#lnk=sametab',
+        },
+        {
+          name: 'Target - Standard Edition',
+          url: 'https://www.target.com/p/persona-3-reload-playstation-5/-/A-89862997#lnk=sametab',
+        },
+        {
+          name: 'GameStop(CANADA) - AIGIS Edition',
+          url: 'https://www.gamestop.ca/PS5/Games/911760/persona-3-reload-aigis-edition',
+        },
+        {
+          name: 'GameStop(CANADA) - Standard Edition',
+          url: 'https://www.gamestop.ca/PS5/Games/911757/persona-3-reload',
+        },
+        {
+          name: 'VGP(CANADA) - AIGIS Edition',
+          url: 'https://videogamesplus.ca/collections/persona-3-reload-collection/products/persona-3-reload-collectors-edition-ps5',
+        },
+        {
+          name: 'VGP(CANADA) - Standard Edition',
+          url: 'https://videogamesplus.ca/collections/persona-3-reload-collection/products/persona-3-reload-ps5',
+        },
+      ],
+      ps4: [
+        {
+          name: 'GameStop - AIGIS Edition',
+          url: 'https://www.gamestop.com/video-games/products/persona-3-reload-collectors-edition---playstation-4/400274.html',
+        },
+        {
+          name: 'GameStop - Standard Edition',
+          url: 'https://www.gamestop.com/video-games/products/persona-3-reload---playstation-4/400270.html',
+        },
+        {
+          name: 'Amazon - AIGIS Edition',
+          url: 'https://www.amazon.com/dp/B0CGFDJ2K3',
+        },
+        {
+          name: 'Amazon - Standard Edition',
+          url: 'https://www.amazon.com/dp/B0CGF9HQB1',
+        },
+        {
+          name: 'Best Buy - AIGIS Edition',
+          url: 'https://www.bestbuy.com/site/persona-3-reload-collectors-edition-playstation-4/6560575.p?skuId=6560575',
+        },
+        {
+          name: 'Best Buy - Standard Edition',
+          url: 'https://www.bestbuy.com/site/persona-3-reload-launch-edition-playstation-4/6559691.p?skuId=6559691',
+        },
+        {
+          name: 'Target - AIGIS Edition',
+          url: 'https://www.target.com/p/persona-3-reload-collector-39-s-edition-playstation-4/-/A-89862990#lnk=sametab',
+        },
+        {
+          name: 'Target - Standard Edition',
+          url: 'https://www.target.com/p/persona-3-reload-playstation-4/-/A-89863004#lnk=sametab',
+        },
+        {
+          name: 'GameStop(CANADA) - AIGIS Edition',
+          url: 'https://www.gamestop.ca/PS4/Games/911759/persona-3-reload-aigis-edition',
+        },
+        {
+          name: 'GameStop(CANADA) - Standard Edition',
+          url: 'https://www.gamestop.ca/PS4/Games/911756/persona-3-reload',
+        },
+        {
+          name: 'VGP(CANADA) - AIGIS Edition',
+          url: 'https://videogamesplus.ca/collections/persona-3-reload-collection/products/persona-3-reload-collectors-edition-ps4',
+        },
+        {
+          name: 'VGP(CANADA) - Standard Edition',
+          url: 'https://videogamesplus.ca/collections/persona-3-reload-collection/products/persona-3-reload-ps4',
+        },
+      ],
+    },
+  },
+  uk: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/en-GB/games/store/persona-3-reload/9nkk6z0k3rh2 ',
+        deluxe:
+          'https://www.xbox.com/en-GB/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/en-GB/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/en-gb/product/EP0177-PPSA10873_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/en-gb/product/EP0177-PPSA10873_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/en-gb/product/EP0177-PPSA10873_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.co.uk/Persona-3-Reload-Xbox-X/dp/B0CHFVN6FX',
+        },
+        {
+          name: 'Amazon - AIGIS Edition',
+          url: 'https://www.amazon.co.uk/Persona-Reload-Aigis-Exclusive-Amazon-co-uk/dp/B0CGXK9NVZ?th=1',
+        },
+        {
+          name: 'GAME',
+          url: 'https://www.game.co.uk/en/persona-3-reload-2914191',
+        },
+        {
+          name: 'The Game Collection',
+          url: 'https://www.thegamecollection.net/persona-3-reload-xbox-series-x?sqr=persona%203%20reload',
+        },
+      ],
+      ps4: [
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.co.uk/Persona-3-Reload-Playstation-4/dp/B0CHFW2GCJ',
+        },
+        {
+          name: 'GAME',
+          url: 'https://www.game.co.uk/en/persona-3-reload-2916029',
+        },
+        {
+          name: 'The Game Collection',
+          url: 'https://www.thegamecollection.net/persona-3-reload-ps4?sqr=persona%203%20reload',
+        },
+      ],
+      ps5: [
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.co.uk/Persona-3-Reload-Playstation-5/dp/B0CHFW8TX9?th=1',
+        },
+        {
+          name: 'Amazon - AIGIS Edition',
+          url: 'https://www.amazon.co.uk/Persona-Reload-Aigis-Exclusive-Amazon-co-uk/dp/B0CGXJM6WS',
+        },
+        {
+          name: 'GAME',
+          url: 'https://www.game.co.uk/en/persona-3-reload-2912411',
+        },
+        {
+          name: 'The Game Collection',
+          url: 'https://www.thegamecollection.net/persona-3-reload-ps5?sqr=persona%203%20reload',
+        },
+      ],
+    },
+  },
+  au: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/en-AU/games/store/persona-3-reload/9nkk6z0k3rh2',
+        deluxe:
+          'https://www.xbox.com/en-AU/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/en-AU/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/en-au/product/EP0177-PPSA10873_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/en-au/product/EP0177-PPSA10873_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/en-au/product/EP0177-PPSA10873_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        {
+          name: 'EB Games',
+          url: 'https://www.ebgames.com.au/product/xbox-series-x/300623-persona-3-reload',
+        },
+        {
+          name: 'JB Hi-Fi',
+          url: 'https://www.jbhifi.com.au/products/xbox-series-x-persona-3-reload?queryID=5cb23b236a1109e1ce24b50d72701c76&objectID=662515',
+        },
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.com.au/Persona-Reload-Xbox-One/dp/B0CH2L76RS/ref=sr_1_1?crid=16XBJAQND8HC6&keywords=persona+3+reload&qid=1693868665&sprefix=persona+3+reload%2Caps%2C263&sr=8-1',
+        },
+        {
+          name: 'Gamesmen',
+          url: 'https://www.gamesmen.com.au/xbx-persona-3-reload',
+        },
+      ],
+      ps4: [
+        {
+          name: 'EB Games',
+          url: 'https://www.ebgames.com.au/product/ps4/300625-persona-3-reload',
+        },
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.com.au/Persona-3-Reload-PlayStation-4/dp/B0CH2JW2BT/ref=sr_1_2?crid=16XBJAQND8HC6&keywords=persona+3+reload&qid=1693868665&sprefix=persona+3+reload%2Caps%2C263&sr=8-2',
+        },
+        {
+          name: 'Gamesmen',
+          url: 'https://www.gamesmen.com.au/ps4-persona-3-reload',
+        },
+      ],
+      ps5: [
+        {
+          name: 'EB Games',
+          url: 'https://www.ebgames.com.au/product/ps5/300621-persona-3-reload',
+        },
+        {
+          name: 'JB Hi-Fi',
+          url: 'https://www.jbhifi.com.au/products/playstation-5-persona-3-reload?queryID=5cb23b236a1109e1ce24b50d72701c76&objectID=662514',
+        },
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.com.au/Persona-3-Reload-PlayStation-5/dp/B0CH2KKD3Z/ref=sr_1_1?crid=TCOIYHTKW3BA&keywords=persona+3+reload+PS5&qid=1693868706&s=videogames&sprefix=persona+3+reload+ps5%2Cvideogames%2C217&sr=1-1',
+        },
+        {
+          name: 'Gamesmen',
+          url: 'https://www.gamesmen.com.au/ps5-persona-3-reload',
+        },
+      ],
+    },
+  },
+  fr: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/fr-FR/games/store/persona-3-reload/9nkk6z0k3rh2',
+        deluxe:
+          'https://www.xbox.com/fr-FR/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/fr-FR/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/fr-fr/product/EP0177-PPSA10873_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/fr-fr/product/EP0177-PPSA10873_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/fr-fr/product/EP0177-PPSA10873_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        { name: 'Amazon', url: 'https://www.amazon.fr/dp/B0CGRRK9Q4' },
+        {
+          name: 'Leclerc',
+          url: 'https://www.e.leclerc/fp/persona-3-reload-xbox-series-5055277052592',
+        },
+      ],
+      ps4: [
+        { name: 'Amazon', url: 'https://www.amazon.fr/dp/B0CGRQW3CF' },
+        {
+          name: 'Leclerc',
+          url: 'https://www.e.leclerc/fp/persona-3-reload-ps4-5055277052684',
+        },
+      ],
+      ps5: [
+        { name: 'Amazon', url: 'https://www.amazon.fr/dp/B0CGRRSYQF' },
+        {
+          name: 'Leclerc',
+          url: 'https://www.e.leclerc/fp/persona-3-reload-ps5-5055277052523',
+        },
+      ],
+    },
+  },
+  it: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/it-IT/games/store/persona-3-reload/9nkk6z0k3rh2',
+        deluxe:
+          'https://www.xbox.com/it-IT/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/it-IT/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/it-it/product/EP0177-PPSA10873_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/it-it/product/EP0177-PPSA10873_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/it-it/product/EP0177-PPSA10873_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        {
+          name: 'GAMESTOP',
+          url: 'https://www.gamestop.it/XboxSeries/Games/141646/persona-3-reload',
+        },
+        {
+          name: 'GAMESTOP - AIGIS Edition',
+          url: 'https://www.gamestop.it/XboxSeries/Games/143048/persona-3-reload-aigis-edition',
+        },
+        { name: 'AMAZON', url: 'https://www.amazon.it/dp/B0CGVRFYQ5' },
+        {
+          name: 'AMAZON - AIGIS Edition',
+          url: 'https://www.amazon.it/Persona-3-Reload-Aigis-Edition/dp/B0CGXK9NVZ/',
+        },
+      ],
+      ps4: [{ name: 'AMAZON', url: 'https://www.amazon.it/dp/B0CGVS5NW2' }],
+      ps5: [
+        {
+          name: 'GAMESTOP',
+          url: 'https://www.gamestop.it/PS5/Games/141645/persona-3-reload',
+        },
+        {
+          name: 'GAMESTOP - AIGIS Edition',
+          url: 'https://www.gamestop.it/PS5/Games/143047/persona-3-reload-aigis-edition',
+        },
+        { name: 'AMAZON', url: 'https://www.amazon.it/dp/B0CGVQ9QH3' },
+        {
+          name: 'AMAZON - AIGIS Edition',
+          url: 'https://www.amazon.it/Persona-3-Reload-Aigis-Edition/dp/B0CGXJM6WS/',
+        },
+      ],
+    },
+  },
+  de: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/de-DE/games/store/persona-3-reload/9nkk6z0k3rh2',
+        deluxe:
+          'https://www.xbox.com/de-DE/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/de-DE/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/de-de/product/EP0177-PPSA10873_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/de-de/product/EP0177-PPSA10873_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/de-de/product/EP0177-PPSA10873_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        { name: 'Amazon', url: 'https://www.amazon.de/dp/B0CGXLC9FV' },
+        { name: 'Amazon - AIGIS', url: 'https://www.amazon.de/dp/B0CGXK9NVZ' },
+        {
+          name: 'CeDe',
+          url: 'https://www.cede.ch/de/games/?view=detail&branch_sub=0&branch=4&aid=18316448',
+        },
+        {
+          name: 'CeDe - AIGIS',
+          url: 'https://www.cede.ch/de/games/?view=detail&branch_sub=0&branch=4&aid=18316430',
+        },
+        {
+          name: 'Digitec',
+          url: 'https://www.digitec.ch/de/s1/product/atlus-persona-3-reload-xbox-series-x-de-game-37801431',
+        },
+        {
+          name: 'Galaxus',
+          url: 'https://www.galaxus.de/de/s1/product/atlus-persona-3-reload-xbox-series-x-de-game-37801431',
+        },
+        {
+          name: 'Galaxus CH',
+          url: 'https://www.galaxus.ch/de/s1/product/atlus-persona-3-reload-xbox-series-x-de-game-37801431',
+        },
+        {
+          name: 'Game Legends',
+          url: 'https://game-legends.de/Persona-3-Reload-Xbox-One-Xbox-Series-X-5055277052608',
+        },
+        {
+          name: 'Games2Game',
+          url: 'https://www.games2game.at/Xbox-One/Adventures---Rollenspiele-93/persona-3-reload-deutsch-spielbar-at-pegi-xbox-one-xbox-series-x.html',
+        },
+        {
+          name: 'GamesOnly',
+          url: 'https://www.gamesonly.at/Persona_3_Reload_Xbox_17342.html',
+        },
+        {
+          name: 'GameStop',
+          url: 'https://www.gamestop.de/XboxOne/Games/73659/persona-3-reload',
+        },
+        {
+          name: 'GameStop - AIGIS',
+          url: 'https://www.gamestop.de/XboxOne/Games/73661/persona-3-reload-aigis-edition',
+        },
+        {
+          name: 'Gameware',
+          url: 'https://www.gameware.at/info/space/Persona+3+Reload?emphasize=P5-PE3R',
+        },
+        {
+          name: 'Interdiscount',
+          url: 'https://www.interdiscount.ch/de/computer-gaming/gaming/spielkonsolen-games--c212000/persona-3-reload-de-pt-ru-it-en-fr-es-t%C3%BCrkisch--p0013996428',
+        },
+        {
+          name: 'Mediamarkt AT',
+          url: 'https://www.mediamarkt.at/de/product/_persona-3-reload-xbox-one-and-xbox-series-x-1953840.html',
+        },
+        {
+          name: 'Softridge',
+          url: 'https://softridge.ch/de/produkt/persona-3-reload-xbox-one-xbox-series-x-133543',
+        },
+        {
+          name: 'World of Games',
+          url: 'https://www.wog.ch/index.cfm/details/product/172634-Persona-3-Reload',
+        },
+        {
+          name: 'World of Games - AIGIS',
+          url: 'https://www.wog.ch/index.cfm/details/product/175706-Persona-3-Reload-Aegis-Edition',
+        },
+      ],
+      ps4: [
+        {
+          name: 'Alcom',
+          url: 'https://alcom.ch/index.php?hm=games&um=&um2=det&artnummer=s465984',
+        },
+        { name: 'Amazon', url: 'https://www.amazon.de/dp/B0CGXNHFZ1' },
+        {
+          name: 'CeDe',
+          url: 'https://www.cede.ch/de/games/?view=detail&branch_sub=0&branch=4&aid=18316456',
+        },
+        {
+          name: 'Digitec',
+          url: 'https://www.digitec.ch/de/s1/product/atlus-persona-3-reload-ps4-de-game-37801430',
+        },
+        {
+          name: 'Galaxus',
+          url: 'https://www.galaxus.de/de/s1/product/atlus-persona-3-reload-ps4-de-game-37801430',
+        },
+        {
+          name: 'Galaxus CH',
+          url: 'https://www.galaxus.ch/de/s1/product/atlus-persona-3-reload-ps4-de-game-37801430',
+        },
+        {
+          name: 'Game Legends',
+          url: 'https://game-legends.de/Persona-3-Reload-PS4-5055277052691',
+        },
+        {
+          name: 'Games2Game',
+          url: 'https://www.games2game.at/Playstation-4/Adventures---Rollenspiele-82/persona-3-reload-deutsch-spielbar-at-pegi-ps4.html',
+        },
+        {
+          name: 'GamesOnly',
+          url: 'https://www.gamesonly.at/Persona_3_Reload_PS4_17341.html',
+        },
+        {
+          name: 'GameStop',
+          url: 'https://www.gamestop.de/PS4/Games/73662/persona-3-reload',
+        },
+        {
+          name: 'Gameware',
+          url: 'https://www.gameware.at/info/space/Persona+3+Reload?emphasize=P5-PE3R',
+        },
+        {
+          name: 'Interdiscount',
+          url: 'https://www.interdiscount.ch/de/computer-gaming/gaming/spielkonsolen-games--c212000/persona-3-reload-ja-en--p0013996431',
+        },
+        {
+          name: 'Mediamarkt AT',
+          url: 'https://www.mediamarkt.at/de/product/_persona-3-reload-playstation-4-1953838.html',
+        },
+        {
+          name: 'Softridge',
+          url: 'https://softridge.ch/de/produkt/persona-3-reload-ps4-133541',
+        },
+        {
+          name: 'World of Games',
+          url: 'https://www.wog.ch/index.cfm/details/product/172632-Persona-3-Reload',
+        },
+      ],
+      ps5: [
+        {
+          name: 'Alcom',
+          url: 'https://alcom.ch/index.php?hm=games&um=&um2=det&artnummer=s565985',
+        },
+        { name: 'Amazon', url: 'https://www.amazon.de/dp/B0CGXLX6VB' },
+        { name: 'Amazon - AIGIS', url: 'https://www.amazon.de/dp/B0CGXJM6WS' },
+        {
+          name: 'CeDe',
+          url: 'https://www.cede.ch/de/games/?view=detail&branch_sub=0&branch=4&aid=18316455',
+        },
+        {
+          name: 'CeDe - AIGIS',
+          url: 'https://www.cede.ch/de/games/?view=detail&branch_sub=0&branch=4&aid=18316425',
+        },
+        {
+          name: 'Digitec',
+          url: 'https://www.digitec.ch/de/s1/product/atlus-persona-3-reload-ps5-de-game-37801403',
+        },
+        {
+          name: 'Galaxus',
+          url: 'https://www.galaxus.de/de/s1/product/atlus-persona-3-reload-ps5-de-game-37801403',
+        },
+        {
+          name: 'Galaxus CH',
+          url: 'https://www.galaxus.ch/de/s1/product/atlus-persona-3-reload-ps5-de-game-37801403',
+        },
+        {
+          name: 'Game Legends',
+          url: 'https://game-legends.de/Persona-3-Reload-PS5-5055277052530',
+        },
+        {
+          name: 'Games2Game',
+          url: 'https://www.games2game.at/playstation-5/spiele/persona-3-reload-deutsch-spielbar-at-pegi-ps5.html',
+        },
+        {
+          name: 'GamesOnly',
+          url: 'https://www.gamesonly.at/Persona_3_Reload_PS5__17339.html',
+        },
+        {
+          name: 'GameStop',
+          url: 'https://www.gamestop.de/PS5/Games/73658/persona-3-reload',
+        },
+        {
+          name: 'GameStop - AIGIS',
+          url: 'https://www.gamestop.de/PS5/Games/73660/persona-3-reload-aigis-edition',
+        },
+        {
+          name: 'Gameware',
+          url: 'https://www.gameware.at/info/space/Persona+3+Reload?emphasize=P5-PE3R',
+        },
+        {
+          name: 'Interdiscount',
+          url: 'https://www.interdiscount.ch/de/computer-gaming/gaming/spielkonsolen-games--c212000/persona-3-reload-de--p0013996427',
+        },
+        {
+          name: 'Mediamarkt AT',
+          url: 'https://www.mediamarkt.at/de/product/_persona-3-reload-playstation-5-1953839.html',
+        },
+        {
+          name: 'Softridge',
+          url: 'https://softridge.ch/de/produkt/persona-3-reload-ps5-133542',
+        },
+        {
+          name: 'World of Games',
+          url: 'https://www.wog.ch/index.cfm/details/product/172633-Persona-3-Reload',
+        },
+        {
+          name: 'World of Games - AIGIS',
+          url: 'https://www.wog.ch/index.cfm/details/product/175705-Persona-3-Reload-Aegis-Edition',
+        },
+      ],
+    },
+  },
+  es: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/es-ES/games/store/persona-3-reload/9nkk6z0k3rh2',
+        deluxe:
+          'https://www.xbox.com/es-ES/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/es-ES/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/es-es/product/EP0177-PPSA10873_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/es-es/product/EP0177-PPSA10873_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/es-es/product/EP0177-PPSA10873_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        {
+          name: 'GAME',
+          url: 'https://www.game.es/VIDEOJUEGOS/ROL/XBOX-ONE/PERSONA-3-RELOAD/222275',
+        },
+        {
+          name: 'GAME - AIGIS EDITION',
+          url: 'https://www.game.es/VIDEOJUEGOS/ROL/XBOX-ONE/PERSONA-3-RELOAD-AIGIS-EDITION/223211',
+        },
+        {
+          name: 'Xtralife',
+          url: 'https://www.xtralife.com/producto/persona-3-reload-xbox-series-xbox-one-estandar/80085',
+        },
+        {
+          name: 'FNAC',
+          url: 'https://www.fnac.es/Persona-3-Reload-Xbox-Series-X-Xbox-One-Videojuego-Xbox-Series/a10402881#omnsearchpos=9',
+        },
+        { name: 'Amazon', url: 'https://www.amazon.es/dp/B0CH1H6PTS/' },
+      ],
+      ps4: [
+        {
+          name: 'GAME',
+          url: 'https://www.game.es/VIDEOJUEGOS/ROL/PLAYSTATION-4/PERSONA-3-RELOAD/222273',
+        },
+        {
+          name: 'Xtralife',
+          url: 'https://www.xtralife.com/producto/persona-3-reload-ps4-estandar/80084',
+        },
+        {
+          name: 'FNAC',
+          url: 'https://www.fnac.es/Persona-3-Reload-PS4-Videojuego-PS4/a10402879#omnsearchpos=8',
+        },
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.es/dp/B0CH1G6G9J/ref=twister_B0CH86TP3X?_encoding=UTF8&psc=1',
+        },
+      ],
+      ps5: [
+        {
+          name: 'GAME',
+          url: 'https://www.game.es/VIDEOJUEGOS/ROL/PLAYSTATION-5/PERSONA-3-RELOAD/222274',
+        },
+        {
+          name: 'GAME - AIGIS EDITION',
+          url: 'https://www.game.es/VIDEOJUEGOS/ROL/PLAYSTATION-5/PERSONA-3-RELOAD-AIGIS-EDITION/223210',
+        },
+        {
+          name: 'Xtralife',
+          url: 'https://www.xtralife.com/producto/persona-3-reload-ps5-estandar/80083',
+        },
+        {
+          name: 'FNAC',
+          url: 'https://www.fnac.es/Persona-3-Reload-PS5-Videojuego-PS5/a10402880#omnsearchpos=5',
+        },
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.es/Persona-3-Reload-PS5-ESP/dp/B0CH1GBZ8M/',
+        },
+      ],
+    },
+  },
+  br: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/pt-BR/games/store/persona-3-reload/9nkk6z0k3rh2',
+        deluxe:
+          'https://www.xbox.com/pt-BR/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/pt-BR/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/pt-br/product/UP0177-PPSA10872_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/pt-br/product/UP0177-PPSA10872_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/pt-br/product/UP0177-PPSA10872_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [],
+      ps5: [
+        {
+          name: 'Moove Games',
+          url: 'https://www.moovegames.com.br/persona-3-reload-ps5',
+        },
+        {
+          name: 'Game Mania',
+          url: 'https://www.lojasgamemania.com.br/jogo-persona-3-reload-ps5',
+        },
+        {
+          name: 'Super Games',
+          url: 'https://supergamesrs.com.br/produtos/persona-3-reload-ps5/',
+        },
+        {
+          name: 'MRD Geekstore',
+          url: 'https://www.mrdgeekstore.com.br/persona3-ps5-novo',
+        },
+        {
+          name: 'Gamer Hut',
+          url: 'https://www.gamerhut.com.br/MLB-4353382178-persona-3-reload-ps5-br-midia-fisica-_JM',
+        },
+      ],
+      ps4: [
+        {
+          name: 'Rico Games',
+          url: 'https://www.ricogamesloja.com.br/persona-3-pre-venda-020224-ps4',
+        },
+        {
+          name: 'Moove Games',
+          url: 'https://www.moovegames.com.br/persona-3-reload-ps4',
+        },
+        {
+          name: 'Game Mania',
+          url: 'https://www.lojasgamemania.com.br/jogo-persona-3-reload-ps4',
+        },
+        {
+          name: 'Super Games',
+          url: 'https://supergamesrs.com.br/produtos/persona-3-reload-ps4/',
+        },
+        {
+          name: 'Gamer Hut',
+          url: 'https://www.gamerhut.com.br/MLB-4353382316-persona-3-reload-ps4-br-midia-fisica-_JM',
+        },
+      ],
+    },
+  },
+  mx: {
+    digital: {
+      xbox: {
+        standard:
+          'https://www.xbox.com/es-MX/games/store/persona-3-reload/9nkk6z0k3rh2',
+        deluxe:
+          'https://www.xbox.com/es-MX/games/store/persona-3-reload-digital-deluxe-edition/9PPLXJ981STX/0010',
+        premium:
+          'https://www.xbox.com/es-MX/games/store/persona-3-reload-digital-premium-edition/9NDGTQVVRSVS/0010',
+      },
+      ps: {
+        premium:
+          'https://store.playstation.com/es-mx/product/UP0177-PPSA10872_00-ADDCONTENT200012',
+        deluxe:
+          'https://store.playstation.com/es-mx/product/UP0177-PPSA10872_00-ADDCONTENT200011',
+        standard:
+          'https://store.playstation.com/es-mx/product/UP0177-PPSA10872_00-APPLICATION00000',
+      },
+      steam: {
+        premium: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        deluxe: 'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+        standard:
+          'https://store.steampowered.com/app/2161700/Persona_3_Reload/',
+      },
+    },
+    physical: {
+      xbox: [
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.com.mx/SEGA-Persona-Reload-Launch-Xbox/dp/B0CGFCTBY8/',
+        },
+        {
+          name: 'Game Planet',
+          url: 'https://gameplanet.com/producto/persona-3-reload-xsx/',
+        },
+      ],
+      ps5: [
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.com.mx/Atlus-Persona-Reload-Standard-PlayStation/dp/B0CGFCC193/',
+        },
+        {
+          name: 'Game Planet',
+          url: 'https://gameplanet.com/producto/persona-3-reload-ps5/',
+        },
+      ],
+      ps4: [
+        {
+          name: 'Amazon',
+          url: 'https://www.amazon.com.mx/Atlus-Persona-Reload-Standard-PlayStation/dp/B0CGF9HQB1/',
+        },
+        {
+          name: 'Game Planet',
+          url: 'https://gameplanet.com/producto/persona-3-reload-ps4/',
+        },
+      ],
+    },
+  },
+};
+
+$(document).ready(function () {
+  const versionSelectButtons = document.querySelectorAll(
+    '.versionSelectButtons button'
+  );
+  const platformSelectButtons = document.querySelectorAll(
+    '.platformSelectButtons button'
+  );
+  const platformSelectRetail = document.querySelectorAll('.retail-only');
+  const platformSelectDigital = document.querySelectorAll('.digital-only');
+  const retailerSelect = document.querySelector('.retailSelectInput select');
+  const physicalSection = '.retailSelect';
+  const digitalSection = '.digitalSelect';
+
+  const defaultSelect = '#digital';
+  const defaultPlatform = 'xbox';
+  let currentPlatform = defaultPlatform;
+
+  versionChange(defaultSelect);
+  platformSelect(defaultPlatform);
+
+  for (let button of versionSelectButtons) {
+    button.addEventListener('click', versionChange);
+  }
+
+  for (let button of platformSelectButtons) {
+    button.addEventListener('click', platformSelect);
+  }
+
+  retailerSelect.addEventListener('change', updateRetailLink);
+
+  function versionChange(defaultId) {
+    let button = null;
+    if (typeof defaultId === 'string') {
+      button = document.querySelector(defaultId);
+    } else {
+      button = this;
+    }
+    if (!button.classList.contains('active')) {
+      let id = button.id;
+      switch (id) {
+        case 'digital':
+          toggleActive(versionSelectButtons, id);
+          hideSection(physicalSection);
+          showSection(digitalSection);
+          // showSection("#steam");
+          for (let digital of platformSelectDigital) {
+            digital.classList.remove('hidden');
+          }
+          for (let retail of platformSelectRetail) {
+            retail.classList.add('hidden');
+          }
+          if (currentPlatform.includes('ps')) {
+            platformSelect('ps');
+          }
+          break;
+        case 'physical':
+          toggleActive(versionSelectButtons, id);
+          hideSection(digitalSection);
+          // hideSection("#steam");
+          showSection(physicalSection);
+          for (let digital of platformSelectDigital) {
+            digital.classList.add('hidden');
+          }
+          for (let retail of platformSelectRetail) {
+            retail.classList.remove('hidden');
+          }
+          if (currentPlatform == 'steam' || currentPlatform == 'gamepass') {
+            platformSelect(defaultPlatform);
+          } else if (currentPlatform == 'ps') {
+            platformSelect('ps5');
+          }
+          break;
+      }
+    }
+  }
+
+  function platformSelect(defaultId) {
+    let button = null;
+    if (typeof defaultId === 'string') {
+      button = document.querySelector(`#${defaultId}`);
+    } else {
+      button = this;
+    }
+    if (!button.classList.contains('active')) {
+      let id = button.id;
+      toggleActive(platformSelectButtons, id);
+      currentPlatform = id;
+      if (!button.classList.contains('digital-only')) {
+        populateRetailers(id);
+      }
+      if (!button.classList.contains('retail-only')) {
+        updateDigitalLinks(id);
+      }
+    }
+  }
+
+  function updateDigitalLinks(platform) {
+    let premium = document.querySelector('.digitalSelectButtons a#premium');
+    let deluxe = document.querySelector('.digitalSelectButtons a#deluxe');
+    let standard = document.querySelector('.digitalSelectButtons a#standard');
+    premium.setAttribute('data-edition', 'premium');
+    deluxe.setAttribute('data-edition', 'deluxe');
+    standard.setAttribute('data-edition', 'standard');
+
+    if (platform === 'gamepass') {
+      let standard = document.querySelector('.digitalSelectButtons a#standard');
+      standard.setAttribute('href', purchaseLinks.en.digital.xbox.standard);
+      standard.setAttribute(
+        'data-purchase',
+        'digital xboxgamepass xbox_estore'
+      );
+
+      premium.classList.add('hidden');
+      deluxe.classList.add('hidden');
+    } else {
+      let lang = Cookies.get('lang');
+      let links = purchaseLinks[lang].digital[platform];
+
+      premium.classList.remove('hidden');
+      deluxe.classList.remove('hidden');
+
+      premium.setAttribute('href', links.premium);
+      deluxe.setAttribute('href', links.deluxe);
+      standard.setAttribute('href', links.standard);
+
+      // gtm
+      let data = `digital ${platform} ${platform}_estore`;
+      premium.setAttribute('data-purchase', data);
+      deluxe.setAttribute('data-purchase', data);
+      standard.setAttribute('data-purchase', data);
+    }
+  }
+
+  function populateRetailers(platform) {
+    let lang = Cookies.get('lang');
+    let retailers = purchaseLinks[lang].physical[platform];
+
+    if (retailers.length > 0) {
+      let defaultRetailer = retailers[Object.keys(retailers)[0]];
+      let retailerSelect = document.querySelector('.retailSelectInput select');
+
+      let retailerOptionList = '';
+      for (let retailer in retailers) {
+        let retailerOption = `<option value="${retailers[retailer].url}">${retailers[retailer].name}</option>`;
+        retailerOptionList += retailerOption;
+      }
+      retailerSelect.innerHTML = retailerOptionList;
+
+      let purchaseButton = document.querySelector('#physicalBuy');
+      let defaultRetailerName = defaultRetailer.name
+        .split('-')[0]
+        .replace(/\s+/g, '');
+      purchaseButton.setAttribute('href', defaultRetailer.url);
+      let data = `physical ${platform} ${defaultRetailerName}`;
+      purchaseButton.setAttribute('data-purchase', data);
+      purchaseButton.style.pointerEvents = 'auto';
+      let edition = 'standard';
+      if (defaultRetailer.name.includes('AIGIS')) {
+        edition = 'AIGIS';
+      }
+      purchaseButton.setAttribute('data-edition', edition);
+    } else {
+      let purchaseButton = document.querySelector('#physicalBuy');
+      let text = 'Coming Soon';
+      if (translations) {
+        text = translations[lang].purchase.comingSoon;
+      }
+      retailerSelect.innerHTML =
+        '<option value="" class="coming-soon">' + text + '</option>';
+      purchaseButton.setAttribute('href', '');
+      purchaseButton.setAttribute('data-purchase', '');
+      purchaseButton.style.pointerEvents = 'none';
+    }
+  }
+  function updateRetailLink(e) {
+    let value = e.target.value;
+    let index = e.target.selectedIndex;
+    let name = e.target[index].text.split('-')[0].replace(/\s+/g, '');
+    let purchaseButton = document.querySelector('#physicalBuy');
+    purchaseButton.setAttribute('href', e.target.value);
+
+    let data = `physical ${currentPlatform} ${name}`;
+    purchaseButton.setAttribute('data-purchase', data);
+
+    let edition = 'standard';
+    if (e.target[index].text.includes('AIGIS')) {
+      edition = 'AIGIS';
+    }
+    purchaseButton.setAttribute('data-edition', edition);
+  }
+
+  function toggleActive(buttons, id) {
+    for (let button of buttons) {
+      if (button.id === id) {
+        button.classList.add('active');
+      } else {
+        button.classList.remove('active');
+      }
+    }
+  }
+  function hideSection(section) {
+    document.querySelector(section).classList.add('hidden');
+  }
+  function showSection(section) {
+    document.querySelector(section).classList.remove('hidden');
+  }
+
+  const mobileGridArrows = document.querySelectorAll('.mobileGridArrows img');
+  let gridLabels = document.querySelectorAll('.gridLabelContainer');
+  let gridSlides = document.querySelectorAll('.gridSlide');
+  let gridIndex = 0;
+  for (let arrow of mobileGridArrows) {
+    arrow.addEventListener('click', moveMobileGrid);
+  }
+
+  function moveMobileGrid(e) {
+    e.stopPropagation();
+
+    if (e.target.classList.contains('right')) {
+      if (gridIndex < gridSlides.length - 1) {
+        gridIndex++;
+      } else {
+        gridIndex = 0;
+      }
+    } else if (e.target.classList.contains('left')) {
+      if (gridIndex > 0) {
+        gridIndex--;
+      } else {
+        gridIndex = gridSlides.length - 1;
+      }
+    }
+
+    for (let i = 0; i < gridSlides.length; i++) {
+      gridLabels[i].classList.add('gridHidden');
+      gridSlides[i].classList.add('gridHidden');
+
+      gridLabels[gridIndex].classList.remove('gridHidden');
+      gridSlides[gridIndex].classList.remove('gridHidden');
+    }
+  }
+});
