@@ -44,6 +44,7 @@ nav {
     height: 55px;
     display: flex;
     align-items: center;
+    position: sticky;
 }
 
 nav img{
@@ -135,6 +136,11 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.trailer iframe {
+    width: 1000px;
+    height: 600px;
 }
 
 #trailer{
