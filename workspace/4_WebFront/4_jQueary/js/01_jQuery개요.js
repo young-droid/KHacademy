@@ -42,6 +42,7 @@ $(document).ready(function () {
 })
 
 // ready() 함수의 다른 형태
+
 $(function () {
     console.log("ready() 함수의 다른 형태");
 })
