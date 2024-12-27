@@ -21,21 +21,31 @@
   </servlet>
   
   <!-- 요청 주소를 처리할 Servlet과 연결을 지정 -->
-  <servlet-mapping>
-     <servlet-name>example1</servlet-name>
-     <url-pattern>/example1.do</url-pattern>
-  </servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>example1</servlet-name>
+		<url-pattern>/example1.do</url-pattern>
+	</servlet-mapping>
   
   
-<servlet>
+	<servlet>
      	<servlet-name>example2</servlet-name>
-     
      	<servlet-class>edu.kh.servlet.ServletEx2</servlet-class>
   	</servlet>
   
 	<servlet-mapping>
 		<servlet-name>example2</servlet-name>
 		<url-pattern>/example2.do</url-pattern>
+	</servlet-mapping>
+
+<!-- 3 -->  
+	<servlet>
+     	<servlet-name>example3</servlet-name>
+     	<servlet-class>edu.kh.servlet.ServletEx3</servlet-class>
+  	</servlet>
+  
+	<servlet-mapping>
+		<servlet-name>example3</servlet-name>
+		<url-pattern>/example3.do</url-pattern>
 	</servlet-mapping>
   
   
