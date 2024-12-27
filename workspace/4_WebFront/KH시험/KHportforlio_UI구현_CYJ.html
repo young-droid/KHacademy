@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조영주</title>
+
+    <style>
+        body {
+            background-color: azure;
+        }
+
+        .login {
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            width: 400px;
+            border: 1px solid gray;
+            background-color: rgb(235, 235, 235);
+        }
+
+        .login table {
+            margin: 10px;
+            margin-top: 40px;
+        }
+
+        .login tr td:first-child {
+            width: 110px;
+        }
+
+        .login tr td:last-child {
+            width: 200px;
+        }
+
+        tr[class="tr-space"]>td {
+            height: 22px;
+        }
+
+        .login form {
+            display: flex;
+            justify-content: center;
+        }
+
+        .login input {
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px dashed black;
+        }
+
+        .login input:focus {
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px dashed black;
+        }
+
+        .userEmail {
+            width: 71px;
+        }
+
+        #pwd-span {
+            color: gray;
+            font-size: 8px;
+            margin-top: 0;
+        }
+
+        span {
+            color: gray;
+            font-size: 8px;
+        }
+
+        #submit-btn {
+            margin-top: 30px;
+            width: 100%;
+            background-color: lightgreen;
+            border: none;
+            height: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="login">
+        <form action="#">
+            <table>
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" id="userId">
+                    </td>
+                </tr>
+                <tr class="tr-space">
+                    <td></td>
+                    <td><span id="id-span"></span></td>
+                </tr>
+                <tr>
+                    <td>패스워드</td>
+                    <td><input type="text" id="userPwd">
+                        <!-- <br><span id="pwd-span2"></span> -->
+                    </td>
+                </tr>
+                <tr class="tr-space">
+                    <td></td>
+                    <td><span id="pwd-span"></span></td>
+                </tr>
+                <tr>
+                    <td>패스워드 확인</td>
+                    <td><input type="text" id="userPwd2">
+                    </td>
+                </tr>
+                <tr class="tr-space">
+                    <td></td>
+                    <td><span id="pwd2-span"></span></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td><input type="text" class="userEmail"><span>@</span><input type="text" class="userEmail">
+                    </td>
+                </tr>
+                <tr class="tr-space">
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>주소</td>
+                    <td><input type="text"><input type="text"></td>
+                </tr>
+                <td colspan="2"><button type="submit" id="submit-btn">가입</button></td>
+            </table>
+        </form>
+    </section>
+
+    <script>
+        const id = document.getElementById("userId");
+        const pwd = document.getElementById("userPwd");
+        const pwd2 = document.getElementById("userPwd2");
+
+        const idSpan = document.getElementById("id-span");
+        const pwdSpan = document.getElementById("pwd-span");
+        const pwdSpan2 = document.getElementById("pwd-span2");
+        const pwd2Span = document.getElementById("pwd2-span");
+
+        id.addEventListener("focus", function () {
+            idSpan.innerText = '';
+        })
+
+        id.addEventListener("blur", function () {
+            if (id.value == '') {
+                idSpan.innerText = "필수 입력 항목 입니다";
+                idSpan.style.color = "red";
+            }
+        })
+
+        pwd.addEventListener("focus", function () {
+            pwdSpan.innerText = "영문자 대/소문자 특수문자, 숫자 포함 8 ~ 32자"
+            pwdSpan.style.color = "gray";
+            // pwdSpan2.innerText = '';
+        })
+        pwd.addEventListener("blur", function () {
+            pwdSpan.innerText = "";
+            if (pwd.value == '') {
+                pwdSpan.innerText = '필수 입력 항목 입니다';
+                pwdSpan.style.color = "red";
+            }
+        })
+
+
+        pwd2.addEventListener("focus", function () {
+            pwd2Span.innerText = '';
+        })
+
+        pwd2.addEventListener("blur", function () {
+            if (pwd2.value == '') {
+                pwd2Span.innerText = "필수 입력 항목 입니다"
+                pwd2Span.style.color = "red";
+            }
+        })
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

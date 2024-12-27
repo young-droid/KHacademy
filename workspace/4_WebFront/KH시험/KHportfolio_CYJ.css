@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+#announcement-submit{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+hr{
+    margin: 15px 0;
+    width: 990px;
+}
+
+#title-box{
+    width: 260px;
+}
+
+#content-box{
+    width: 260px;
+    resize: none;
+}
+
+fieldset{
+    width: 960px;
+}
+
+table[class="announcement"]{
+    border: 1px solid black;
+    width: 990px;
+}
+
+table[class="announcement"] th{
+    border: 1px double black;
+    background-color: lightsalmon;
+    color: white;
+}
+
+table[class="announcement"] td{
+    border: 1px double black;
+    background-color: lightyellow;
+}
+
+.announcement-title{
+    width: 500px;
+}
+
+#authors, #written {
+    width: 150px;
+}
