@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10_연습문제1</title>
+</head>
+<body>
+    <form>
+        <h3>고객명 : <input type="text" name="clientName"></h3>
+        <h3>전화번호 : <input type="tel" name="clientPhone" maxlength="11"></h3>
+        <h3>E-mail : <input type="email" name="clientEmail"></h3>
+
+        <h4>피자선택 : 
+            <select name="pizza">
+                <option>피자를 선택하세요</option>
+                <option value="sweetp">스위트 포테이토 피자</option>
+                <option value="hwaiian">하와이안 피자</option>
+                <option value="bulgogi">불고기 피자</option>
+            </select>
+        </h4>
+
+        <fieldset>
+            <legend><strong>피자 사이즈</strong></legend>
+
+            <h4><input type="radio" name="size" value="Small" id="s-small"><label for="s-small">Small</label><br></h4>
+            <h4><input type="radio" name="size" value="Medium" id="s-medium"><label for="s-medium">Medium</label><br></h4>
+            <h4><input type="radio" name="size" value="Large" id="s-large"><label for="s-large">Large</label><br></h4>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>토핑 선택</strong></legend>
+
+            <h4><input type="checkbox" name="topping" value="bacon" id="t-bacon"><label for="t-bacon">베이컨</label><br></h4>
+            <h4><input type="checkbox" name="topping" value="cheese" id="t-cheese"><label for="t-cheese">치즈</label><br></h4>
+            <h4><input type="checkbox" name="topping" value="onion" id="t-onion"><label for="t-onion">양파</label><br></h4>
+            <h4><input type="checkbox" name="topping" value="mushroom" id="t-mushroom"><label for="t-mushroom">버섯</label><br></h4>
+        </fieldset>
+
+        <h4>희망 배송 시간 : <input type="time" name="timeIn"></h4>
+
+        <h4>배송시 요청사항 : 
+            <textarea name="ta" rows="3"></textarea>
+        </h4>
+
+        <button><b>주문하기</b></button>
+
+    </form>
+
+</body>
+</html>

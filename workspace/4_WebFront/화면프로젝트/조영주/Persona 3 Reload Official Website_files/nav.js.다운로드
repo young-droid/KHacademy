@@ -1,0 +1,79 @@
+//used to make sure that the nav button can't be clicked to quickly
+var canClickNav = true;
+
+function smallNav() {
+  'use strict';
+  if (jQuery('.hamburger').hasClass('is-active')) {
+    // jQuery(".menu").css({ transform: "translate(0, 0)", display: "block" });
+    jQuery('.menu').addClass('showMenu');
+    jQuery('.menu').removeClass('collapseMenu');
+    setTimeout(function () {
+      canClickNav = true;
+    }, 300);
+  } else {
+    // jQuery(".menu").css({ transform: "translate(0, -100%)"});
+    jQuery('.menu').addClass('collapseMenu');
+    jQuery('.menu').removeClass('showMenu');
+    setTimeout(function () {
+      canClickNav = true;
+    }, 300);
+  }
+}
+
+$(document).ready(function () {
+  //navigation (excludes making sticky - sticky will be down below)
+  ('use strict');
+  jQuery('.hamburger').click(function () {
+    if (canClickNav) {
+      jQuery(this).toggleClass('is-active');
+      canClickNav = false;
+      smallNav();
+    }
+  });
+  jQuery('.navBtn, .setNavPoint, .navBtnForClick').click(function (e) {
+    e.preventDefault();
+    if (jQuery(window).width() <= 880) {
+      jQuery('button').removeClass('is-active');
+      smallNav();
+    }
+    //this makes the screen scroll to right area.
+    var hash = this.hash;
+    jQuery('html, body')
+      .stop()
+      .animate({ scrollTop: jQuery(hash).offset().top - 60 }, 1000);
+    return false;
+  });
+
+  //navigation end
+  //navigation make sticky
+  function checkSticky() {
+    var navSticky = jQuery('nav');
+    var navContainer = jQuery('.nav-container');
+
+    var countrySelector = jQuery('#country-navigation-wrapper');
+    var winWidth = $(window).width();
+    var fromTop = $(document).scrollTop();
+    //this checks to see where you are at from top of the window, by adding CSS top you create slide in
+    if (fromTop > 640) {
+      navSticky.css('top', '0');
+      navSticky.addClass('navStick');
+      navContainer.css('margin', '0 auto');
+
+      //if from the top you are at this point we are making the nav disppear from page so it can transition in.
+    } else if (fromTop > 600) {
+      navSticky.css('top', '-80px');
+
+      //and this deals with as the page is scrolling back up, we are cleaing up and making original top nav placed properly
+    } else if (fromTop <= 500) {
+      navSticky.css('top', '0');
+      navSticky.removeClass('navStick');
+
+      if (winWidth < 640) {
+        navContainer.css('margin', '0 auto');
+      }
+    }
+  }
+  jQuery(window).scroll(checkSticky);
+  jQuery(window).resize(checkSticky);
+  checkSticky();
+});

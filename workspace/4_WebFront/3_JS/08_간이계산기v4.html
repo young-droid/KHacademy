@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08_간이계산기v4</title>
+</head>
+<body>
+    <h1>간이계산기v4</h1>
+
+    <b>첫번째 값</b> : <input type="text" id="input1"><br>
+    <b>두번째 값</b> : <input type="text" id="input2"><br>
+
+    <!-- 함수 호출 시 매개변수 this : 
+         -> 이벤트가 발생한 요소 자체를 의미
+         (여기선 클릭된 연산자 버튼)
+    -->
+    <button onclick="calculate(this)">+</button>
+    <button onclick="calculate(this)">-</button>
+    <button onclick="calculate(this)">*</button>
+    <button onclick="calculate(this)">/</button>
+    <button onclick="calculate(this)">%</button>
+    
+    <br>
+
+    <h3>계산 결과 : <span id="result"></span></h3>
+
+    <script>
+        
+        function calculate(btn) {
+            const op = btn.innerHTML;
+
+            const n1 = Number(document.getElementById("input1").value);
+            const n2 = Number(document.getElementById("input2").value);
+
+            // eval("코드 형식 문자열")
+            // -> 작성된 문자열을 js 코드로 해석
+            // ********* -> 속도 + 보안 이슈가 있어서 사용 지양(사용하지 마라)
+            // document.getElementById("result").innerText = eval(n1 + op + n2);
+
+            document.getElementById("result").innerText = new Function("return " + n1 + op + n2)();
+            // -> eval의 단점을 보완한 작성법
+        }
+
+
+
+    </script>
+
+<h1></h1>
+
+</body>
+</html>

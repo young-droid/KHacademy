@@ -1,0 +1,152 @@
+jQuery(document).ready(function () {
+  /*------------------------------------------------------------
+  eflags
+  ------------------------------------------------------------*/
+  /* Language Select Menu */
+  const currentLanguage = document.querySelector('.eflags__selected');
+  const languageList = document.querySelector('.eflags__nav');
+  const flagsMenu = document.querySelector('.eflags');
+  currentLanguage.addEventListener('click', (event) => {
+    languageList.classList.toggle('eflags__nav--animateLeft');
+  });
+  document.body.addEventListener('mousedown', (e) => {
+    if (
+      !flagsMenu.contains(e.target) &&
+      languageList.classList.contains('eflags__nav--animateLeft')
+    ) {
+      languageList.classList.toggle('eflags__nav--animateLeft');
+    }
+  });
+
+  /* Language Select Change */
+  const languageLinks = document.querySelectorAll('.eflags__nav a');
+
+  languageLinks.forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const country = event.target.getAttribute('data-country');
+      Cookies.set('lang', country);
+      window.location.replace('index.html?lang=' + country);
+    });
+  });
+
+  const eflagsLang = {
+    en: {
+      flag: 'english (us)',
+    },
+    au: {
+      flag: 'english (au)',
+    },
+    uk: {
+      flag: 'english (uk)',
+    },
+    fr: {
+      flag: 'FRANÇAIS',
+    },
+    it: {
+      flag: 'ITALIANO',
+    },
+    de: {
+      flag: 'DEUTSCH ',
+    },
+    es: {
+      flag: 'ESPAÑOL (ES)',
+    },
+    br: {
+      flag: 'Brasileiro',
+    },
+    mx: {
+      flag: 'ESPAÑOL (MX)',
+    },
+  };
+
+  //will check for any name after a query string in the URL. Here using it to find the language if it's set.
+  $.urlParam = function (name) {
+    var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
+      window.location.href
+    );
+    if (results == null) {
+      return null;
+    }
+    return decodeURI(results[1]) || 0;
+  };
+  //this is how you use the above function, can put in any name that you need to find in a query string within the URL into the call.
+  var langQuery = $.urlParam('lang');
+  var urlHash = new URL(window.location.href).hash;
+  if (!(langQuery in eflagsLang)) {
+    langQuery = 'en';
+    Cookies.set('lang', langQuery);
+    window.location.replace('index.html?lang=' + langQuery + urlHash);
+  }
+  var langCookie = Cookies.get('lang');
+  //now checking to see if language in the query and cookie are set and, fixing any issues
+
+  //check to see if they are both there
+  if (langQuery && langCookie) {
+    //if they are both there but different we need to reset the cookie to what the query is and then reload the page
+    if (langQuery !== langCookie) {
+      Cookies.set('lang', langQuery);
+      window.location.replace('index.html?lang=' + langQuery + urlHash);
+    }
+    //if query is set but not the cookie, then we need to set the cookie and again reload the page
+  } else if (langQuery && !langCookie) {
+    Cookies.set('lang', langQuery);
+    window.location.replace('index.html?lang=' + langQuery + urlHash);
+    //if neither is set, we set the cookie to english and leave the page alone.
+  } else if (!langCookie && !langQuery) {
+    Cookies.set('lang', 'en');
+  }
+
+  let flag = Cookies.get('lang');
+  $('.currentFlag').attr('src', './media/img/eflags/' + flag + '_flag.jpg');
+
+  const language = Cookies.get('lang');
+  const country = document.querySelector(`[data-country="${language}"]`);
+  country.classList.add('noFlag');
+  document.querySelector('.eflags__selected .eflags__text').textContent =
+    eflagsLang[language].flag;
+  /*------------------------------------------------------------
+  eflags end
+  ------------------------------------------------------------*/
+});
+
+const SOAtoolbarScripts = [
+  'https://www.atlus.com/ztoolbar/shared.bundle.js',
+  'https://www.atlus.com/ztoolbar/toolbar.bundle.js',
+  'https://www.atlus.com/ztoolbar/newsletter.bundle.js',
+  'https://www.atlus.com/ztoolbar/runtime.bundle.js',
+];
+
+const addScripts = () => {
+  const promises = SOAtoolbarScripts.map(
+    (src) =>
+      new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = src;
+        script.type = 'text/javascript';
+        script.addEventListener('load', () => {
+          resolve();
+        });
+        script.addEventListener('error', () => {
+          reject();
+        });
+        document.body.appendChild(script);
+      })
+  );
+  Promise.all(promises)
+    .then(() => {
+      console.log('All scripts loaded successfully');
+      const language = Cookies.get('lang');
+      if (language !== 'en') {
+        document.querySelector('.univnavigation__item--gold').style.display =
+          'none';
+      }
+    })
+    .catch(() => {
+      console.log('Error loading one or more scripts');
+    });
+};
+
+window.onload = () => {
+  addScripts();
+};

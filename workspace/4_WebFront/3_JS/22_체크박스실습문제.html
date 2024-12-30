@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>체크박스 실습문제</title>
+
+    <style>
+        #result {
+            height: 200px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>취미</legend>
+        <table>
+            <tr>
+                <td><label><input type="checkbox" id="all"> 전체선택</label></td>
+                <td><label><input type="checkbox" name="hobby" value="종합"> 종합</label></td>
+                <td><label><input type="checkbox" name="hobby" value="소설"> 소설</label></td>
+                <td><label><input type="checkbox" name="hobby" value="시/에세이"> 시/에세이</label></td>
+                <td><label><input type="checkbox" name="hobby" value="경제/경영"> 경제/경영</label></td>
+                <td><label><input type="checkbox" name="hobby" value="자기계발"> 자기계발</label></td>
+                <td><label><input type="checkbox" name="hobby" value="아동"> 아동</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label><input type="checkbox" name="hobby" value="여행"> 여행</label></td>
+                <td><label><input type="checkbox" name="hobby" value="과학"> 과학</label></td>
+                <td><label><input type="checkbox" name="hobby" value="역사/문화"> 역사/문화</label></td>
+                <td><label><input type="checkbox" name="hobby" value="외국어"> 외국어</label></td>
+                <td><label><input type="checkbox" name="hobby" value="컴퓨터"> 컴퓨터</label></td>
+                <td><label><input type="checkbox" name="hobby" value="만화"> 만화</label></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <br>
+
+    <button id="category">카테고리 선택</button>
+    <div id="result"></div>
+
+
+    <script>
+        // #all 선택 시 전체 선택
+
+        const checkAll = document.getElementById("all");
+        const hobbyList = document.getElementsByName("hobby");
+        const result = document.getElementById("result");
+        const category = document.getElementById("category");
+
+
+        const value = document.querySelectorAll('input[name="hobby"]');
+        const checked = document.querySelectorAll('input[name="hobby"]:checked');
+
+        let count = 0;
+
+        // 전체선택 체크박스 클릭 시
+        checkAll.addEventListener("click", function () {
+
+            for (let hobby of hobbyList) {
+
+                if (this.checked) {
+                    hobby.checked = true;
+                } else {
+                    hobby.checked = false;
+                }
+            }
+        })
+
+        // 체크박스 체크한것 #result 에 보이게
+        category.addEventListener("click", function () {
+            const checked = document.querySelectorAll('input[name="hobby"]:checked')
+            // 결과 저장용 변수
+            let str = "";
+            for (let item of checked) {
+                str += item.value + " ";
+            }
+
+            result.innerHTML = str;
+
+            count = checked.length;
+            console.log(count);
+        })
+
+
+        // 체크박스 하나 제거되면 전체선택 체크박스 해제
+        for (let i = 0; i < hobbyList.length; i++) {
+            hobbyList[i].addEventListener("click", () => {
+
+                // 1) 취미가 전부 선택이 안되어 있는 경우
+                //    전체선택 해제
+                if (checkAll.checked && !hobbyList[i].checked) {
+                    // 전체 선택이 되어 있으면서 취미 체크박스가 해제되었을 경우
+                    checkAll.checked = false;
+                }
+
+                // 2) 취미가 전부 선택 되었을 시
+                //    전체 선택 체크
+                let flag = true;
+                for (let j = 0; j < hobbyList.length; j++) {
+                    // 취미가 전부 선택 되었는지 확인하기 위한 for문    
+                    if (!hobbyList[j].checked) {
+                        // 하나라도 체크가 안되어 있는 경우
+                        flag = false;
+                    }
+                }
+
+                // 전체선택 체크박스가 체크외더 있지 않으면서
+                // 취미가 전부 선택 되어 있는 경우
+                // 전체선택 체크하기
+                if (!checkAll.checked && flag) {
+                    checkAll.checked = flag;
+                }
+
+            })
+
+        }
+
+
+        // value.forEach(function (checkbox) {
+        //     checkbox.addEventListener("click", function () {
+        //         const checked = document.querySelectorAll('input[name="hobby"]:checked');
+        //         count = checked.length;
+
+        //         if (value.length == count) {
+        //             checkAll.checked = true;
+        //         } else {
+        //             checkAll.checked = false;
+        //         }
+        //     });
+        // });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,759 @@
+var translations = {
+  // ENGLISH (US) //
+  en: {
+    banner: './media/img/aigis-exp-banner-en.jpg',
+    nav: {
+      trailer: 'Trailer',
+      screenshots: 'Screenshots',
+      story: 'Story',
+      characters: 'Characters',
+      purchase: 'Pre-order',
+      purchase: 'Buy Now',
+    },
+    hero: {
+      cta: 'Available February 2, 2024',
+      cta: 'Available Now',
+    },
+    story: {
+      header: 'Story',
+      story1:
+        'Step into the shoes of a transfer student thrust into an unexpected fate when entering the hour "hidden" between one day and the next. Awaken an incredible power and chase the mysteries of the Dark Hour, fight for your friends, and leave a mark on their memories forever.',
+      story2:
+        'Persona 3 Reload is a captivating reimagining of the genre-defining RPG, reborn for the modern era.',
+    },
+    features: {
+      header: 'Key Features',
+      features1:
+        'Experience the pivotal game of the Persona series faithfully remade with cutting-edge graphics, modernized quality-of-life  features, and signature stylish UI.',
+      features2:
+        ' Fully immerse yourself in an emotional, gripping journey with new scenes, character interactions, and additional voiceover.',
+      features3:
+        'Choose how to meaningfully spend each day through various activities from exploring the Port Island to forging genuine bonds with beloved characters.',
+      features4:
+        'Build and command your optimal team to take down otherworldly Shadows and climb closer to the truth.',
+    },
+    purchase: {
+      header: 'Pre-Order',
+      header: 'Available Now',
+      selectVersion: 'Select a Version',
+      digital: 'Digital',
+      physical: 'Physical',
+      selectPlatform: 'Choose a Platform',
+      selectDigital: 'Digital Game Offerings',
+      selectRetailer: 'Choose a Retailer',
+      buyButton: 'Pre-order',
+      buyButton: 'Buy Now',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-en-esrb.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-en-esrb.jpg',
+      glamshotPremium: 'glamshot-premium-en-esrb.jpg',
+      comingSoon: 'Coming Soon',
+    },
+    footer: {
+      rating: 'esrb-m.svg',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.The ESRB rating icons are registered trademarks of the Entertainment Software Association.',
+      connect: 'CONNECT WITH ATLUS',
+      cookie: 'COOKIE POLICY',
+      privacy: 'PRIVACY POLICY',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/en/sega-cookie-policy",
+			privacy : "https://privacy.sega.com/sega-of-america-inc-privacy-policy",
+      privacyChoices : "https://privacy.sega.com/en/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/sega-of-america-inc-privacy-policy#9-california-privacy-notice",
+    },
+  },
+
+  // ENGLISH (UK) //
+  uk: {
+    nav: {
+      trailer: 'Trailer',
+      screenshots: 'Screenshots',
+      story: 'Story',
+      characters: 'Characters',
+      purchase: 'Pre-order',
+      purchase: 'Buy Now',
+    },
+    hero: {
+      cta: 'Available February 2, 2024',
+      cta: 'Available Now',
+    },
+    story: {
+      header: 'Story',
+      story1:
+        'Step into the shoes of a transfer student thrust into an unexpected fate when entering the hour "hidden" between one day and the next. Awaken an incredible power and chase the mysteries of the Dark Hour, fight for your friends, and leave a mark on their memories forever.',
+      story2:
+        'Persona 3 Reload is a captivating reimagining of the genre-defining RPG, reborn for the modern era.',
+    },
+    features: {
+      header: 'Key Features',
+      features1:
+        'Experience the pivotal game of the Persona series faithfully remade with cutting-edge graphics, modernized quality-of-life  features, and signature stylish UI.',
+      features2:
+        ' Fully immerse yourself in an emotional, gripping journey with new scenes, character interactions, and additional voiceover.',
+      features3:
+        'Choose how to meaningfully spend each day through various activities from exploring the Port Island to forging genuine bonds with beloved characters.',
+      features4:
+        'Build and command your optimal team to take down otherworldly Shadows and climb closer to the truth.',
+    },
+    purchase: {
+      header: 'Pre-Order',
+      header: 'Available Now',
+      selectVersion: 'Select a Version',
+      digital: 'Digital',
+      physical: 'Physical',
+      selectPlatform: 'Choose a Platform',
+      selectDigital: 'Digital Game Offerings',
+      selectRetailer: 'Choose a Retailer',
+      buyButton: 'Pre-order',
+      buyButton: 'Buy Now',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-en-pegi.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-en-pegi.jpg',
+      glamshotPremium: 'glamshot-premium-en-pegi.jpg',
+      comingSoon: 'Coming Soon',
+    },
+    footer: {
+      rating: 'pegi-16.svg',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.',
+      connect: 'CONNECT WITH ATLUS',
+      cookie: 'COOKIE POLICY',
+      privacy: 'PRIVACY POLICY',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/en/sega-cookie-policy",
+			privacy : "https://privacy.sega.com/sega-of-america-inc-privacy-policy",
+      privacyChoices : "https://privacy.sega.com/en/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/sega-of-america-inc-privacy-policy#9-california-privacy-notice",
+    },
+  },
+
+  // ENGLISH (AU) //
+  au: {
+    nav: {
+      trailer: 'Trailer',
+      screenshots: 'Screenshots',
+      story: 'Story',
+      characters: 'Characters',
+      purchase: 'Pre-order',
+      purchase: 'Buy Now',
+    },
+    hero: {
+      cta: 'Available February 2, 2024',
+      cta: 'Available Now',
+    },
+    story: {
+      header: 'Story',
+      story1:
+        'Step into the shoes of a transfer student thrust into an unexpected fate when entering the hour "hidden" between one day and the next. Awaken an incredible power and chase the mysteries of the Dark Hour, fight for your friends, and leave a mark on their memories forever.',
+      story2:
+        'Persona 3 Reload is a captivating reimagining of the genre-defining RPG, reborn for the modern era.',
+    },
+    features: {
+      header: 'Key Features',
+      features1:
+        'Experience the pivotal game of the Persona series faithfully remade with cutting-edge graphics, modernized quality-of-life  features, and signature stylish UI.',
+      features2:
+        ' Fully immerse yourself in an emotional, gripping journey with new scenes, character interactions, and additional voiceover.',
+      features3:
+        'Choose how to meaningfully spend each day through various activities from exploring the Port Island to forging genuine bonds with beloved characters.',
+      features4:
+        'Build and command your optimal team to take down otherworldly Shadows and climb closer to the truth.',
+    },
+    purchase: {
+      header: 'Pre-Order',
+      header: 'Available Now',
+      selectVersion: 'Select a Version',
+      digital: 'Digital',
+      physical: 'Physical',
+      selectPlatform: 'Choose a Platform',
+      selectDigital: 'Digital Game Offerings',
+      selectRetailer: 'Choose a Retailer',
+      buyButton: 'Pre-order',
+      buyButton: 'Buy Now',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-en-anz.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-en-anz.jpg',
+      glamshotPremium: 'glamshot-premium-en-anz.jpg',
+      comingSoon: 'Coming Soon',
+    },
+    footer: {
+      rating: 'acb-m.png',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.',
+      connect: 'CONNECT WITH ATLUS',
+      cookie: 'COOKIE POLICY',
+      privacy: 'PRIVACY POLICY',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/en/sega-cookie-policy",
+			privacy : "https://privacy.sega.com/sega-of-america-inc-privacy-policy",
+      privacyChoices : "https://privacy.sega.com/en/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/sega-of-america-inc-privacy-policy#9-california-privacy-notice",
+    },
+  },
+
+  // FRENCH //
+  fr: {
+    banner: './media/img/aigis-exp-banner-fr.jpg',
+    nav: {
+      trailer: 'bande-annonce',
+      screenshots: "captures d'écran",
+      story: 'histoire',
+      characters: 'PERSONNAGES',
+      purchase: 'PRÉCOMMANDE',
+      purchase: 'ACHETER MAINTENANT',
+    },
+    hero: {
+      cta: 'Disponible le 2 février 2024',
+      cta: 'MAINTENANT DISPONIBLE',
+    },
+    story: {
+      header: 'histoire',
+      story1:
+        "Immiscez-vous dans la peau d'un nouvel élève poussé vers un destin inattendu quand il découvre l'existence d'une heure \"cachée\" entre un jour et le suivant... Éveillez un pouvoir irréel et percez les mystères de l'Heure sombre. Combattez avec vos amis et laissez à tout jamais votre empreinte dans leur mémoire. ",
+      story2:
+        'Persona 3 Reload est une réinterprétation captivante de ce RPG emblématique, remise au goût du jour.',
+    },
+    features: {
+      header: 'Caractéristiques',
+      features1:
+        "Découvrez le jeu phare de la série Persona fidèlement remodelé avec des graphismes dernier cri, toutes les fonctions d'un jeu moderne et une interface toujours aussi stylisée.",
+      features2:
+        "Vivez une aventure poignante et intense enrichie de nouvelles scènes et interactions avec les personnages, de doublages supplémentaires et d'une bande-son remaniée.",
+      features3:
+        'Donnez du sens à chaque journée à travers différentes activités, que ce soit en explorant le vaste territoire de Tatsumi Port Island ou en créant des liens authentiques avec des personnages attachants.',
+      features4:
+        "Constituez et commandez votre équipe idéale afin d'éliminer les Ombres venues d'un autre monde et de vous rapprocher de la vérité.",
+    },
+    purchase: {
+      header: 'PRÉCOMMANDE',
+      header: 'MAINTENANT DISPONIBLE',
+      selectVersion: 'CHOISIR UNE VERSION',
+      digital: 'Numérique',
+      physical: 'Physique',
+      selectPlatform: 'Choisir une plateforme',
+      selectDigital: 'OFFRES DE LA VERSION NUMÉRIQUE',
+      selectRetailer: 'Choisir un distributeur',
+      buyButton: 'PRÉCOMMANDE',
+      buyButton: 'ACHETER MAINTENANT',
+      premium: 'Édition Premium numérique',
+      deluxe: 'Édition Deluxe numérique',
+      digitalStandard: 'Standard numérique',
+      special: 'Édition AIGIS',
+      physicalStandard: 'Standard numérique',
+      glamshot: 'glamshot-aigis-fr-pegi.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-fr-pegi.jpg',
+      glamshotPremium: 'glamshot-premium-fr-pegi.jpg',
+      comingSoon: 'à venir',
+    },
+    footer: {
+      rating: 'pegi-16.svg',
+      copy: "ⒸATLUS. ⒸSEGA. Tous droits réservés. SEGA est inscrit au Bureau des Marques commerciales et Brevets des États-Unis (USPTO). ATLUS, le logo ATLUS et PERSONA 3 RELOAD sont des marques commerciales ou déposées d'ATLUS Co., Ltd. ou de ses sociétés affiliées. SEGA et le logo SEGA sont des marques commerciales ou déposées de SEGA CORPORATION. Toutes les autres marques, ainsi que tous les logos et droits d'auteur sont la propriété de leurs détenteurs respectifs. Microsoft, la sphère Xbox, le logo Series X, logo Series S, logo Series X|S, Xbox One, Xbox Series X, Xbox Series S, et Xbox Series X|S sont des marques commerciales du groupe Microsoft. ©2023 Sony Interactive Entertainment LLC. « PlayStation Family Mark », « PlayStation », « logo PS5 », « PS5 », « logo PS4 », « logo PlayStation Shapes » et « Jouez sans limites » sont des marques commerciales ou déposées de Sony Interactive Entertainment Inc.",
+      connect: 'SE CONNECTER AVEC ATLUS',
+      cookie: 'POLITIQUE RELATIVE AUX COOKIES',
+      privacy: 'POLITIQUE DE CONFIDENTIALITÉ',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/fr/politique-dutilisation-des-cookies-de-sega",
+			privacy : "https://privacy.sega.com/fr/politique-de-confidentialite-de-sega-of-america-inc-0",
+      privacyChoices : "https://privacy.sega.com/fr/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/fr/politique-de-confidentialite-de-sega-of-america-inc-0#9-california-privacy-notice",
+    },
+  },
+
+  // ITALIAN //
+  it: {
+    banner: './media/img/aigis-exp-banner-it.jpg',
+    nav: {
+      trailer: 'Trailer',
+      screenshots: 'screenshot',
+      story: 'storia',
+      characters: 'PERSONAGGI',
+      purchase: 'PRE-ORDINA',
+      purchase: 'COMPRA ORA',
+    },
+    hero: {
+      cta: 'Disponibile dal 2 febbraio 2024',
+      cta: 'DISPONIBILE ORA',
+    },
+    story: {
+      header: 'storia',
+      story1:
+        "Vesti i panni di un nuovo studente, travolto da un destino inatteso una volta entrato nell'ora \"nascosta\" tra un giorno e l'altro. Risveglia un potere incredibile e svela i misteri dell'Ora Buia, combatti per i tuoi amici e lascia un segno indelebile nei loro ricordi.",
+      story2:
+        "Persona 3 Reload è un'appassionante rivisitazione del GDR che ha definito un genere, rinato per l'era moderna.",
+    },
+    features: {
+      header: 'Caratteristiche principali',
+      features1:
+        "Vivi il gioco più importante della serie Persona, ricreato fedelmente con grafica all'avanguardia, opzioni per la fruibilità più moderne e l'inconfondibile interfaccia utente ricca di stile.",
+      features2:
+        'Immergiti completamente in un viaggio emozionante e coinvolgente, con scene e interazioni inedite tra i personaggi, un nuovo doppiaggio e una colonna sonora rivisitata.',
+      features3:
+        'Scegli come passare ogni giorno in modo significativo grazie a varie attività, esplorando la vasta Tatsumi Port Island e stringendo legami genuini con personaggi memorabili.',
+      features4:
+        'Crea e comanda la tua squadra ottimale per sconfiggere le Ombre sovrannaturali e completare la scalata verso la verità.',
+    },
+    purchase: {
+      header: 'PRE-ORDINA',
+      header: 'DISPONIBILE ORA',
+      selectVersion: 'SELEZIONA UNA VERSIONE',
+      digital: 'Digitale',
+      physical: 'Fisica',
+      selectPlatform: 'Seleziona una piattaforma',
+      selectDigital: 'VERSIONI DIGITALI',
+      selectRetailer: 'Seleziona un rivenditore',
+      buyButton: 'PRE-ORDINA',
+      buyButton: 'COMPRA ORA',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-it-pegi.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-it-pegi.jpg',
+      glamshotPremium: 'glamshot-premium-it-pegi.jpg',
+      comingSoon: 'prossimamente',
+    },
+    footer: {
+      rating: 'pegi-16.svg',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.',
+      connect: 'CONTATTA ATLUS',
+      cookie: 'POLITICA SUI COOKIE',
+      privacy: 'INFORMATIVA SULLA PRIVACY',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/it/politica-sui-cookie-di-sega",
+			privacy : "https://privacy.sega.com/it/informativa-sulla-privacy-di-sega-of-america-inc-0",
+      privacyChoices : "https://privacy.sega.com/it/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/it/informativa-sulla-privacy-di-sega-of-america-inc-0#9-california-privacy-notice",
+    },
+  },
+
+  // GERMAN //
+  de: {
+    banner: './media/img/aigis-exp-banner-de.jpg',
+    nav: {
+      trailer: 'Trailer',
+      screenshots: 'Screenshots',
+      story: 'Geschichte',
+      characters: 'CHARAKTERE',
+      purchase: 'VORBESTELLEN',
+      purchase: 'JETZT KAUFEN',
+    },
+    hero: {
+      cta: 'Ab 2. Februar 2024 erhältlich',
+      cta: 'Jetzt erhältlich',
+    },
+    story: {
+      header: 'Geschichte',
+      story1:
+        'Schlüpfe in die Rolle eines Austauschschülers, der in ein unerwartetes Schicksal geworfen wird, als er die „versteckte“ Stunde zwischen zwei Tagen betritt. Erwecke eine unglaubliche Kraft und erkunde die Mysterien der Dark Hour, kämpfe für deine Freunde und sorge dafür, dass sie sich immer an dich erinnern werden.',
+      story2:
+        'Persona 3 Reload ist eine fesselnde Neuauflage, die den RPG-Klassiker in die Moderne holt.',
+    },
+    features: {
+      header: 'Folgende Features erwarten dich',
+      features1:
+        'Erlebe das für die Persona-Reihe bis heute prägende Spiel in einer wunderschönen Neuauflage mit hochmodernen Grafiken, modernisierten Funktionen und der typischen, stylischen Benutzeroberfläche.',
+      features2:
+        'Begib dich auf eine emotionale, fesselnde Reise mit neuen Szenen und Charakterinteraktionen, zusätzlichem Voice-Over und einem erneuerten Soundtrack.',
+      features3:
+        'Bestimme, wie du deine Tage mit verschiedenen Aktiviäten, darunter dem Erkunden der riesigen Tatsumi Port Island oder dem Aufbauen von Beziehungen mit deinen Lieblingscharakteren, verbringst.',
+      features4:
+        'Baue dein optimales Team auf und führe es im Kampf, um die Schatten einer fremden Welt zu besiegen und der Wahrheit näher zu kommen.',
+    },
+    purchase: {
+      header: 'VORBESTELLEN',
+      header: 'Jetzt erhältlich',
+      selectVersion: 'WÄHLE EINE VERSION',
+      digital: 'Digital',
+      physical: 'Physisch',
+      selectPlatform: 'WÄHLE EINE PLATTFORM',
+      selectDigital: 'DIGITALE SPIELINHALTE',
+      selectRetailer: 'Händler wählen',
+      buyButton: 'VORBESTELLEN',
+      buyButton: 'JETZT KAUFEN',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-de-uskpegi.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-de-uskpegi.jpg',
+      glamshotPremium: 'glamshot-premium-de-uskpegi.jpg',
+      comingSoon: 'demnächst verfügbar',
+    },
+    footer: {
+      rating: 'usk-16.svg',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.',
+      connect: 'NEUIGKEITEN VON ATLUS',
+      cookie: 'COOKIE-RICHTLINIE',
+      privacy: 'DATENSCHUTZRICHTLINIE',
+    },
+    footerLinks: {
+      cookie : "https://privacy.sega.com/de/sega-cookie-richtlinie",
+			privacy : "https://privacy.sega.com/de/sega-of-america-inc-datenschutzrichtlinie-0",
+      privacyChoices : "https://privacy.sega.com/de/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/de/sega-of-america-inc-datenschutzrichtlinie-0#9-california-privacy-notice",
+    },
+  },
+
+  // SPANISH (SPAIN) //
+  es: {
+    banner: './media/img/aigis-exp-banner-es.jpg',
+    nav: {
+      trailer: 'tráiler',
+      screenshots: 'capturas de pantalla',
+      story: 'historia',
+      characters: 'PERSONAJES',
+      purchase: 'RESERVA',
+      purchase: 'CÓMPRALO YA',
+    },
+    hero: {
+      cta: 'Disponible el 2 de febrero de 2024',
+      cta: 'YA DISPONIBLE',
+    },
+    story: {
+      header: 'historia',
+      story1:
+        'Ponte en la piel de un estudiante recién llegado que se ve arrojado a un destino inesperado cuando entra en la hora "escondida" entre un día y el siguiente. Despierta un poder increíble y persigue los misterios de la Hora Oscura, lucha por tu grupo de amigos y deja huella en su memoria para siempre. ',
+      story2:
+        'Persona 3 Reload es la fascinante nueva versión del RPG que definió el género, que ahora renace para la era moderna.',
+    },
+    features: {
+      header: 'Características principales',
+      features1:
+        'Disfruta de un título determinante en la saga Persona, rehecho con los gráficos más avanzados, funciones modernizadas y una interfaz de usuario con estilo propio.',
+      features2:
+        'Sumérgete en un viaje apasionante y emotivo con escenas inéditas, nuevas interacciones entre los personajes, una locución adicional y una banda sonora renovada.',
+      features3:
+        'Podrás elegir entre diferentes actividades para que cada día sea único, desde explorar la vasta isla Puerto Tatsumi hasta estrechar lazos con personajes entrañables.',
+      features4:
+        'Forma el mejor equipo posible y eliminad juntos las sombras que han llegado de otro mundo para estar un paso más cerca de la verdad.',
+    },
+    purchase: {
+      header: 'RESERVA',
+      header: 'YA DISPONIBLE',
+      selectVersion: 'ELIGE UNA VERSIÓN',
+      digital: 'Digital',
+      physical: 'Física',
+      selectPlatform: 'ELIGE UNA PLATAFORMA',
+      selectDigital: 'OFERTAS DE JUEGO DIGITAL',
+      selectRetailer: 'Elige una tienda',
+      buyButton: 'RESERVA',
+      buyButton: 'CÓMPRALO YA',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-es-pegi.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-es-pegi.jpg',
+      glamshotPremium: 'glamshot-premium-es-pegi.jpg',
+      comingSoon: 'próximamente',
+    },
+    footer: {
+      rating: 'pegi-16.svg',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.',
+      connect: 'CONECTA CON ATLUS',
+      cookie: 'POLÍTICA DE COOKIES',
+      privacy: 'POLÍTICA DE PRIVACIDAD',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/es/politica-de-cookies-de-sega",
+			privacy : "https://privacy.sega.com/es/politica-de-privacidad-de-sega-of-america-inc-0",
+      privacyChoices : "https://privacy.sega.com/es/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/es/politica-de-privacidad-de-sega-of-america-inc-0#9-california-privacy-notice",
+    },
+  },
+
+  // PORTUGUESE (BRAZIL) //
+  br: {
+    banner: './media/img/aigis-exp-banner-br.jpg',
+    nav: {
+      trailer: 'Trailer',
+      screenshots: 'imagens',
+      story: 'História',
+      characters: 'Personagens',
+      purchase: 'Reserve agora',
+      purchase: 'Compre agora',
+    },
+    hero: {
+      cta: 'Disponível em 2 de fevereiro de 2024',
+      cta: 'Já disponível',
+    },
+    story: {
+      header: 'História',
+      story1:
+        'Assuma o papel de um estudante transferido que acaba vivendo um destino inesperado ao ingressar na hora "oculta" entre um dia e outro. Desperte um poder incrível, investigue a misteriosa Hora Sombria, lute em nome dos seus amigos e deixe sua marca para sempre nas memórias deles. ',
+      story2:
+        'Persona 3 Reload é uma reimaginação cativante do RPG que redefiniu o gênero, agora repensado para a era moderna.',
+    },
+    features: {
+      header: 'Destaques',
+      features1:
+        'Experimente o jogo fundamental da série Persona fielmente recriado com gráficos de ponta, recursos de usabilidade modernizados e uma interface estilosa característica.',
+      features2:
+        'Mergulhe em uma jornada emocionante e envolvente, incluindo novas cenas e interações com personagens, dublagem adicional e trilha sonora recarregada.',
+      features3:
+        'Escolha como passar cada dia de maneira significativa com diversas atividades disponíveis, desde explorar a extensa Tatsumi Port Island até formar laços genuínos com personagens queridos.',
+      features4:
+        'Monte e controle sua equipe ideal e derrote Sombras de outro mundo para subir cada vez mais e alcançar a verdade.',
+    },
+    purchase: {
+      header: 'Reserve agora',
+      header: 'Já disponível',
+      selectVersion: 'Selecione uma versão',
+      digital: 'Digital',
+      physical: 'Física',
+      selectPlatform: 'Escolha uma plataforma',
+      selectDigital: 'escolhas de jogos digitais',
+      selectRetailer: 'Escolha um varejista',
+      buyButton: 'Reserve agora',
+      buyButton: 'Compre agora',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-br-classind.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-br-classind.jpg',
+      glamshotPremium: 'glamshot-premium-br-classind.jpg',
+      comingSoon: 'Em breve',
+    },
+    footer: {
+      rating: 'classind_16.png',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.The ESRB rating icons are registered trademarks of the Entertainment Software Association.',
+      connect: 'CONNECT WITH ATLUS',
+      cookie: 'COOKIE POLICY',
+      privacy: 'PRIVACY POLICY',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/pt-br/politica-de-cookies-da-sega",
+			privacy : "https://privacy.sega.com/pt-br/sega-of-america-inc-politica-de-privacidade-0",
+      privacyChoices : "https://privacy.sega.com/pt-br/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/pt-br/sega-of-america-inc-politica-de-privacidade-0#9-california-privacy-notice",
+    },
+  },
+  // SPANISH (MEXICO) //
+  mx: {
+    banner: './media/img/aigis-exp-banner-mx.jpg',
+    nav: {
+      trailer: 'tráiler',
+      screenshots: 'imágenes',
+      story: 'historia',
+      characters: 'caracteres',
+      purchase: 'Preordénalo',
+      purchase: 'Compra ya',
+    },
+    hero: {
+      cta: 'Disponible el 2 de febrero de 2024',
+      cta: 'Ya disponible',
+    },
+    story: {
+      header: 'historia',
+      story1:
+        'Conviértete en un discípulo trasladado que se ve abocado a un destino inesperado al entrar en la hora "oculta" entre un día y otro. Despierta un poder increíble y persigue los misterios de la Hora Oscura, lucha por tus amigos y deja una marca en sus recuerdos para siempre. ',
+      story2:
+        'Persona 3 Reload es una cautivadora reimaginación del RPG que definió el género, renacido para la era moderna.',
+    },
+    features: {
+      header: 'Características principales',
+      features1:
+        'Experimenta el juego fundamental de la serie Persona fielmente rehecho con gráficos de vanguardia, características de calidad de vida modernizadas y la elegante interfaz de usuario característica. ',
+      features2:
+        'Sumérgete en un viaje emocional y apasionante con nuevas escenas e interacciones entre personajes, doblajes adicionales y una banda sonora recargada.',
+      features3:
+        'Elije cómo pasar cada día a través de diversas actividades, desde explorar la extensa isla portuaria de Tatsumi hasta forjar vínculos genuinos con personajes entrañables.',
+      features4:
+        'Construye y comanda tu equipo óptimo para acabar con las Sombras de otro mundo y acercarte a la verdad.',
+    },
+    purchase: {
+      header: 'Preordénalo',
+      header: 'Ya disponible',
+      selectVersion: 'seleccione una versión',
+      digital: 'Digital',
+      physical: 'Físico',
+      selectPlatform: 'elija una plataforma',
+      selectDigital: 'opciones de juego digital',
+      selectRetailer: 'elija un distribuidor',
+      buyButton: 'Preordénalo',
+      buyButton: 'Compra ya',
+      premium: 'Digital Premium',
+      deluxe: 'Digital Deluxe',
+      digitalStandard: 'Digital Standard',
+      special: 'AIGIS Edition',
+      physicalStandard: 'Standard Edition',
+      glamshot: 'glamshot-aigis-mx-smec.jpg',
+      glamshotDeluxe: 'glamshot-deluxe-mx-smec.jpg',
+      glamshotPremium: 'glamshot-premium-mx-smec.jpg',
+      comingSoon: 'Próximamente',
+    },
+    footer: {
+      rating: 'smec_c.png',
+      copy: '©ATLUS. ©SEGA. All rights reserved. SEGA is registered in the U.S. Patent and Trademark Office. ATLUS, the ATLUS logo and Persona 3 Reload are registered trademarks or trademarks of ATLUS Co., Ltd. or its affiliates. SEGA and the SEGA logo are registered trademarks or trademarks of SEGA CORPORATION or its affiliates. All other trademarks, logos and copyrights are property of their respective owners.<br />Microsoft, the Xbox Sphere mark, the Series X logo, Xbox One, and Xbox Series X are trademarks of the Microsoft group of companies.<br />"PlayStation Family Mark", "PS4 Logo", and "PS5 Logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br />© 2023 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.The ESRB rating icons are registered trademarks of the Entertainment Software Association.',
+      connect: 'CONNECT WITH ATLUS',
+      cookie: 'COOKIE POLICY',
+      privacy: 'PRIVACY POLICY',
+    },
+    footerLinks: {
+			cookie : "https://privacy.sega.com/es/politica-de-cookies-de-sega",
+			privacy : "https://privacy.sega.com/es/politica-de-privacidad-de-sega-of-america-inc-0",
+      privacyChoices : "https://privacy.sega.com/es/your-privacy-choices",
+      privacyCalifornia : "https://privacy.sega.com/es/politica-de-privacidad-de-sega-of-america-inc-0#9-california-privacy-notice",
+    },
+  },
+};
+
+$(document).ready(function () {
+  function bannerChange(response) {
+    if(response.banner) {
+      $('.exp-banner').attr('src', response.banner);
+    }
+  }
+  function navChange(response) {
+    if (response.nav) {
+      $('.trailerNav').text(response.nav.trailer);
+      $('.screenshotsNav').text(response.nav.screenshots);
+      $('.storyNav').text(response.nav.story);
+      $('.characterNav').text(response.nav.characters);
+      $('.purchaseNav').text(response.nav.purchase);
+
+      //Section Headers
+      $('#trailer .section-header').text(response.nav.trailer);
+      $('#trailer .section-header').attr('data-text', response.nav.trailer);
+      $('#screenshots .section-header').text(response.nav.screenshots);
+      $('#screenshots .section-header').attr(
+        'data-text',
+        response.nav.screenshots
+      );
+      $('#characters .section-header').text(response.nav.characters);
+      $('#characters .section-header').attr(
+        'data-text',
+        response.nav.characters
+      );
+      $('#purchase .section-header').text(response.purchase.header);
+      $('#purchase .section-header').attr(
+        'data-text',
+        response.purchase.header
+      );
+    }
+  }
+  function heroChange(response) {
+    if (response.hero) {
+      $('.heroCta').text(response.hero.cta);
+    }
+  }
+  function storyChange(response) {
+    if (response.story) {
+      $('#story .textbox-header.story').text(response.story.header);
+      $('#story .textbox-header.story').attr(
+        'data-text',
+        response.story.header
+      );
+      $('#story .story1').text(response.story.story1);
+      $('#story .story2').text(response.story.story2);
+    }
+  }
+  function featuresChange(response) {
+    if (response.features) {
+      $('#story .textbox-header.keyfeatures').text(response.features.header);
+      $('#story .textbox-header.keyfeatures').attr(
+        'data-text',
+        response.features.header
+      );
+      $('#story .features1').text(response.features.features1);
+      $('#story .features2').text(response.features.features2);
+      $('#story .features3').text(response.features.features3);
+      $('#story .features4').text(response.features.features4);
+    }
+  }
+
+  function purchaseChange(response) {
+    if (response.purchase) {
+      $('.versionSelect h2').text(response.purchase.selectVersion);
+      $('.versionSelectButtons #digital').text(response.purchase.digital);
+      $('.versionSelectButtons #physical').text(response.purchase.physical);
+      $('.platformSelect h2').text(response.purchase.selectPlatform);
+      $('.digitalSelect h2').text(response.purchase.selectDigital);
+      $('.retailSelect h2').text(response.purchase.selectRetailer);
+      $('#physicalBuy button').text(response.purchase.buyButton);
+      $('#premium button').text(response.purchase.premium);
+      $('#deluxe button').text(response.purchase.deluxe);
+      $('#standard button').text(response.purchase.digitalStandard);
+      $('.premium.gridLabel').text(response.purchase.premium);
+      $('.deluxe.gridLabel').text(response.purchase.deluxe);
+      $('.digital-standard.gridLabel').text(response.purchase.digitalStandard);
+      $('.special.gridLabel').text(response.purchase.special);
+      $('.physical-standard.gridLabel').text(
+        response.purchase.physicalStandard
+      );
+      // $('.glamShotPhysical img').attr(
+      //   'src',
+      //   './media/img/purchase/' + response.purchase.glamshot
+      // );
+      // $('.glamShotDigital .deluxe').attr(
+      //   'src',
+      //   './media/img/purchase/' + response.purchase.glamshotDeluxe
+      // );
+      $('.glamShotDigital .premium').attr(
+        'src',
+        './media/img/purchase/' + response.purchase.glamshotPremium
+      );
+      $('.coming-soon').text(response.purchase.comingSoon);
+    }
+  }
+
+  function footerChange(response) {
+    if (response.footer) {
+      $('.ratingsIcon').attr(
+        'src',
+        './media/img/ratings/' + response.footer.rating
+      );
+      $('.copy').html(response.footer.copy);
+      $('.connect').text(response.footer.connect);
+      $('.cookie').text(response.footer.cookie);
+      $('.privacy').text(response.footer.privacy);
+      $('.cookie').attr("href", response.footerLinks.cookie);
+      $('.privacy').attr("href", response.footerLinks.privacy);
+      $(".privacyChoices").attr("href", response.footerLinks.privacyChoices);
+      $(".privacyCalifornia").attr("href", response.footerLinks.privacyCalifornia);
+    }
+  }
+
+  (function () {
+    let language = 'en';
+    if (Cookies.get('lang')) {
+      language = Cookies.get('lang');
+    }
+
+    if (language === 'en') {
+      $('.esrbCert').css('display', 'inline');
+      $('.esrbContainer').css('display', 'block');
+    } else {
+      $('.esrbCert').css('display', 'none');
+      $('.esrbContainer').css('display', 'none');
+    }
+    let data = translations[language];
+    bannerChange(data);
+    navChange(data);
+    heroChange(data);
+    storyChange(data);
+    featuresChange(data);
+    purchaseChange(data);
+    footerChange(data);
+  })();
+});

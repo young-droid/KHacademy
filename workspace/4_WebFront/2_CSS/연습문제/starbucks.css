@@ -1,0 +1,326 @@
+* {
+    box-sizing: border-box;
+}
+
+/* section{border: 1px solid black;} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f5ef;
+    min-width: 1100px;
+}
+
+header {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+/* 헤더 */
+.header-fixed {
+    background-color: #f6f5ef;
+    width: 1000px;
+    height: 123px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 헤더의 로고 이미지 */
+.header-fixed > img {
+    width: 75px;
+    height: 75px;
+    justify-self: flex-start;
+}
+
+/* 헤더의 우측 두줄 */
+.header-fixed > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.member-search {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.member-search a {
+    color: rgb(83, 83, 83);
+    font: 100 13px Arial, georgia;
+    text-decoration: 0;
+}
+
+.member-search span {
+    font-size: 10px;
+    color: #ddd;
+    margin: 14px;
+}
+
+.member-search a:last-child {
+    margin-left: 17px;
+    margin-right: 75px;
+}
+
+#search {
+    background-color: white;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    width: 34px;
+    height: 34px;
+}
+
+/* NAV */
+
+.navigator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+nav a {
+    color: #333;
+    font-size: 10.5pt;
+    text-decoration: 0;
+}
+
+nav a div {
+    padding: 5px 25px 43px 25px;
+}
+
+nav a div:hover {
+    background-color: #333;
+    color: rgb(72, 185, 82);
+    text-decoration: underline;
+}
+
+/* 메인 */
+main {
+    margin-top: 123px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventbanner {
+    position: relative;
+}
+
+.eventbanner img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.eventbanner div {
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* merrier together*/
+.eventbanner div p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* 자세히 보기 */
+.eventbanner div a {
+    width: 125px;
+    height: 38px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: 0;
+    font: bold 13px Arial;
+    line-height: 38px;
+    text-align: center;
+}
+
+main > a {
+    position: fixed;
+    top: 155px;
+    right: 7%;
+}
+
+.announcement-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.announcement-wrapper > div {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.announcement-black {
+    background-color: black;
+    height: 62px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.announcement {
+    height: 100%;
+    background-color: black;
+
+    flex-basis: 55%;
+
+    padding-right: 20px;
+    color: white;
+    font-size: large;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.announcement p {
+    font-size: 10pt;
+}
+
+.promotion-white {
+    background-color: #f6f5ef;
+    height: 62px;
+    width: 45%;
+}
+.promotion {
+    height: 100%;
+    background-color: f6f5ef;
+
+    flex-basis: 45%;
+
+    font-size: large;
+    line-height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 150px;
+}
+.promotion > a {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.announcement-plus {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25pt;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    text-decoration: 0;
+}
+
+/* 리워드 */
+.rewards-wrap {
+    height: 240px;
+    background-color: #1e3932;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewards {
+    height: 240px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewards img {
+    height: 150px;
+}
+
+/* 리워드 로고 */
+.rewards div:nth-child(1) img {
+    margin-right: 20px;
+}
+
+.rewards div:nth-child(2) {
+    color: white;
+}
+
+.rewards a {
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: 0;
+    color: white;
+    height: 34px;
+}
+.reward-righttop > p {
+    font-size: 16pt;
+}
+
+.reward-rightbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reward-rightbottom > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reward-rightbottom > div:first-child p {
+    font-size: 12pt;
+    margin: 1px;
+}
+
+.signup-signin a:first-child {
+    font-size: 13pt;
+    padding: 5px;
+    background-color: #00704a;
+    border: 2px solid #00704a;
+    line-height: 20pt;
+}
+
+.signup-signin a:last-child {
+    font-size: 13pt;
+    padding: 5px;
+}
+.mobile-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-card p {
+    font-size: 10pt;
+}
+
+.mobile-card a {
+    font-size: 10pt;
+    line-height: 20pt;
+    margin-left: 3px;
+}

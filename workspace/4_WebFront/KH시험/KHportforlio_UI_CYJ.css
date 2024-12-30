@@ -1,0 +1,73 @@
+body{
+    background-color: azure;
+}   
+
+.login{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+    border: 1px solid gray;
+    background-color: rgb(235, 235, 235);
+}
+
+.login table{
+    margin: 10px;
+    margin-top: 40px;
+}
+
+/* .login tr{
+    height: 50px;
+} */
+
+.login tr td:first-child{
+    width: 110px;
+}
+.login tr td:last-child{
+    width: 200px;
+}
+
+tr[class="tr-space"]>td{
+    height: 22px;
+}
+
+.login form{
+    display: flex;
+    justify-content: center;
+}
+
+.login input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px dashed black;
+}
+
+.login input:focus{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px dashed black;
+}
+
+.userEmail{
+    width: 71px;
+}
+
+#pwd-span{
+    color: gray;
+    font-size: 8px;
+    margin-top: 0;
+}
+
+span {
+    color: gray;
+    font-size: 8px;
+}
+
+#submit-btn{
+    margin-top: 30px;
+    width: 100%;
+    background-color: lightgreen;
+    border: none;
+    height: 40px;
+}
+
