@@ -8,6 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+// 서블릿 클래스로 만들기
+// /ServletProject/exmaple2.do 로 요청 시
+//  ServletEx2가 처리 가능하게 설정하기 -> web.xml
+
 
 
 public class ServletEx3 extends HttpServlet {
@@ -40,10 +44,10 @@ public class ServletEx3 extends HttpServlet {
 		
 		out.println("<ul>");
 		if(inputPw1.equals(inputPw2)) {
-			out.println("<li color='green'> 아이디 : " + inputId + "</li>" );
-			out.println("<li> 닉네임 : " + inputName + "</li>" );
-			out.println("<li> 이메일 : " + inputEmail + "</li>" );
-			out.println("<li> 좋아하는 색 : ");
+			out.println("<li>" + inputId + "</li>" );
+			out.println("<li>" + inputName + "</li>" );
+			out.println("<li>" + inputEmail + "</li>" );
+			out.println("<li> 좋아하는 색: ");
 			if(colorArr != null) {
 				for(String color : colorArr) {
 					out.println(color+" ");
