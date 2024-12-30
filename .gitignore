@@ -13,3 +13,5 @@ bin/
 *.tar.gz
 *.rar 
 *.log 
+
+realfiles/
