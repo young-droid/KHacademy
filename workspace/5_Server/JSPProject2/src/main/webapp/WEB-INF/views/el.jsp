@@ -31,11 +31,10 @@
 		<li>EL : ${param.test}
 	</ul>	
 	
-	<hr>
-	
 	<h3>EL 특징 2 : null, NullPointerException은 빈칸으로 처리</h3>
 	
 	빈칸이 맞나? ${param.test == "" }
+	null? ${param.test == null }
 	
 	<hr>
 	
