@@ -155,6 +155,13 @@
             pwdSpan.innerText = "영문자 대/소문자 특수문자, 숫자 포함 8 ~ 32자"
             pwdSpan.style.color = "gray";
             // pwdSpan2.innerText = '';
+
+            if (this.previousElementSibling.value == '') {
+                this.previousElementSibling.innerText = "필수 입력 항목 입니다";
+                this.previousElementSibling.style.color = "red";
+            }
+
+
         })
         pwd.addEventListener("blur", function () {
             pwdSpan.innerText = "";

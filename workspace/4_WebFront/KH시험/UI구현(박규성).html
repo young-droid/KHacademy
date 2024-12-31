@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UL 구현(박규성)</title>
+
+    <style>
+        table {
+            border: 1px solid #ccc;
+            padding: 10px;
+            padding-top: 30px;
+            background-color: #eee;
+        }
+
+        input {
+            border: 0;
+            border-bottom: 2px dashed black;
+            background-color: #eee;
+        }
+
+        #pw-text {
+            display: none;
+        }
+
+        .input-text {
+            display: none;
+        }
+
+        .email {
+            width: 75px
+        }
+
+        button {
+            margin-top: 25px;
+            width: 100%;
+            height: 40px;
+            background-color: lightgreen;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <table>
+            <tr>
+                <td>아이디</td>
+                <td><input type="text" id="input-id"></td>
+            </tr>
+            <tr class="input-text" style="background-color: aquamarine;">
+                <td></td>
+                <td style="font-size: 8px; color: red;">필수 입력 항목입니다.</td>
+            </tr>
+            <tr>
+                <td>패스워드</td>
+                <td><input type="text" id="input-pw"></td>
+            </tr>
+            <tr id="pw-text">
+                <td></td>
+                <td style="font-size: 8px; color: gray;">영문자 대/소문자 특수문자, 숫자 포함 8~32자</td>
+            </tr>
+            <tr class="input-text">
+                <td></td>
+                <td style="font-size: 8px; color: red;">필수 입력 항목입니다.</td>
+            </tr>
+            <tr>
+                <td>패스워드 확인</td>
+                <td><input type="text" id="input-pw2"></td>
+            </tr>
+            <tr class="input-text">
+                <td></td>
+                <td style="font-size: 8px; color: red;">필수 입력 항목입니다.</td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input type="text" class="email">@<input type="text" class="email"></td>
+            </tr>
+            <tr>
+                <td>주소</td>
+                <td><input type="text" class="address"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" class="address"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button>가 입</button></td>
+            </tr>
+        </table>
+    </form>
+
+    <script>
+        const inputId = document.getElementById("input-id");
+        const inputPw = document.getElementById("input-pw");
+        const inputPw2 = document.getElementById("input-pw2");
+        const email = document.getElementsByClassName("email");
+        const address = document.getElementsByClassName("address");
+        const inputText = document.getElementsByClassName("input-text");
+        const pwText = document.getElementById("pw-text");
+
+        inputId.addEventListener("keyup", function () {
+            if (this.value != "") {
+                inputText[0].style.display = "none";
+            }
+        });
+
+        inputPw.addEventListener("keyup", function () {
+            if (this.value != "") {
+                inputText[1].style.display = "none";
+            }
+
+            const e = /^(\w|`|~|!|@|#|\$|%|\^|&|\*|-|=|\+){8,32}$/
+
+            if (e.test(this.value)) {
+
+            }
+        });
+
+        inputPw.addEventListener("focusin", function () {
+            pwText.style.display = "table-row";
+
+            if (inputId.value == "") {
+                inputText[0].style.display = "table-row";
+            }
+        });
+
+        inputPw.addEventListener("focusout", function () {
+            pwText.style.display = "none";
+        });
+
+        inputPw2.addEventListener("keyup", function () {
+            if (this.value != "") {
+                inputText[2].style.display = "none";
+            }
+        });
+
+        inputPw2.addEventListener("focusin", function () {
+            if (inputId.value == "") {
+                inputText[0].style.display = "table-row";
+            }
+            if (inputPw.value == "") {
+                inputText[1].style.display = "table-row";
+            }
+        });
+
+        for (let i = 0; i < 2; i++) {
+            email[i].addEventListener("focusin", function () {
+                if (inputId.value == "") {
+                    inputText[0].style.display = "table-row";
+                }
+                if (inputPw.value == "") {
+                    inputText[1].style.display = "table-row";
+                }
+                if (inputPw2.value == "") {
+                    inputText[2].style.display = "table-row";
+                }
+            });
+
+            address[i].addEventListener("focusin", function () {
+                if (inputId.value == "") {
+                    inputText[0].style.display = "table-row";
+                }
+                if (inputPw.value == "") {
+                    inputText[1].style.display = "table-row";
+                }
+                if (inputPw2.value == "") {
+                    inputText[2].style.display = "table-row";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
