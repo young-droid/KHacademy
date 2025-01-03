@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
@@ -63,5 +64,27 @@ public class MemberDAO {
 		      }
 		      return loginMember;
 		   }
+
+
+		public int signUp(Member mem, Connection conn) throws Exception {
+		      int result = 0;   // 결과 저장용 변수
+		      try {
+		         String sql = prop.getProperty("signUp");
+		         
+		         pstmt = conn.prepareStatement(sql);
+		         
+		         pstmt.setString(1, mem.getMemberEmail());
+		         pstmt.setString(2, mem.getMemberPw());
+		         pstmt.setString(3, mem.getMemberNickname());
+		         pstmt.setString(4, mem.getMemberTel());
+		         pstmt.setString(5, mem.getMemberAddress());
+		         
+		         result = pstmt.executeUpdate();
+		         
+		      } finally {
+		         close(pstmt);
+		      }
+		      return result;		
+		}
 
 }

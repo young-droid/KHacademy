@@ -9,4 +9,13 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <filter>
+    <display-name>EncryptFilter2</display-name>
+    <filter-name>EncryptFilter2</filter-name>
+    <filter-class>edu.kh.community.common.filter.EncryptFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncryptFilter2</filter-name>
+    <url-pattern>/EncryptFilter2</url-pattern>
+  </filter-mapping>
 </web-app>

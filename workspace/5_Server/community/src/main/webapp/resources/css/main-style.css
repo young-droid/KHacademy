@@ -303,7 +303,7 @@ form[name="login-form"]>label{
 /* footer */
 footer {
     height: 150px;
-    width: 1140px;
+    width: 100%;
 }
 
 /* footer 스타일 */
