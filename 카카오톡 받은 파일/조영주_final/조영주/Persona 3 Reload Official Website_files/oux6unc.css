@@ -1,0 +1,54 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * basic-sans:
+ *   - http://typekit.com/eulas/00000000000000007735abd7
+ * ivypresto-display:
+ *   - http://typekit.com/eulas/00000000000000007735e5a6
+ * semplicitapro:
+ *   - http://typekit.com/eulas/00000000000000007735a565
+ *   - http://typekit.com/eulas/00000000000000007735a576
+ *   - http://typekit.com/eulas/00000000000000007735a57b
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2023-08-18 19:09:01 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=oux6unc&ht=tk&f=24409.24412.24413.35473.45404&a=87978646&app=typekit&e=css");
+
+@font-face {
+font-family:"semplicitapro";
+src:url("https://use.typekit.net/af/511bd1/00000000000000007735a565/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/511bd1/00000000000000007735a565/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/511bd1/00000000000000007735a565/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"semplicitapro";
+src:url("https://use.typekit.net/af/99c950/00000000000000007735a576/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/99c950/00000000000000007735a576/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/99c950/00000000000000007735a576/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"semplicitapro";
+src:url("https://use.typekit.net/af/fd2921/00000000000000007735a57b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/fd2921/00000000000000007735a57b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/fd2921/00000000000000007735a57b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"basic-sans";
+src:url("https://use.typekit.net/af/4bfb19/00000000000000007735abd7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/4bfb19/00000000000000007735abd7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/4bfb19/00000000000000007735abd7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ivypresto-display";
+src:url("https://use.typekit.net/af/068d77/00000000000000007735e5a6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/068d77/00000000000000007735e5a6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/068d77/00000000000000007735e5a6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+.tk-semplicitapro { font-family: "semplicitapro",sans-serif; }
+.tk-basic-sans { font-family: "basic-sans",sans-serif; }
+.tk-ivypresto-display { font-family: "ivypresto-display",serif; }

@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    background-color: #142038;
+    display: flex;
+    align-items: center;
+
+}
+
+header > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header img {
+    height: 20px;
+    margin: 15px 0;
+}
+
+header li, a {
+    color: white;
+    font-weight: bold;
+    font-size: 9pt;
+    margin: 0 10px;
+    list-style: none;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+header li:hover{
+    background-color: #3b3b3b98;
+    transition-duration: 0.1s;
+}
+
+header li:last-child{
+    background-color: #FFCD0D;
+
+}
+header li:last-child a {
+    color: #262626;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+/* nav */
+nav {
+    background-color: #061D62;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+nav img{
+    height: 40px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    color: white;
+    font-weight: bold;
+    font-size: 9pt;
+    margin: 0 10px;
+    list-style: none;
+    text-decoration: none;
+    font-style: italic; 
+}
+
+nav a:hover{
+    color: #FFCD0D;
+}
+
+main{
+    background-image: url(image/persona3/white_stripe.svg);
+    background-repeat: no-repeat;
+    background-color: #3b00c4;
+    background-size: 100%;
+}
+
+
+.h1-back {
+    background-image: url(image/persona3/triangle.png);
+    background-size: contain; /* 이미지가 컨테이너를 덮도록 설정 */
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    background-position: center;
+    padding: 60px; /* 배경 이미지가 더 크게 보이도록 설정 */
+}
+
+.back-left{
+    background-image: url(image/persona3/triangle_reversed.png);
+
+}
+.h1-back h1 {
+    margin: 0; 
+    color: #05FDFD;
+    font-size: 32pt;
+    text-shadow: 2px 1px #262626;
+    font-family: 'Inria Serif';
+    display: inline-block;
+
+}
+
+..hero_loop{
+    position: relative;
+}
+.logo{
+    width: 20%;
+    position: absolute;
+    right: 20%;
+    bottom: 5%;
+}
+.hero_loop video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/* 트레일러 */
+.trailer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer iframe {
+    width: 1000px;
+    height: 600px;
+}
+
+#trailer{
+    width: 200px;
+}
+
+.trailer iframe {
+    border: 2px solid #05FDFD;
+    box-shadow: 5px 5px #05FDFD;
+}
+
+
+
+#screenshots{
+    width: 250px;
+}
+
+.screenshots-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.gallery-wrapper{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    gap: 20px;
+    align-items: center;
+}
+
+.gallery img {
+    width: 700px;
+}
+
+.arrow {
+    cursor: pointer;
+    z-index: 10;
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    top: 60%;
+}
+.arrow-left {
+    left: 10px;
+}
+.arrow-right {
+    right: 10px;
+}
+
+.story-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* key features */
+
+.key-features-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.features-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+.features{
+    border: 2px solid #05FDFD;
+    background-color: #0D0E56;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.features-img{
+    margin: 10px;
+    height: 500px;
+}
+
+
+
+/* 캐릭터 소개 */
+.characters{
+    height: 1000px;
+}
+
+
+/* .h1-back{
+    background-image: url(image/persona3/triangle.png);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    display: inline-block;
+    position: relative;
+
+}
+
+h1{
+    margin: 10px;
+
+    color: #05FDFD;
+    font-size: 32pt;
+    text-shadow: 2px 1px #262626;
+    font-family: 'inria Serif';
+
+    display: inline-block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buy-now{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-now > img{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+/* signup page */
+.sign-up-page{
+    background-color: rgb(243, 243, 243);
+    background-image: none;
+}
+
+.logo_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.logo_wrapper img{
+    margin: 20px;
+    width: 280px;
+}
+
+
+.wrapper_vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.wrapper_vertical p{
+    font-size: 20px;
+}
+
+.join-text h1, p{
+    margin: 5px;
+}
+
+.join-text h1{
+    color: #0D0E56;
+    font-size: 20pt;
+}
+
+
+.birth-wrapper{
+    display: flex;
+    width: 725px;
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+}
+
+.birth-wrapper input{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.birth-wrapper input:nth-child(1){
+    flex-basis: 20%;
+}
+.birth-wrapper input:nth-child(2){
+    flex-basis: 20%;
+}
+.birth-wrapper input:nth-child(3){
+    flex-basis: 40%;
+}
+
+.moreinfo{
+    margin-top: 30px;
+}
+
+.moreinfo input,select{
+    width: 700px;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 18px;
+    color: #646464;
+}
+
+.moreinfo select{
+    width: 725px;
+    font-size: 18px;
+}
+
+.policy-checkbox{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.policy-checkbox input{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+}
+
+
+.submitbtn{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: #FFCD0D;
+    font-size: 20px;
+    border: 2px solid white;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+
+footer{
+    background-color: #262626;
+}
+
+.footer-share{
+    display: flex;
+    justify-content: center;
+
+}
+
+.connect-with{
+    height: 60px;
+    right: 70%;
+    display: flex;
+justify-content: flex-start;
+align-content: center;
+}
+
+.connect-with > div:first-child > div{
+    height: 60px;
+    background-color: white;
+    line-height: 60px;
+}
+
+.connect-with-text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.connect-with-text > div{
+    width: 600px;
+    right: 70%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.copy{
+    margin-top: 20px;
+    width: 700px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.policyGroup{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+const trailers = {
+  en: {
+    main: 'https://youtu.be/gpF59xO4D9Y',
+  },
+  uk: {
+    main: 'https://youtu.be/OWyqQozFGHs',
+  },
+  au: {
+    main: 'https://youtu.be/qWWiDL0H9po',
+  },
+  fr: {
+    main: 'https://youtu.be/DPjaVn-a3Kg',
+  },
+  it: {
+    main: 'https://youtu.be/XO2L8H74ztU',
+  },
+  de: {
+    main: 'https://youtu.be/rf59ZDZFaIU',
+  },
+  es: {
+    main: 'https://youtu.be/rCw6b_kaf8g',
+  },
+};
+
+$(document).ready(function () {
+  let lang = Cookies.get('lang');
+  if (trailers[lang]) {
+    $('.trailerLink').attr('href', trailers[lang].main);
+  }
+});
