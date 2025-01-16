@@ -1,4 +1,4 @@
-# 👋 안녕하세요, 저는 [조영주]입니다!
+# 👋 안녕하세요, 저는 조영주입니다!
 
 ## 🔍 소개
 새로운 도전과 배움을 즐기는 사람입니다. 
@@ -18,8 +18,8 @@
 - **버전 관리:** ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ## 📫 연락처
-- 이메일: [young.yj.cho@gmail.com]
-- GitHub: [https://github.com/young-droid/]
+- 이메일: young.yj.cho@gmail.com
+- GitHub: https://github.com/young-droid/
 
 ## 🌟 관심사
 - 게임 - 요즘은 스타듀밸리~ 
